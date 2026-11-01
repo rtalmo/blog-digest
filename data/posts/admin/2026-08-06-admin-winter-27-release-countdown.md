@@ -3,7 +3,7 @@ title: "Admin Release Countdown: Get Ready for Winter \u201927"
 url: https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown
 source: admin
 date: 2026-08-06
-authors: ["emarks@salesforce.com"]
+authors: []
 topics: ["Releases", "Security & Admin"]
 ---
 

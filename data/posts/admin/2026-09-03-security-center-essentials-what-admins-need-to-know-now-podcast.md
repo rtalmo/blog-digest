@@ -3,7 +3,7 @@ title: "Security Center Essentials: What Admins Need to Know Now"
 url: https://admin.salesforce.com/blog/2026/security-center-essentials-what-admins-need-to-know-now-podcast
 source: admin
 date: 2026-09-03
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Security & Admin", "Releases"]
 ---
 

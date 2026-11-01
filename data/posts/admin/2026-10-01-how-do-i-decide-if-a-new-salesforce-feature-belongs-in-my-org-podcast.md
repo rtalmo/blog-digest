@@ -3,7 +3,7 @@ title: "How Do I Decide If a New Salesforce Feature Belongs in My Org?"
 url: https://admin.salesforce.com/blog/2026/how-do-i-decide-if-a-new-salesforce-feature-belongs-in-my-org-podcast
 source: admin
 date: 2026-10-01
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Security & Admin", "Releases", "Community & Events"]
 ---
 

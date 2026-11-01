@@ -3,7 +3,7 @@ title: "That Spreadsheet Your Team Keeps Emailing? Build a Salesforce App With B
 url: https://admin.salesforce.com/blog/2026/that-spreadsheet-your-team-keeps-emailing-build-a-salesforce-app-with-builder-central
 source: admin
 date: 2026-10-27
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Flow & Automation", "Agentforce & AI", "Releases"]
 ---
 

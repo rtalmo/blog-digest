@@ -3,7 +3,7 @@ title: "Be Release Ready: The Admin Habit That Saves You Every Time"
 url: https://admin.salesforce.com/blog/2026/be-release-ready-the-admin-habit-that-saves-you-every-time
 source: admin
 date: 2026-10-15
-authors: ["jennifer.w.lee@salesforce.com"]
+authors: []
 topics: ["Releases", "Security & Admin", "DevOps & Tooling"]
 ---
 

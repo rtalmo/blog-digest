@@ -3,7 +3,7 @@ title: "Stop AI Hallucinations with Better Salesforce Metadata"
 url: https://admin.salesforce.com/blog/2026/stop-ai-hallucinations-with-better-salesforce-metadata-podcast
 source: admin
 date: 2026-08-13
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Agentforce & AI", "Security & Admin", "Community & Events"]
 ---
 

@@ -3,7 +3,7 @@ title: "How to Find Your First Agentforce Use Case"
 url: https://admin.salesforce.com/blog/2026/how-to-find-your-first-agentforce-use-case
 source: admin
 date: 2026-09-01
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Agentforce & AI", "Flow & Automation", "Security & Admin"]
 ---
 

@@ -3,7 +3,7 @@ title: "What Does an Admin Certification Prove in the Agentforce Era?"
 url: https://admin.salesforce.com/blog/2026/what-does-an-admin-certification-prove-in-the-agentforce-era-podcast
 source: admin
 date: 2026-10-29
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Careers & Certification", "Agentforce & AI", "Security & Admin"]
 ---
 

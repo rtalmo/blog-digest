@@ -3,7 +3,7 @@ title: "How to Set Up a Super Agent with Connected Subagents"
 url: https://admin.salesforce.com/blog/2026/how-to-set-up-a-super-agent-with-connected-subagents
 source: admin
 date: 2026-08-20
-authors: ["jennifer.w.lee@salesforce.com"]
+authors: []
 topics: ["Agentforce & AI", "Flow & Automation", "Security & Admin"]
 ---
 

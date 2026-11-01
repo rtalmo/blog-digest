@@ -3,7 +3,7 @@ title: "Winter \u201927: What Admins Should Check Before Their Org Upgrades"
 url: https://admin.salesforce.com/blog/2026/winter-27-what-admins-should-check-before-their-org-upgrades-podcast
 source: admin
 date: 2026-10-15
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Releases", "Flow & Automation", "Agentforce & AI"]
 ---
 

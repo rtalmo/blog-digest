@@ -3,7 +3,7 @@ title: "What Does the Salesforce Admin Job Market Look Like Right Now?"
 url: https://admin.salesforce.com/blog/2026/what-does-the-salesforce-admin-job-market-look-like-right-now-podcast
 source: admin
 date: 2026-09-10
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Careers & Certification", "Security & Admin", "Community & Events"]
 ---
 

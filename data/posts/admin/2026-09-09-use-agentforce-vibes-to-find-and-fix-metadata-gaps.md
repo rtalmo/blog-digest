@@ -3,7 +3,7 @@ title: "Use Agentforce Vibes to Find and Fix Metadata Gaps"
 url: https://admin.salesforce.com/blog/2026/use-agentforce-vibes-to-find-and-fix-metadata-gaps
 source: admin
 date: 2026-09-09
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Agentforce & AI", "DevOps & Tooling", "Security & Admin"]
 ---
 

@@ -3,7 +3,7 @@ title: "How AI Could Change the Way Admins Set Up Salesforce"
 url: https://admin.salesforce.com/blog/2026/how-ai-could-change-the-way-admins-set-up-salesforce-podcast
 source: admin
 date: 2026-08-20
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Agentforce & AI", "Security & Admin", "Integration & APIs"]
 ---
 

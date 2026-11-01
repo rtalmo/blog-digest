@@ -3,7 +3,7 @@ title: "The TDX 2027 Call for Participation Is Now Open"
 url: https://admin.salesforce.com/blog/2026/the-tdx-2027-call-for-participation-is-now-open
 source: admin
 date: 2026-10-28
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Community & Events"]
 ---
 

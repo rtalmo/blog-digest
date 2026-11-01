@@ -3,7 +3,7 @@ title: "Salesforce Admin\u2019s Guide to Dreamforce 2026"
 url: https://admin.salesforce.com/blog/2026/salesforce-admins-guide-to-dreamforce-2026
 source: admin
 date: 2026-08-19
-authors: ["ldick@salesforce.com"]
+authors: []
 topics: ["Community & Events", "Agentforce & AI", "Releases"]
 ---
 

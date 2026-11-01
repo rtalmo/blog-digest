@@ -3,7 +3,7 @@ title: "From Inbox Requests to a User Management System"
 url: https://admin.salesforce.com/blog/2026/from-inbox-requests-to-a-user-management-system-podcast
 source: admin
 date: 2026-08-06
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Flow & Automation", "Security & Admin", "Community & Events"]
 ---
 

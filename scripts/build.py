@@ -22,6 +22,8 @@ for f in sorted(glob.glob(f"{root}/raw/*/posts/*.json"), reverse=True):
     p = json.load(open(f))
     p.update(curation[key])
     p["key"] = f"{p['source']}/{key}"
+    # keep names only; some feed bylines are email addresses
+    p["authors"] = [a for a in p["authors"] if a and "@" not in a]
     posts.append(p)
 posts.sort(key=lambda p: p["date"], reverse=True)
 

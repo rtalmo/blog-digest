@@ -3,7 +3,7 @@ title: "What Does the Salesforce Platform App Builder Certification Prove Today?
 url: https://admin.salesforce.com/blog/2026/what-does-the-salesforce-platform-app-builder-certification-prove-today-podcast
 source: admin
 date: 2026-08-27
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Careers & Certification", "Flow & Automation", "Agentforce & AI"]
 ---
 

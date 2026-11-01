@@ -3,7 +3,7 @@ title: "September Monthly Retro: What Changed, What Matters, and What Admins Sho
 url: https://admin.salesforce.com/blog/2026/september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast
 source: admin
 date: 2026-09-24
-authors: ["mgerholdt@salesforce.com"]
+authors: []
 topics: ["Security & Admin", "Agentforce & AI", "Community & Events"]
 ---
 

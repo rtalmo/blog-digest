@@ -3,7 +3,7 @@ title: "Jen\u2019s Top Winter \u201927 Release Features For Admins"
 url: https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins
 source: admin
 date: 2026-10-05
-authors: ["jennifer.w.lee@salesforce.com"]
+authors: []
 topics: ["Releases", "Security & Admin", "Flow & Automation"]
 ---
 
