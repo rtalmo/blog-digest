@@ -1,0 +1,2939 @@
+{
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/cdn-zones-logpush.html": {
+  "title": "eCDN Logpush | SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "eCDN Logpush delivers eCDN logs in batches to specified destinations. eCDN logs contain valuable information, such as the client IP address, the reque"
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/aiAuthoringBundles/Customer_Service_Assistant/Customer_Service_Assistant.agent": {
+  "title": "pronto/src-base/main/default/aiAuthoringBundles/Customer_Service_Assistant/Customer_Service_Assistant.agent at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/aiAuthoringBundles/Customer_Service_Assistant/Customer_Service_Assistant.agent at main \u00b7 trailheadapps/pronto"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide": {
+  "title": "Get Started | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Use the Lightning Web Components (LWC) framework to build custom user interfaces, web and mobile apps, and digital experiences on the Salesforce Platf"
+ },
+ "https://developer.salesforce.com/blogs/2026/05/connect-claude-with-salesforce-hosted-mcp-servers": {
+  "title": "Connect Claude with Salesforce Hosted MCP Servers | Salesforce Developers Blog",
+  "desc": "Stop logging into Lightning Experience for daily operations. Learn how to securely configure external tools like Claude Code to interact directly with the Salesforce Platform using standard and custom Hosted MCP Servers."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.exp_cloud_lwr.meta/exp_cloud_lwr/intro.htm": {
+  "title": "LWR Sites for Experience Cloud | Salesforce Developers",
+  "desc": "Develop sites that load quickly and scale well using the"
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-site/main/default/mcpServerDefinitions/ProntoEmployeeServer.mcpServerDefinition-meta.xml": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://developer.salesforce.com/blogs/2026/10/building-interactive-ui-with-hxl": {
+  "title": "Building Interactive UI with Headless Experience Layer | Salesforce Developers Blog",
+  "desc": "Learn how the Headless Experience Layer (HXL) lets you build one interactive widget that renders in Agentforce and MCP clients like Claude and ChatGPT."
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.tua_data_sdm_qa_calibration.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/client-connection-overview.html": {
+  "title": "Connect MCP Clients | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Connecting a client to a Salesforce Hosted MCP Server is a process that involves both Salesforce Setup and your selected client application."
+ },
+ "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release": {
+  "title": "The Salesforce Developer\u2019s Guide to the Winter \u201927 Release | Salesforce Developers Blog",
+  "desc": "Winter \u201927 developer highlights: the Salesforce Development plugin for Claude Code, Headless Experience Layer widgets, Angular and microfrontends in Multi-Framework, agents as MCP tools, LWC template expressions, Agent Script updates, and Web Console, with code examples."
+ },
+ "https://developer.salesforce.com/blogs": {
+  "title": "Developer Blog | Salesforce Developers",
+  "desc": "Read our developer blog to elevate your skills and connect with the larger Salesforce Developers community."
+ },
+ "https://developer.salesforce.com/docs/data/agentforce-coworker/guide/agentforce-coworker-a-home.html": {
+  "title": "Agentforce Coworker | Salesforce Developers",
+  "desc": "Powered by Data 360, Agentforce Coworker is your AI-powered agent, connecting all your work tools into one conversational interface. Instead of juggli"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_b2c_ecdn_leaked_credentials.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/recipes.html": {
+  "title": "UI Embedding Recipes | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Explore working sample apps that embed a web app in Salesforce with"
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_before_you_begin_data_gov.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/classes/actions/orders/CreateOrderAction.cls": {
+  "title": "pronto/src-base/main/default/classes/actions/orders/CreateOrderAction.cls at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/classes/actions/orders/CreateOrderAction.cls at main \u00b7 trailheadapps/pronto"
+ },
+ "https://trailhead.salesforce.com/community/conferences": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/bot-management.html": {
+  "title": "Bot Management | B2C Commerce Solutions | B2C Commerce Solutions | Salesforce Developers",
+  "desc": "Successful bot protection and management for Salesforce B2C Commerce storefronts is a shared responsibility between Salesforce and our customers. Thes"
+ },
+ "https://www.headlessexperiencelayer.com/": {
+  "title": "HXL Playground | Salesforce",
+  "desc": "Explore the Headless Experience Layer \u2014 build surface-agnostic widgets with Mosaic, preview them across Agentforce, Slack, and ChatGPT."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_bulk_sharing_creating_with_apex.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://reg.salesforce.com/flow/plus/tdx27/cfp/page/cfpfaq": {
+  "title": "Call for Participation",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_multi_orch.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/vscode-overview.html": {
+  "title": "Salesforce Extensions for Visual Studio Code | Salesforce Developers",
+  "desc": "The Salesforce Extension pack includes tools for developing on the Salesforce platform in the lightweight, extensible VS Code editor. These tools prov"
+ },
+ "https://developer.salesforce.com/blogs/developer-relations/2017/04/salesforce-data-security-model-explained-visually": {
+  "title": "Salesforce Data Security Model \u2014 Explained Visually | Salesforce Developers Blog",
+  "desc": "To provide a security model that satisfies numerous, unique real-world business cases, Salesforce provides a comprehensive and flexible data security model to secure data at different levels. Salesforce also provides sharing tools to open up and allow secure access to data based on business needs. In this post, I explain how security features work together by taking a real-world scenario and describing it using images and GIFs."
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/guide/": {
+  "title": "Salesforce Multi-Framework Overview | Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "Use Salesforce Multi-Framework, a framework-agnostic runtime, to build Salesforce apps with frontend frameworks, such as React or Angular, and run the"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers": {
+  "title": "Salesforce Hosted MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Give AI agents a secure, governed way to interact with Salesforce data and automation using the Model Context Protocol (MCP). Any compatible AI client"
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/hxl-rich-ui.html": {
+  "title": "Learn About HXL | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Widgets are platform-independent UI compositions. With widgets, you define rich, interactive interfaces once and deploy them across supported Salesfor"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.setup_agentforce_overview.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/commerce/sfra/guide/b2c-sfra-features-and-comps.html": {
+  "title": "SFRA Features and Components | Storefront Reference Architecture (SFRA) | B2C Commerce Storefront Reference Architecture | Salesforce Developers",
+  "desc": "SFRA is carefully architected so that it's easy to use as a blueprint for your own storefront. Built-in features and components provide a range of opt"
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/aiAuthoringBundles/Storefront_Explorer_Assistant/Storefront_Explorer_Assistant.agent": {
+  "title": "pronto/src-base/main/default/aiAuthoringBundles/Storefront_Explorer_Assistant/Storefront_Explorer_Assistant.agent at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/aiAuthoringBundles/Storefront_Explorer_Assistant/Storefront_Explorer_Assistant.agent at main \u00b7 trailheadapps/pronto"
+ },
+ "https://developer.salesforce.com/docs/data/semantic-layer/guide/tableau-semantics-concepts.html": {
+  "title": "Tableau Semantics Concepts | Get Started | Tableau Semantics Layer APIs | Salesforce Developers",
+  "desc": "Tableau Semantics provides business context and a single source of truth for data in Salesforce Data 360 by enabling a flexible and governed place for"
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.c360_a_sl_osi_support_tab_semantics.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/semantic-layer/guide/connect-api-in-depth-entities.html": {
+  "title": "Authoring API Entities | Authoring API | Tableau Semantics Layer APIs | Salesforce Developers",
+  "desc": "The following are the top-level entities that compose the Tableau Semantics Authoring API and their API names (in parenthesis):"
+ },
+ "https://trailhead.salesforce.com/content/learn/projects/explore-data-cloud-core-functionality/create-data-streams-1": {
+  "title": "Learn to Create Data Streams with Data 360 Technology",
+  "desc": "Discover how to effectively create data streams using Data 360 technology. This educational unit guides you through connecting data and defining data lake objects"
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/internal-ui-bundles.html?utm_source=chatgpt.com": {
+  "title": "Embed an Internally Hosted App as a UI Bundle (Beta) | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Host your app inside Salesforce infrastructure instead of on your own domain, and embed it with the same"
+ },
+ "https://developer.salesforce.com/docs/data/semantic-layer/guide/query-api-in-depth-overview.html": {
+  "title": "Overview | Semantic Query API | Tableau Semantics Layer APIs | Salesforce Developers",
+  "desc": "The Semantic Query API lets you query your data in Data 360 through a Semantic Data Model rather than against physical tables. You send a logical requ"
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/bot-mitigation-sk.html": {
+  "title": "Bot Mitigation Best Practices for Flash Sales | B2C Commerce Solutions | B2C Commerce Solutions | Salesforce Developers",
+  "desc": "As you might expect, flash sales are an extremely attractive target for bot attacks. During a flash sale (also called a hype or high-volume sale), a l"
+ },
+ "https://code.claude.com/docs/en/plugins/mods/create": {
+  "title": "Create a mod - Claude Code Docs",
+  "desc": "Have Claude write a Claude Code mod from a description, or write one yourself that counts tool calls and adds a command. Learn the reload and validate loop."
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/classes/actions/orders/GetOrderStatusAction.cls": {
+  "title": "pronto/src-base/main/default/classes/actions/orders/GetOrderStatusAction.cls at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/classes/actions/orders/GetOrderStatusAction.cls at main \u00b7 trailheadapps/pronto"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide": {
+  "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Salesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open"
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/framework-support.html": {
+  "title": "Build Embedded Apps in the Framework You Prefer | Get Started with UI Embedding | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "UI Embedding works with externally hosted apps regardless of the front-end framework they're built in. You can reuse an app you already have instead o"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/invocable-actions.html": {
+  "title": "Invocable Actions | Build Custom MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Apex Actions \u2014 also commonly known as Invocable Actions \u2014 can be exposed as custom MCP tools, giving agents access to business logic your team has alr"
+ },
+ "https://github.com/pozil": {
+  "title": "pozil (Philippe Ozil) \u00b7 GitHub",
+  "desc": "Principal Developer Advocate at Salesforce. Full stack coder, DevOps expert, ex VR dev and robot master. - pozil"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.mfw_insights.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.c360_a_sl_biz_preferences_bestp.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/deejay-hub/sf-headless-band": {
+  "title": "GitHub - deejay-hub/sf-headless-band: A Claude Code mod for Salesforce showing which Orgs are connected \u00b7 GitHub",
+  "desc": "A Claude Code mod for Salesforce showing which Orgs are connected - deejay-hub/sf-headless-band"
+ },
+ "https://ideas.salesforce.com/s/idea/a0B8W00000GddnHUAR/allow-custom-rowcause-values-for-standard-objects-ie-accountshare": {
+  "title": "IdeaExchange",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/10/agentforce-voice-for-agent-script-voice-enabling-best-practices": {
+  "title": "Agentforce Voice for Agent Script: Voice-Enabling Best Practices | Salesforce Developers Blog",
+  "desc": "Learn how to voice-enable an Agent Script agent with Agentforce Voice, from configuring voice settings to writing instructions that make spoken conversations clear and natural."
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/hxl-widget-composition.html": {
+  "title": "Composition File | Learn About HXL | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://code.claude.com/docs/en/plugins/mods/interface": {
+  "title": "Draw in the interface with a mod - Claude Code Docs",
+  "desc": "Draw panes, a band above the prompt, buttons, and text fields from a Claude Code mod, handle presses and input, and keep state between redraws and sessions."
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.c360_a_sl_osi_workflow.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/developer-centers/headless": {
+  "title": "Salesforce Headless Toolkit | Developer",
+  "desc": "Salesforce Headless Toolkit"
+ },
+ "https://github.com/trailheadapps/multiframework-recipes/tree/main/force-app/main/angular-recipes": {
+  "title": "multiframework-recipes/force-app/main/angular-recipes at main \u00b7 trailheadapps/multiframework-recipes \u00b7 GitHub",
+  "desc": "A collection of easy-to-digest code examples for React, Angular, and microfrontends on Salesforce Platform - multiframework-recipes/force-app/main/angular-recipes at main \u00b7 trailheadapps/multiframework-recipes"
+ },
+ "https://developer.salesforce.com/blogs/2013/02/protecting-force-com-custom-sharing-code": {
+  "title": "Protecting Force.com Custom Sharing Code | Salesforce Developers Blog",
+  "desc": "The programmatic sharing capabilities of the Force.com platform are very powerful and flexible, but you have to practice a bit of defensive coding to keep our code from undoing yours. With Apex sharing reasons or one of the strategies described in this post, you can keep the shares you create from being deleted by record owner changes and maintain the integrity of your custom sharing model."
+ },
+ "https://reg.salesforce.com/flow/plus/tdx27/cfp": {
+  "title": "Trailblazer account",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/tableau-next.html": {
+  "title": "Tableau Next | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-script.html": {
+  "title": "Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Get to know the language for building agents in Agentforce Builder. Use Agent Script to build predictable, context-aware agent workflows that don't re"
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent": {
+  "title": "pronto/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent at main \u00b7 trailheadapps/pronto"
+ },
+ "https://developer.salesforce.com/docs/data/semantic-layer/guide/query-api-in-depth-aggregation.html": {
+  "title": "Aggregation and Totals | Semantic Query API | Tableau Semantics Layer APIs | Salesforce Developers",
+  "desc": "Aggregation controls how a semantic query summarizes measure values across the rows in each group. Set the aggregation for a field with"
+ },
+ "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-intro.html": {
+  "title": "Quick Start | Salesforce CLI Setup Guide | Salesforce Developers",
+  "desc": "Salesforce CLI is a command-line interface that simplifies development and build automation when working with your Salesforce org. Use it to create an"
+ },
+ "https://developer.salesforce.com/blogs/2026/05/agent-platform-tracing-debug-agentforce-with-trace-trees-soql-and-slack": {
+  "title": "Agent Platform Tracing: Debug Agentforce with Trace Trees, SOQL, and Slack | Salesforce Developers Blog",
+  "desc": "Trace Agentforce actions by capturing LLM calls, Flows, and Apex executions as queryable trees in Data 360. Learn to enable this service-level visibility and use Slackbot to pinpoint root causes instantly with natural language."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm": {
+  "title": "Scratch Orgs | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "The scratch org is a source-driven and disposable deployment of Salesforce code and metadata. A scratch org is fully configurable, allowing developers"
+ },
+ "https://gist.github.com/rvenkatraman101/e322f71d91c63533e5b16c83da999ff4": {
+  "title": "Warn Shoppers About Leaked Credentials in SFRA (B2C Commerce eCDN 26.9) \u00b7 GitHub",
+  "desc": "Warn Shoppers About Leaked Credentials in SFRA (B2C Commerce eCDN 26.9) - 0_README.md"
+ },
+ "https://github.com/apache/ossie/tree/main/converters/salesforce": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/api-catalog.html": {
+  "title": "API Catalog | Build Custom MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The Salesforce API Catalog is a curated registry of REST API endpoints that admins can map to custom MCP tools through the Setup UI. Rather than writi"
+ },
+ "https://trailblazercommunitygroups.com/": {
+  "title": "The Trailblazer Community helps everyone thrive in the Salesforce economy | Trailblazer Community",
+  "desc": "The Trailblazer Community helps everyone thrive in the Salesforce economy. We welcome all, and we love to succeed together. Join us as we learn, connect, have fun, and give back together. Join Community Groups to learn Salesforce with your peers, build your network, and find mentors."
+ },
+ "https://youtu.be/vr3n6XLgEtU": {
+  "title": "",
+  "desc": ""
+ },
+ "https://code.claude.com/docs/en/plugins/mods/test": {
+  "title": "Test a mod - Claude Code Docs",
+  "desc": "Write automated tests for a Claude Code mod that fire events, stub Claude Code's answers, and press buttons, with no session, sign-in, or network."
+ },
+ "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-mcp.html": {
+  "title": "Salesforce DX MCP Server and Tools | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "Use the Salesforce DX MCP Server and its tools to enter natural language prompts in your IDE to complete standard DX tasks like syncing metadata, runn"
+ },
+ "https://trailhead.salesforce.com/trailblazer-community": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/style-embedded-app.html": {
+  "title": "Style an Embedded App to Match Salesforce | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Keep an embedded app visually consistent with the surrounding Salesforce experience. Salesforce passes styling values to the embedded app as CSS custo"
+ },
+ "https://trailhead.salesforce.com/trailblazer-community/groups/0F93A000000DJbJSAW?tab=discussion": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.tua_ai_optimize_model.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/trailheadapps/pronto": {
+  "title": "GitHub - trailheadapps/pronto: Pronto sample app that showcases the Headless Toolkit \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - trailheadapps/pronto"
+ },
+ "https://help.salesforce.com/s/articleView?id=service.how_does_an_omni_channel_flow_work.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.headlessexperiencelayer.com/playground/?renderer=mcp-app&theme=chatgpt": {
+  "title": "HXL Playground | Salesforce",
+  "desc": "Explore the Headless Experience Layer \u2014 build surface-agnostic widgets with Mosaic, preview them across Agentforce, Slack, and ChatGPT."
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/cdn-zones-custom-rules.html": {
+  "title": "eCDN Custom Rules | SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "Use custom rules to control incoming traffic by setting up security policies based on request parameters. With custom rules, you have complete control"
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_salesforce_crm_connector.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?language=en_US&id=release-notes.rn_apex_standard_sharing_reasons.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/developer-centers/data-cloud": {
+  "title": "Data 360 | Developer",
+  "desc": "Ingest, clean, and unify your customer data from Salesforce and other systems. Take action on insights with AI and automation in apps, components, and flows."
+ },
+ "https://github.com/salesforce/formula-engine": {
+  "title": "GitHub - salesforce/formula-engine: Extensible Formula Parser Engine with a Java, SQL, and Javascript execution engine. \u00b7 GitHub",
+  "desc": "Extensible Formula Parser Engine with a Java, SQL, and Javascript execution engine. - salesforce/formula-engine"
+ },
+ "https://github.com/apache/ossie": {
+  "title": "GitHub - apache/ossie: Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data \u00b7 GitHub",
+  "desc": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data - apache/ossie"
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/cdn-rate-limiting-rules.html": {
+  "title": "eCDN Rate Limiting Rules | SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "Use rate limiting rules to specify rate limits for requests that match a particular expression and then perform an action when those rate limits are r"
+ },
+ "https://github.com/trailheadapps/multiframework-recipes": {
+  "title": "GitHub - trailheadapps/multiframework-recipes: A collection of easy-to-digest code examples for React, Angular, and microfrontends on Salesforce Platform \u00b7 GitHub",
+  "desc": "A collection of easy-to-digest code examples for React, Angular, and microfrontends on Salesforce Platform - trailheadapps/multiframework-recipes"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_headless360_mfw.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/get-started.html": {
+  "title": "Get Started with UI Embedding | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Embed an existing external web app directly in Salesforce so your users work in one place instead of switching to a separate tab or window. With UI Em"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/agentforce.html": {
+  "title": "Agentforce | Build Custom MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Expose Agentforce agents and Prompt Builder templates as MCP tools to allow external AI assistants to invoke Salesforce's native AI capabilities as pa"
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/internal-ui-bundles.html": {
+  "title": "Embed an Internally Hosted App as a UI Bundle (Beta) | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Host your app inside Salesforce infrastructure instead of on your own domain, and embed it with the same"
+ },
+ "https://code.claude.com/docs/en/setup": {
+  "title": "Advanced setup - Claude Code Docs",
+  "desc": "System requirements, platform-specific installation, version management, and uninstallation for Claude Code."
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/classes/rest/StorefrontRestResource.cls": {
+  "title": "pronto/src-base/main/default/classes/rest/StorefrontRestResource.cls at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/classes/rest/StorefrontRestResource.cls at main \u00b7 trailheadapps/pronto"
+ },
+ "https://github.com/trailheadapps/agent-script-recipes": {
+  "title": "GitHub - trailheadapps/agent-script-recipes: A collection of easy-to-digest Agent Script examples. \u00b7 GitHub",
+  "desc": "A collection of easy-to-digest Agent Script examples. - trailheadapps/agent-script-recipes"
+ },
+ "https://developer.salesforce.com/blogs/2026/04/build-with-react-run-on-salesforce-introducing-salesforce-multi-framework": {
+  "title": "Build with React, Run on Salesforce: Introducing Salesforce Multi-Framework | Salesforce Developers Blog",
+  "desc": "Salesforce Multi-Framework is in open beta. Build native React apps on the Agentforce 360 Platform with GraphQL, Apex, and built-in platform security."
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.c360_a_sl_biz_preferences_set.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/tools/salesforcecli": {
+  "title": "Salesforce Developers | Salesforce CLI | Developer",
+  "desc": "Salesforce CLI is a command-line interface for Salesforce DX features."
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide": {
+  "title": "Get Started | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Headless Experience Layer (HXL) is a unified experience engine and platform designed to deliver consistent, portable, and rich user experiences across"
+ },
+ "https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/create-project.html": {
+  "title": "Create Project | Salesforce Extensions for Visual Studio Code | Salesforce Developers",
+  "desc": "Launch your VS Code desktop application and follow the given steps to create a Salesforce DX project:"
+ },
+ "https://github.com/forcedotcom/sf-skills": {
+  "title": "GitHub - forcedotcom/sf-skills: Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - forcedotcom/sf-skills"
+ },
+ "https://developer.salesforce.com/docs/platform/microfrontend/guide/exchange-data.html": {
+  "title": "Exchange Data Between the Page and an Embedded App | Salesforce Microfrontend (UI Embedding) | Salesforce Developers",
+  "desc": "Move data both ways between Salesforce and an embedded app so the two stay in sync. The Salesforce host sends the embedded app its current data and UI"
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/overview": {
+  "title": "Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "Use Salesforce Multi-Framework to build apps using industry-standard UI frameworks, such as React and Angular, that run on the Salesforce Platform wit"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_headless360.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.security_sharing_keep_manual_transfer.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://code.claude.com/docs/en/plugins/mods/overview": {
+  "title": "Mods overview - Claude Code Docs",
+  "desc": "Add panes, commands, and tool call rules to Claude Code with a mod. See what a mod can do, how to make or install one, and where mods run."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_concepts_data_cloud_objects.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/get-started.html": {
+  "title": "Get Started | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Agentforce is the agent-driven layer of the Salesforce Platform, and it helps you deploy AI agents that work side-by-side with your employees to exten"
+ },
+ "https://github.com/trailheadapps/multiframework-recipes/tree/main/force-app/main/react-recipes": {
+  "title": "multiframework-recipes/force-app/main/react-recipes at main \u00b7 trailheadapps/multiframework-recipes \u00b7 GitHub",
+  "desc": "A collection of easy-to-digest code examples for React, Angular, and microfrontends on Salesforce Platform - multiframework-recipes/force-app/main/react-recipes at main \u00b7 trailheadapps/multiframework-recipes"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm": {
+  "title": "Quick Start | Salesforce CLI Setup Guide | Salesforce Developers",
+  "desc": "Salesforce CLI is a command-line interface that simplifies development and build automation when working with your Salesforce org. Use it to create an"
+ },
+ "https://developer.salesforce.com/blogs/2026/07/build-with-react-on-salesforce-multi-framework-is-now-ga": {
+  "title": "Build with React on Salesforce: Multi-Framework Is Now GA | Salesforce Developers Blog",
+  "desc": "Ship production-ready React apps natively on Salesforce \u2014 with authentication, security, and governance built in. Here\u2019s what changed in Multi-Framework since beta, and how to migrate."
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/slas-best-practices.html": {
+  "title": "SLAS Best Practices | SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "Follow best practices for the Shopper Login and API Access Service (SLAS) to maximize security and performance. Recommended steps include using a priv"
+ },
+ "https://help.salesforce.com/s/articleView?id=analytics.tua_governance.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.salesforce.com/agentforce/voice/": {
+  "title": "Agentforce Voice: AI Voice Agents For Every Channel | Salesforce",
+  "desc": "Deliver fast, natural conversations across phone, web, and mobile. Tailor agents to reflect your unique brand voice and provide consistent, trusted support."
+ },
+ "https://www.youtube.com/watch?v=FxeiOs8YDSo&list=PLrC_ei2_Pv0GlwxOqMYtNhInzBEQrGv2q": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839214152001GbWP": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-ref-expressions.html": {
+  "title": "Conditional Expressions | Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "if"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111458/AgentActioninFlowBuilder.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-voice-catalog.html": {
+  "title": "Voice Catalog | Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "This catalog lists the voice personas available for each Agentforce Voice model. To set a voice, open the page for your selected model, find the voice"
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/true-to-the-core%3A-live-q_a-with-product-leaders": {
+  "title": "Salesforce+ True to the Core: Live Q&A with Product Leaders",
+  "desc": "Co-founder Parker Harris and Salesforce leaders answer burning product questions in this fan-favorite unscripted session. Feature requests, roadmap changes, and platform feedback \u2014 bring them all."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/prompt-engineering-techniques": {
+  "title": "Advanced Techniques for Prompt Engineering",
+  "desc": "Elevate your prompt engineering skills through advanced techniques like few-shot and chain-of-thought prompting. Start creating effective prompts now."
+ },
+ "https://admin.salesforce.com/blog/2025/what-skills-transfer-well-into-a-salesforce-admin-career-podcast": {
+  "title": "What Skills Transfer Well Into a Salesforce Admin Career? - Salesforce Admins",
+  "desc": "From finance to flows: David Simpson shares his Admin journey, career change tips, and the skills that helped him pivot to Salesforce."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083949/Step-5.5.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/developer-centers/agentforce": {
+  "title": "Agentforce | Developer",
+  "desc": "Agentforce"
+ },
+ "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro": {
+  "title": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/deploy-custom-script-cli.html": {
+  "title": "Deploy Custom Script to Data 360 Sandbox Using CLI | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "The deployment process packages your Python script, its dependencies, and Data 360 configuration, and then uploads them to Data 360."
+ },
+ "https://www.python.org/downloads/": {
+  "title": "Download Python | Python.org",
+  "desc": "The official home of the Python Programming Language"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261007140404/Flow-BulkUpdates.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111618/Flow-RelatedList.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://nodejs.org": {
+  "title": "Node.js \u2014 Run JavaScript Everywhere",
+  "desc": "Node.js\u00ae is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-lifecycle-hooks-rendered.html": {
+  "title": "renderedCallback() | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://developer.salesforce.com/docs/platform/sfvscode-extensions/overview": {
+  "title": "Salesforce Extensions for Visual Studio Code | Salesforce Developers",
+  "desc": "Salesforce Extensions for Visual Studio Code are a set of open-source extensions that come with rich tools for developing on the Salesforce platform."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111509/Case-AttachmentsinDescriptionField.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.npmjs.com/package/@salesforce/plugin-omnistudio-migration-tool?activeTab=versions": {
+  "title": "@salesforce/plugin-omnistudio-migration-tool - npm",
+  "desc": "This SFDX plugin migrates FlexCard, OmniScript, DataRaptor, and Integration Procedure custom objects to standard objects.. Latest version: 1.7.0, last published: a year ago. Start using @salesforce/plugin-omnistudio-migration-tool in your project by running `npm i @salesforce/plugin-omnistudio-migration-tool`. There are no other projects in the npm registry using @salesforce/plugin-omnistudio-migration-tool."
+ },
+ "https://modelcontextprotocol.io/extensions/apps/overview": {
+  "title": "MCP Apps - Model Context Protocol",
+  "desc": "Interactive UI applications that render inside MCP hosts like Claude Desktop"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930084818/Screenshot-2026-09-30-at-10.47.57%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/trailblazer/devalexmartinez": {
+  "title": "Trailblazer | Profile",
+  "desc": "Trailblazer Profile"
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/admin-keynote?_ga=2.40815650.1642130723.1789571520-850057991.1788462417&_gl=1*1dq4klj*_ga*ODUwMDU3OTkxLjE3ODg0NjI0MTc.*_ga_EE9XB9ZV8F*czE3ODk1NzE1MTgkbzgkZzEkdDE3ODk1NzE1NTckajIxJGwwJGgw": {
+  "title": "Salesforce+ Admin Keynote: Bring the Agentic Enterprise to Life",
+  "desc": "Your admin skills were built for this moment. See Salesforce innovations, including AIforce and Builder Central, live demos, and real stories showing admins leading the Agentic Enterprise."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.api_catalog_create_custom_salesforce_mcp_servers.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.salesforce.com/products/free-trial/enterprise-prerelease-winter27": {
+  "title": "Winter \u201927 Pre-Release Program | Salesforce",
+  "desc": "he Winter '27 Pre-Release Program is an opportunity for the Salesforce community to get a hands-on sneak peek into features available in the upcoming release."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_rest_resources_testing_discovery.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://www.salesforce.com/financial-services/cloud/": {
+  "title": "Financial Services: Best Financial Services CRM | Salesforce",
+  "desc": "Get business results faster with Salesforce designed specifically for Financial Services."
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/migrate-code-to-prod.html": {
+  "title": "Migrate Custom Script to Production | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Use a DevOps data kit to move code extension deployments or batch data transforms created by using code extension from sandbox to production. When you"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-use-third-party-components.html": {
+  "title": "Use Third-Party Web Components in LWC | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Use third-party web components in an LWC app. Third-party web components render as native web components in LWC templates. Although you can use third-"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111645/ManualShareRecordsonTransfer.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/artificial-intelligence/?d=cta-body-promo-8": {
+  "title": "AIforce: Salesforce AI, Wherever You Already Work | Salesforce",
+  "desc": "Salesforce Einstein is your end to end solution to becoming an AI-first company."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/introduction-to-agent-builder": {
+  "title": "Introduction to Agentforce Builder Features",
+  "desc": "Discover Agentforce Builder's features for creating and customizing agents to optimize your business tasks. Start enhancing productivity today."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1780016746502001fCHz": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/web-console-feedback": {
+  "title": "GitHub - forcedotcom/web-console-feedback: This repository is used to collect feedback for the Web Console beta. \u00b7 GitHub",
+  "desc": "This repository is used to collect feedback for the Web Console beta. - forcedotcom/web-console-feedback"
+ },
+ "https://git-scm.com/": {
+  "title": "Git",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/jpblogs/2026/04/salesforce-mult-framework-react-jp": {
+  "title": "Salesforce Mult-Framework \u3092\u4f7f\u7528\u3057\u305f React \u306b\u3088\u308b UI \u958b\u767a | Salesforce Developers Blog",
+  "desc": "TDX 2026\u3067\u767a\u8868\u3055\u308c\u305fSalesforce Multi-Framework\uff08\u30d9\u30fc\u30bf\u7248\uff09\u3092\u4f7f\u3044\u3001React\u3067Salesforce UI\u3092\u958b\u767a\u3059\u308b\u624b\u9806\u3092\u89e3\u8aac\u3002Developer Edition\u306e\u30b9\u30af\u30e9\u30c3\u30c1\u7d44\u7e54\u3067\u30b7\u30f3\u30d7\u30eb\u306aUI \u3092\u4f5c\u6210\u3057\u3001\u53d6\u5f15\u5148\u30c7\u30fc\u30bf\u3092\u8868\u793a\u3059\u308b\u307e\u3067\u306e\u30b9\u30c6\u30c3\u30d7\u3092\u516c\u958b\u3057\u307e\u3059\u3002"
+ },
+ "https://modelcontextprotocol.io/docs/getting-started/intro": {
+  "title": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+  "desc": ""
+ },
+ "https://podcasts.apple.com/us/podcast/the-salesforce-admins-podcast/id914088438": {
+  "title": "Salesforce Admins Podcast - Podcast - Apple Podcasts",
+  "desc": "Listen to Mike Gerholdt's Salesforce Admins Podcast podcast on Apple Podcasts."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/omnistudio-omniscript-fundamentals": {
+  "title": "Omniscript Fundamentals: Simplify User Processes",
+  "desc": "Discover how to use Omniscripts for efficient user interactions. Learn to integrate data, enhance UI, and create guided experiences effectively."
+ },
+ "https://www.salesforce.com/dreamforce/accessibility/": {
+  "title": "Dreamforce Accessibility: Services, Maps & Support | Salesforce",
+  "desc": "Explore Dreamforce accessibility services, including ASL, mobility assistance, Quiet Zones, and key venue accommodations for all attendees."
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/developer-keynote-1": {
+  "title": "Salesforce+ Developer Keynote: Build the Agentic Enterprise",
+  "desc": "Built by developers, for developers. See AIforce and the latest AI-powered innovations in action through live demos, and discover how AI is transforming your developer workflows."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_Database_QueryOptions.htm": {
+  "title": "Apex Reference Guide | Salesforce Developers",
+  "desc": "Apex Reference Guide"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729104909/Flow-Image-2.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/data-cloud-sql.html": {
+  "title": "Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Reference"
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/query-records.html": {
+  "title": "Query Records | Web Console | Salesforce Developers",
+  "desc": "You can use Salesforce Object Query Language (SOQL) queries in Web Console to query the records in your org. To query records:"
+ },
+ "https://admin.salesforce.com/blog/2026/how-can-salesforce-admins-find-simple-agentforce-use-cases-podcast": {
+  "title": "How Can Salesforce Admins Find Simple Agentforce Use Cases? - Salesforce Admins",
+  "desc": "Learn how Salesforce Admins can start small with Agentforce to solve user pain points and build secure AI wins that earn buy-in."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111625/Flow-TestModeBeta1.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_versions_lifecycle.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "http://github.com/shra1904/dreamforce-demo": {
+  "title": "GitHub - shra1904/dreamforce-demo: Dreamforce 2026 \u2014 Build Custom Salesforce Connect Apex Adapter using Headless 360 MCP and a Coding Agent \u00b7 GitHub",
+  "desc": "Dreamforce 2026 \u2014 Build Custom Salesforce Connect Apex Adapter using Headless 360 MCP and a Coding Agent - shra1904/dreamforce-demo"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916072814/Screenshot-2026-09-16-at-7.27.41%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/05/build-a-salesforce-agent-skill-with-claude-code": {
+  "title": "Build a Salesforce Agent Skill with Claude Code | Salesforce Developers Blog",
+  "desc": "Learn how to build authoring skills for consistently producing high quality code across the Salesforce ecosystem using structured workflows, code templates, and automated validators."
+ },
+ "https://admin.salesforce.com/blog/2026/security-center-essentials": {
+  "title": "Security Center Essentials - Salesforce Admins",
+  "desc": "Security Is Your Superpower \u2014 Let\u2019s Make It Easier! As admins we\u2019ve all been there: navigating dozens of Setup pages, juggling permissions, auditing connected apps, and reviewing IP ranges to keep our orgs locked down. Security isn\u2019t just a checkbox for us; it\u2019s a core responsibility we carry Every. Single. Day. With the evolution of [\u2026]"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.os_migrate_install_oma.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.builder_central_limitations.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/cli/blob/main/releasenotes/README.md": {
+  "title": "cli/releasenotes/README.md at main \u00b7 forcedotcom/cli \u00b7 GitHub",
+  "desc": "Salesforce CLI - Issues and Discussions only. Contribute to forcedotcom/cli development by creating an account on GitHub."
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_rag_overview.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/SalesforceLabs/mule-mcp-timezone/blob/main/README.md": {
+  "title": "mule-mcp-timezone/README.md at main \u00b7 SalesforceLabs/mule-mcp-timezone \u00b7 GitHub",
+  "desc": "Contribute to SalesforceLabs/mule-mcp-timezone development by creating an account on GitHub."
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_migrate_parent.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/guide": {
+  "title": "Salesforce Multi-Framework Overview | Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "Use Salesforce Multi-Framework, a framework-agnostic runtime, to build Salesforce apps with frontend frameworks, such as React or Angular, and run the"
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_multi_orch.htm&type=5&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083539/Step-4.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_ai_retriever_test_metrics.htm&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_code_extension.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_search_index_supported_chunking_strategies.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/power-data-360-code-extension/": {
+  "title": "How to Power Data 360 with Code Extension - Salesforce",
+  "desc": "Explore how to architect Data 360 to solve complex data challenges securely with Python and Code Extension."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111515/EditHistory-FlowBuilder.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/abilities.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://www.salesforce.com/artificial-intelligence/": {
+  "title": "AIforce: Salesforce AI, Wherever You Already Work | Salesforce",
+  "desc": "Salesforce Einstein is your end to end solution to becoming an AI-first company."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111538/Flow-Decision.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2025/salesforce-security-made-simple-with-invisibles-configurables-enhanceables-podcast": {
+  "title": "Salesforce Security Made Simple with Invisibles, Configurables, and Enhanceables - Salesforce Admins",
+  "desc": "Explore Salesforce security insights with experts Laura Pelkey and Kylie McKlveen. Learn to protect your data effectively."
+ },
+ "https://www.salesforce.com/communications/cloud/": {
+  "title": "Communications Cloud | Salesforce",
+  "desc": "Run your communications business smarter, faster, and more efficiently with Communications Cloud the #1 AI CRM for communications built on the Salesforce Platform."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/dev2gp_package_agent_templates.htm": {
+  "title": "Develop and Package Agent Templates Using Scratch Orgs | Second-Generation Managed Packages | Second-Generation Managed Packaging Developer Guide | Salesforce Developers",
+  "desc": "At a high-level, agents are distributed by ISVs as agent templates. To package an agent template, you first create and test an agent in a namespaced s"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916073024/Screenshot-2026-09-16-at-7.30.07%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908152324/Screenshot-2026-09-08-at-5.22.56%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/quests": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/einstein-overview.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.os_differences_between_omnistudio_and_omnistudio_for_vlocity.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/users/teamtrailhead/trailmixes/road-to-dreamforce-2026-quest": {
+  "title": "Road to Dreamforce 2026 Quest Trailmix | Salesforce Trailhead",
+  "desc": "Complete the Road to Dreamforce 2026 Quest to build real Salesforce and AI skills for the Agentic AI era."
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/get-started.html": {
+  "title": "Get Started | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Headless Experience Layer (HXL) is a unified experience engine and platform designed to deliver consistent, portable, and rich user experiences across"
+ },
+ "https://success.salesforce.com/_ui/core/chatter/groups/GroupProfilePage?g=0F9300000001okuCAA": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog?tab.maincatalogyes=1660570521528001DDQT": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105233/Flow-Image-5-1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111556/Flow-ListViewButton.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/hxl-mcp-channels.html": {
+  "title": "Build a Rich UI for External Agents | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Some AI agents use MCP to interact with data in your org, such as Claude Desktop, Slackbot, and ChatGPT. HXL widgets are compatible with the"
+ },
+ "https://status.salesforce.com/": {
+  "title": "Trust Status",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824084103/Step-6.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/salesforce/eslint-plugin-lwc": {
+  "title": "GitHub - salesforce/eslint-plugin-lwc: Official ESLint rules for LWC \u00b7 GitHub",
+  "desc": "Official ESLint rules for LWC. Contribute to salesforce/eslint-plugin-lwc development by creating an account on GitHub."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916073845/Screenshot-2026-09-16-at-7.38.30%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/05/agentlens-debug-agentforce-with-interactive-visualizations": {
+  "title": "AgentLens: Debug Agentforce with Interactive Visualizations | Salesforce Developers Blog",
+  "desc": "Debug subagent routing and orchestration in minutes using AgentLens, a free open source tool that visualizes Agentforce agent traces as interactive graphs, FSM diagrams, and step-by-step instructors."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_DataSource_Connection.htm": {
+  "title": "Apex Reference Guide | Salesforce Developers",
+  "desc": "Apex Reference Guide"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_experiences_domain_substitution.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/jpblogs/2026/04/salesforce-hosted-mcp-server-jp": {
+  "title": "Salesforce Hosted MCP Server \u4f7f\u3044\u59cb\u3081 | Salesforce Developers Blog",
+  "desc": "Salesforce Hosted MCP Server\u3067\u751f\u6210AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u304b\u3089Salesforce\u30c7\u30fc\u30bf\u306b\u5b89\u5168\u306b\u30a2\u30af\u30bb\u30b9\u3002\u5916\u90e8\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u30a2\u30d7\u30ea\u306e\u4f5c\u6210\u3001MCP Server\u306e\u6709\u52b9\u5316\u3001\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u8a2d\u5b9a\u307e\u3067\u521d\u671f\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7\u3092\u753b\u50cf\u4ed8\u304d\u3067\u89e3\u8aac\u3057\u307e\u3059\u3002"
+ },
+ "https://admin.salesforce.com/release-resources": {
+  "title": "Be Release Ready \u2013 Salesforce Admins | Admin",
+  "desc": "Jun 8, 2026 \u2014 Be Release Ready with these admin resources to help you prepare your org and users for the Summer '26 Salesforce Release."
+ },
+ "https://www.youtube.com/@SalesforceAdmins": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development": {
+  "title": "sf-skills/plugins/builder/salesforce-development at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/plugins/builder/salesforce-development at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://www.youtube.com/@SalesforceDevs": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Event/composed": {
+  "title": "Event: composed property - Web APIs | MDN",
+  "desc": "The read-only composed property of the Event interface returns a boolean value which indicates whether or not the event will propagate across the shadow DOM boundary into the standard DOM."
+ },
+ "https://github.com/SalesforceLabs/mule-mcp-timezone": {
+  "title": "GitHub - SalesforceLabs/mule-mcp-timezone \u00b7 GitHub",
+  "desc": "Contribute to SalesforceLabs/mule-mcp-timezone development by creating an account on GitHub."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916074023/Screenshot-2026-09-16-at-7.40.03%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/developertrailmap/page/trailmap?_ga=2.115056263.14357231.1786384291-1997898997.1775245343": {
+  "title": "Developer Trail Map at Dreamforce 2026",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/workshops/aiforce-workshop/give-agents-ui-with-the-headless-experience-layer-hxl/overview": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083319/Step-3.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111633/Flow-TimeComponent.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.youtube.com/watch?v=Gt9tMPl_Kf8&list=PLn15mOuXqGJWg9YJNnAqO-Rv-dN3MngoT": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/skills.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111532/Flow-AutonameElements.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk/tree/main/docs/examples/script/json_explode": {
+  "title": "datacloud-customcode-python-sdk/docs/examples/script/json_explode at main \u00b7 forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://agentskills.io/specification": {
+  "title": "Specification - Agent Skills",
+  "desc": "The complete format specification for Agent Skills."
+ },
+ "https://admin.salesforce.com/blog/2026/solving-sharing-mysteries-with-setup-with-agentforce-podcast": {
+  "title": "Solving Sharing Mysteries with Setup with Agentforce - Salesforce Admins",
+  "desc": "Explore how Setup with Agentforce simplifies sharing and record access. Join Mike and Nikita Kothari on the Salesforce Admins Podcast!"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1780081935386001yfGI": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026?d=afx": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/agentforce/ai-agents/react-agents/": {
+  "title": "What Are ReAct Agents? | Salesforce",
+  "desc": "Learn about the ReAct (Reason and Act) framework for building autonomous LLM agents. Discover the core thought-action loop and best practices. Start building today."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260921085536/Screenshot-2026-09-21-at-10.55.25%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_rest_resources_recompile_invalid_apex.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824090719/Transcribed-Text.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-workflows.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/activate-mcp-servers.html": {
+  "title": "Activate MCP Servers | Set Up Your Org | Hosted MCP Servers | Salesforce Developers",
+  "desc": "MCP servers are disabled in your org by default and must be enabled by an administrator before clients can connect. This is a security measure \u2014 capab"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_cursors.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-geo-aware-routing.html": {
+  "title": "Enable Geo Aware Routing | Set Up and Administer | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Agentforce Vibes supports geo-aware model routing. When your Salesforce admin enables geo-aware model routing, Agentforce Vibes routes all large langu"
+ },
+ "https://trailheadacademy.salesforce.com/certificate/exam-app-builder---Plat-Admn-202": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083725/Step-4-1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/artificial-intelligence-fundamentals": {
+  "title": "Introduction to Artificial Intelligence Concepts",
+  "desc": "Explore AI fundamentals, from language processing to predictions. Understand AI\u2019s core capabilities and their real-world applications."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260921090135/Screenshot-2026-09-21-at-11.01.22%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/agentforce/coworker/": {
+  "title": "Your Autonomous AI Teammate | Salesforce",
+  "desc": "Meet Agentforce Coworker. Work natively across Salesforce, Slack, and Teams to analyze data, search anything, and orchestrate AI agents from start to finish."
+ },
+ "https://architect.salesforce.com/docs/architect/well-architected-tools/guide/anti-patterns.html": {
+  "title": "Homepage | Salesforce Architects | Architect",
+  "desc": "Discover trusted architecture guidance from Salesforce. Explore the Well-Architected Framework, decision guides, and resources built for Salesforce architects."
+ },
+ "https://github.com/hinabasfdc/hxl-mcp-widget-sample": {
+  "title": "GitHub - hinabasfdc/hxl-mcp-widget-sample: HXL / MCP \u30b5\u30f3\u30d7\u30eb\uff1a\u53d6\u5f15\u5148\u306e\u5546\u8ac7\u30b5\u30de\u30ea\u3092 AI \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30a2\u30d7\u30ea\u306b\u30ab\u30fc\u30c9\u3068\u3057\u3066\u8868\u793a\u3059\u308b\u30ab\u30b9\u30bf\u30e0\u30a6\u30a3\u30b8\u30a7\u30c3\u30c8 \u00b7 GitHub",
+  "desc": "HXL / MCP \u30b5\u30f3\u30d7\u30eb\uff1a\u53d6\u5f15\u5148\u306e\u5546\u8ac7\u30b5\u30de\u30ea\u3092 AI \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30a2\u30d7\u30ea\u306b\u30ab\u30fc\u30c9\u3068\u3057\u3066\u8868\u793a\u3059\u308b\u30ab\u30b9\u30bf\u30e0\u30a6\u30a3\u30b8\u30a7\u30c3\u30c8 - hinabasfdc/hxl-mcp-widget-sample"
+ },
+ "https://gist.github.com/Samaritha/abfaffb55f416922933caebe3da3dbd5": {
+  "title": "Data 360 Code Extension: structure-aware chunking function that preserves table integrity for Agentforce search indexes. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" \u00b7 GitHub",
+  "desc": "Data 360 Code Extension: structure-aware chunking function that preserves table integrity for Agentforce search indexes. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" - datacloud_code_extension_table_aware_chunking.py"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083212/Step-2.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111641/FollowButton-LAB.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_project_retrieve_start.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://admin.salesforce.com/blog/2022/your-guide-to-determining-the-flow-running-user-and-its-execution-context": {
+  "title": "Your Guide to Determining the Flow Running User and Its Execution Context - Salesforce Admins",
+  "desc": "A step-by-step guide for understanding how the running user of a flow affects the context in which your flow runs. Learn more here."
+ },
+ "https://www.headlessexperiencelayer.com": {
+  "title": "HXL Playground | Salesforce",
+  "desc": "Explore the Headless Experience Layer \u2014 build surface-agnostic widgets with Mosaic, preview them across Agentforce, Slack, and ChatGPT."
+ },
+ "https://www.youtube.com/watch?v=HByDCHMFdsY&list=PLgIMQe2PKPSIPk_YOY4XZn72y0yl-Zqt4": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111628/Flow-TestRecordId.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930084905/Screenshot-2026-09-30-at-10.48.55%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930084602/Screenshot-2026-09-30-at-10.45.45%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908154241/Screenshot-2026-09-08-at-5.42.29%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://pypi.org/project/salesforce-data-customcode/": {
+  "title": "Client Challenge",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111606/Flow-MockOutputs.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1780411427398001P4c6": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=005298818&type=1": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_search_index_enriched_index.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/builder-central-quick-look": {
+  "title": "Builder Central: Build Apps and Agents with Plain Language",
+  "desc": "Builder Central converts plain language into a working app and supporting agent for your organization using conversational prompts and visual previews"
+ },
+ "https://developer.salesforce.com/docs/einstein/genai/guide/agent-script.html": {
+  "title": "Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Get to know the language for building agents in Agentforce Builder. Use Agent Script to build predictable, context-aware agent workflows that don't re"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_change_log.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111520/Flow-AgentforceforFlowHeadless.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.automate_flow_test_mode.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_manpkgs_dynamic_soql.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://engineering.salesforce.com/securely-running-python-with-data-clouds-new-bring-your-own-code-architecture/": {
+  "title": "Running Python with Data Cloud's Bring Your Own Code Architecture",
+  "desc": "Learn how Salesforce delivered a full-stack product while architecting tenant-isolated runtime environments to execute Python at enterprise scale."
+ },
+ "https://sfdc.co/sf-claude": {
+  "title": "Confirm Redirect",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928103244/Screenshot-2026-09-28-at-12.32.33%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/custom_metadata_types_dec?trail_id=configure-your-app-with-custom-metadata-types": {
+  "title": "Custom Metadata Types Explained",
+  "desc": "Discover how to develop custom metadata types using a user-friendly, code-free approach suitable for any app configuration."
+ },
+ "https://admin.salesforce.com/blog/2025/your-step-by-step-guide-to-connecting-salesforce-and-slack": {
+  "title": "Your Step-by-Step Guide to Connecting Salesforce and Slack - Salesforce Admins",
+  "desc": "It was so fun working with Mike Reynolds on an episode of Slack School, where we showed how easy it is to connect Salesforce and Slack. I, of course, played the role of Salesforce Admin. \ud83d\ude09 And Mike, the Slack admin. Slack is a conversational interface, the place where your employees work and collaborate. Salesforce [\u2026]"
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-app-builder-certification": {
+  "title": "Prepare for Your Salesforce Platform App Builder Certification |",
+  "desc": "Preparing to take the Platform App Builder exam? Check out this trail."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_calls_login.htm": {
+  "title": "login() | Core Calls | SOAP API Developer Guide | Salesforce Developers",
+  "desc": "Logs in to the login server and starts a client session."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/omnistudio-development-essentials": {
+  "title": "Omnistudio Development Essentials for Digital Solutions",
+  "desc": "Master Omnistudio to create seamless omnichannel experiences. Explore standard designers, best practices, and essential developer tools to enhance your skills."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_class_DataSource_Provider.htm": {
+  "title": "Apex Reference Guide | Salesforce Developers",
+  "desc": "Apex Reference Guide"
+ },
+ "https://admin.salesforce.com/blog/2026/your-security-center-just-got-an-agentforce-glow-up": {
+  "title": "Your Security Center Just Got an Agentforce Glow Up - Salesforce Admins",
+  "desc": "Security Center now uses Agentforce to provide automated risk assessment and alert Salesforce Admins to unusual activity. Learn more!"
+ },
+ "https://admin.salesforce.com/blog/2026/the-salesforce-admins-guide-to-choosing-the-right-flow": {
+  "title": "The Salesforce Admin's Guide to Choosing the Right Flow - Salesforce Admins",
+  "desc": "All Salesforce Admins face the question: What flow should I use in this situation? Learn which flows to use when and tips to help you choose."
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-metadata.html": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_set_options.htm": {
+  "title": "SET OPTIONS | Salesforce Object Query Language (SOQL) | SOQL and SOSL Reference | Salesforce Developers",
+  "desc": "Use the"
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/agentforce-vibes-ide-fundamentals": {
+  "title": "Learn Essential Skills for Using Agentforce Vibes IDE Effectively",
+  "desc": "Discover how to utilize Agentforce Vibes IDE for seamless development. This guide includes key features, setup instructions, and coding techniques"
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/org-browser.html": {
+  "title": "Org Browser | Get Started | Web Console | Salesforce Developers",
+  "desc": "The Org Browser makes it easy to retrieve your org metadata sources by listing org metadata types and their corresponding components. Click the cloud"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog?search.role=option_1625262044603": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/how-the-salesforce-administrator-role-is-evolving-in-the-agentic-ai-era": {
+  "title": "How the Salesforce Administrator Role Is Evolving in the Agentic AI Era - Salesforce Admins",
+  "desc": "Learn how the Salesforce Admin role is evolving in the Agentic AI era, with admins becoming guardians of trust in successful AI deployments."
+ },
+ "https://www.salesforce.com/blog/usability-testing-design/": {
+  "title": "Usability Testing Can Offer Quick Website Fixes | Salesforce",
+  "desc": "Usability testing is a user research tool that can help you figure out quick ways to fix your website experience for your users."
+ },
+ "https://github.com/salesforce/agentscript": {
+  "title": "GitHub - salesforce/agentscript: An open, schema-driven language for configuring agent orchestration systems \u00b7 GitHub",
+  "desc": "An open, schema-driven language for configuring agent orchestration systems - salesforce/agentscript"
+ },
+ "https://admin.salesforce.com/blog/2026/setup-with-agentforce-makes-salesforce-admin-tasks-easier-podcast": {
+  "title": "Setup with Agentforce Makes Salesforce Admin Tasks Easier - Salesforce Admins",
+  "desc": "Discover how Setup with Agentforce empowers Salesforce Admins to troubleshoot, manage users, and simplify setup\u2014now in open beta."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_sales_email_auth_domain_copy.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.platform_connect_about.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/apis": {
+  "title": "API Library | Salesforce Developers",
+  "desc": "Discover Salesforce APIs in the Salesforce Developers API Library to extend and integrate your applications."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/myagenda/page/myagenda": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_automate_flow_test_mode.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_einstein_platform.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_web_server_flow.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.security_center_essentials.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://platform.claude.com/docs/en/docs/build-with-claude/prompt-engineering/claude-prompting-best-practices": {
+  "title": "Prompting best practices - Claude Platform Docs",
+  "desc": "Comprehensive guide to prompt engineering techniques for Claude's latest models, covering clarity, examples, XML structuring, thinking, and agentic systems."
+ },
+ "http://sforce.co/ReleaseReadyTB": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/spring-26-design-screen-flows-with-intent-using-styling-overrides": {
+  "title": "Spring '26: Design Screen Flows With Intent Using Styling Overrides - Salesforce Admins",
+  "desc": "The Salesforce Spring \u201926 release introduces Screen & Component Styling Overrides in Flow Builder. More control over look & feel for admins."
+ },
+ "https://help.salesforce.com/s/articleView?language=en_US&id=sales.sales_mobile_app.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://gist.github.com/msrivastav13/691a13d17394d5b3f42be7e4d3bf5dbf": {
+  "title": "w27-rating-stars: a framework-free web component used with lwc:external (Salesforce Winter '27 developer guide) \u00b7 GitHub",
+  "desc": "w27-rating-stars: a framework-free web component used with lwc:external (Salesforce Winter '27 developer guide) - w27RatingStars.js"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_mfa_registration.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/sf-skills/blob/main/skills/dx-org-manage/SKILL.md": {
+  "title": "sf-skills/skills/dx-org-manage/SKILL.md at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/skills/dx-org-manage/SKILL.md at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide": {
+  "title": "Get Started | Web Console | Salesforce Developers",
+  "desc": "Web Console is a modern, lightweight, browser-based IDE serving as the editing suite that scales across ecosystems. This chapter explains:"
+ },
+ "https://help.salesforce.com/s/articleView?id=005226932&type=1": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://gist.github.com/Samaritha/a4a5d2ce427471608b222ae266d9269e": {
+  "title": "Data 360 Code Extension: regex-based PII and regulated-identifier masking function applied before chunking for vector indexing. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" \u00b7 GitHub",
+  "desc": "Data 360 Code Extension: regex-based PII and regulated-identifier masking function applied before chunking for vector indexing. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" - datacloud_code_extension_pii_masking_chunking.py"
+ },
+ "https://admin.salesforce.com/blog/2026/securing-your-org-from-reactive-to-proactive": {
+  "title": "Securing Your Org: From Reactive to Proactive - Salesforce Admins",
+  "desc": "Move from reactive to proactive security in your Salesforce Org. Admins: Learn practical steps to minimize risk, manage permissions & prevent data loss."
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/developing-agentforce": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://marketplace.visualstudio.com/items/salesforce.salesforcedx-einstein-gpt/changelog": {
+  "title": "Changelog | Visual Studio Marketplace",
+  "desc": ""
+ },
+ "https://www.salesforce.com/news/stories/salesforce-headless-360-announcement/": {
+  "title": "Introducing Salesforce Headless 360 - Salesforce",
+  "desc": "Everything on Salesforce is now an API, MCP tool, or CLI command, and agents can use all of it."
+ },
+ "https://arxiv.org/abs/2605.05253": {
+  "title": "[2605.05253] EnterpriseRAG-Bench: A RAG Benchmark for Company Internal Knowledge",
+  "desc": "Abstract page for arXiv paper 2605.05253: EnterpriseRAG-Bench: A RAG Benchmark for Company Internal Knowledge"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.salesforce_connect_apex.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.youtube.com/channel/UCJZ40ShB_oLStzaYT4m9WWQ": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.named_credentials_about.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839235195001GKeV": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261013114609/2026-10-13_13-44-58.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779814773510001Bc1I": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://www.google.com/search?q=https://trailhead.salesforce.com/trailblazer-community/groups/0F94V000000HeS0SAK": {
+  "title": "Google Search",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/overview": {
+  "title": "Headless Experience Layer | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Develop UI-agnostic agentic apps that deliver consistent, rich, portable, and reusable AI-powered user experiences across various surfaces and inputs."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.devops_center_testing_setup.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.learnexperiencecloud.com/topic/a081U00000OhIqgQAF/lightning-web-runtime-lwr": {
+  "title": "LearnExperienceCloud.com",
+  "desc": ""
+ },
+ "https://github.com/anushamyneni1/apexTriggerConsolidation": {
+  "title": "GitHub - anushamyneni1/apexTriggerConsolidation \u00b7 GitHub",
+  "desc": "Contribute to anushamyneni1/apexTriggerConsolidation development by creating an account on GitHub."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_integration_testing.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/screen-flows": {
+  "title": "Create Interactive Automations",
+  "desc": "Learn how to create automation that guides and interacts with users. Dive into Screen Flows module on Salesforce Trailhead."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824085741/SecurityCenter1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/dreamforce-main-keynote-2026": {
+  "title": "Salesforce+ Dreamforce Main Keynote 2026",
+  "desc": "Join Salesforce Chair and CEO Marc Benioff, along with special guests, to explore what it means to become an Agentic Enterprise, where humans, agents, and platforms together promote customer success."
+ },
+ "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html": {
+  "title": "pandas.DataFrame \u2014 pandas 3.1.0 documentation",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/einstein/genai/guide/get-started.html": {
+  "title": "Get Started | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Agentforce is the agent-driven layer of the Salesforce Platform, and it helps you deploy AI agents that work side-by-side with your employees to exten"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_sales_email_user_domains.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839378808001GCuu": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/05/new-agentforce-metadata-and-development-lifecycle": {
+  "title": "The New Agentforce Metadata and Development Lifecycle | Salesforce Developers Blog",
+  "desc": "Streamline your CI/CD pipelines by leveraging the new versioned metadata model and human-readable Agent Scripts. Learn how bundleized assets eliminate \u201cglobal ripples\u201d and simplify peer reviews for more reliable agent deployments."
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/admin-keynote": {
+  "title": "Salesforce+ Admin Keynote: Bring the Agentic Enterprise to Life",
+  "desc": "Your admin skills were built for this moment. See Salesforce innovations, including AIforce and Builder Central, live demos, and real stories showing admins leading the Agentic Enterprise."
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx.html": {
+  "title": "Agentforce DX | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "http://agentskills.io": {
+  "title": "Agent Skills Overview - Agent Skills",
+  "desc": "A standardized way to give AI agents new capabilities and expertise."
+ },
+ "https://www.youtube.com/watch?v=Gt9tMPl_Kf8": {
+  "title": "",
+  "desc": ""
+ },
+ "http://github.com/forcedotcom/datacloud-customcode-python-sdk": {
+  "title": "GitHub - forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916073248/Screenshot-2026-09-16-at-7.32.34%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839227445001GJ2B": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm": {
+  "title": "How Salesforce Developer Experience (DX) Tooling Changes the Way You Work | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "Salesforce DX tooling provides modern experience to manage and develop apps on the platform across their entire lifecycle. It brings together source-d"
+ },
+ "http://skill.md": {
+  "title": "Agent Skills Overview - Agent Skills",
+  "desc": "A standardized way to give AI agents new capabilities and expertise."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.devops_center_testing_setup.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "http://github.com/forcedotcom/sf-skills": {
+  "title": "GitHub - forcedotcom/sf-skills: Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - forcedotcom/sf-skills"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.ext_data_sync_database.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2025/use-metadata-to-empower-salesforce-agents-podcast": {
+  "title": "Use Metadata To Empower Salesforce Agents - Salesforce Admins",
+  "desc": "Agentforce relies on clean metadata. Learn why organizing your org is key to building helpful AI agents on the Salesforce platform."
+ },
+ "https://developer.salesforce.com/blogs/2026/01/create-faster-lighter-experience-cloud-sites-with-omnistudio-components-and-lwr": {
+  "title": "Create Faster, Lighter Experience Cloud Sites with Omnistudio Components and LWR | Salesforce Developers Blog",
+  "desc": "Learn how to boost site performance by running Omnistudio components on Lightning Web Runtime (LWR) for a faster, lighter customer experience without changing your design."
+ },
+ "https://trailhead.salesforce.com/trailblazer-community/groups/0F93A000000DJbJSAW?tab=discussion&sort=LAST_MODIFIED_DATE_DESC": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/web-console-feedback/issues": {
+  "title": "Issues \u00b7 forcedotcom/web-console-feedback \u00b7 GitHub",
+  "desc": "This repository is used to collect feedback for the Web Console beta. - Issues \u00b7 forcedotcom/web-console-feedback"
+ },
+ "https://www.salesforce.com/blog/extend-data-360-with-the-power-of-code-introducing-code-extension/": {
+  "title": "Extend Data 360 with the Power of Code: Introducing Code Extension - Salesforce",
+  "desc": "In the era of Agentforce and AI, data is the fuel behind intelligent customer experiences. Salesforce Data 360 has transformed how organizations unify and harmonize data using no-code and low-code tools. But as\u2026"
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk/": {
+  "title": "GitHub - forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://arxiv.org/pdf/2412.02592": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/": {
+  "title": "Developer Portal | Salesforce Developers | Developer",
+  "desc": "Learn how to build mobile and enterprise applications and agents on Salesforce and deliver innovative experiences using the Agentforce 360 Platform."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog?search.role=option_1625262049014": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/code-extension-in-data-360": {
+  "title": "Explore Code Extension for Advanced Data Transformations",
+  "desc": "Uncover the essentials of Code Extension in Data 360 for advanced data transformations. Learn how to build and deploy custom Python scripts effectively"
+ },
+ "https://marketplace.visualstudio.com/items?itemName=Anthropic.claude-code": {
+  "title": "Claude Code for VS Code - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - Claude Code for VS Code: Harness the power of Claude Code without leaving your IDE"
+ },
+ "https://slack.dev/slackbot-mcp-client/": {
+  "title": "Beyond the sandbox: connect Slackbot to your production data with MCP | Blog | Slack Developers",
+  "desc": "Most teams don\u2019t have a tooling problem. They have an access problem. You\u2019ve likely already built internal APIs, dashboards, or scripts that solve real"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908152516/Screenshot-2026-09-08-at-5.25.04%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260921085226/Screenshot-2026-09-21-at-10.51.27%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.custommetadatatypes_overview.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.pkg2_dev.meta/pkg2_dev/dev2gp_packageable_agentforce_md.htm": {
+  "title": "Package Agentforce Metadata Components | Second-Generation Managed Packages | Second-Generation Managed Packaging Developer Guide | Salesforce Developers",
+  "desc": "Bring the power of conversational AI to your apps with Agentforce."
+ },
+ "https://developer.salesforce.com/blogs/2026/02/agent-script-decoded-intro-to-agent-script-language-fundamentals": {
+  "title": "Intro to Agent Script Language Fundamentals | Salesforce Developers Blog",
+  "desc": "Learn how to master Agent Script to build agents using hybrid reasoning: the perfect balance of deterministic logic and generative power."
+ },
+ "https://developer.salesforce.com/events": {
+  "title": "Salesforce Dev, Architect & Admin Events | Technical Sessions | Developer",
+  "desc": "Join Salesforce experts for live AMAs, coding, and workshops. Register for technical sessions on Agentforce, Data 360, and the platform to build skills."
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference.html": {
+  "title": "Salesforce CLI Command Reference | Salesforce Developers",
+  "desc": "This command reference contains information about the Salesforce CLI commands and their flags. Use these commands to build Agentforce agents, manage S"
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/observing-agentforce": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/intro_rest_resources_apex_symbols.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "http://claude.ai/code": {
+  "title": "Claude Code",
+  "desc": "A shared Claude Code session on claude.ai/code"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp.htm": {
+  "title": "Salesforce DX MCP Server and Tools | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "Use the Salesforce DX MCP Server and its tools to enter natural language prompts in your IDE to complete standard DX tasks like syncing metadata, runn"
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/overview": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/servers-reference.html": {
+  "title": "Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Reference"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_top.htm": {
+  "title": "Salesforce CLI Command Reference | Salesforce Developers",
+  "desc": "This command reference contains information about the Salesforce CLI commands and their flags. Use these commands to build Agentforce agents, manage S"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928102907/Screenshot-2026-09-28-at-12.28.48%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/apex_triggers/apex_triggers_intro": {
+  "title": "Learn Apex Trigger Fundamentals and Best Practices",
+  "desc": "Discover how to write and manage Apex triggers in Salesforce. Understand syntax, context variables, and best practices for effective code. Enhance your skills!"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_acr_values.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com": {
+  "title": "Salesforce Admins | Admin",
+  "desc": "This is a site for Salesforce Admins to stay up to date on product updates, events, tools, and resources. Learn more about automation, app building, analytics."
+ },
+ "https://developer.salesforce.com/docs/platform/lightning-component-reference/guide/lightning-message-service?type=Develop": {
+  "title": "Message Service | Utility Modules | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261013121307/SandboxPreviewGuide-1.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_intro.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/agentforce-action-output.html": {
+  "title": "Build a Rich UI for Agentforce Action Output | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Present structured output from an Agentforce action as a Headless Experience Layer (HXL) widget in the conversation."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001143524/Flow-GroupElements-ezgif.com-optimize-1.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1780076383860001W1AW": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.generative_ai_session_trace_data_model.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.copilot_actions_edit_reference.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "http://admin.salesforce.com/blog/2026/salesforce-admins-guide-to-dreamforce-2026": {
+  "title": "Salesforce Admin's Guide to Dreamforce 2026 - Salesforce Admins",
+  "desc": "Calling all Awesome Admins! Dreamforce 2026 is your moment to build boldly and help shape the future of the Salesforce platform. Join us September 15-17, in San Francisco\u2014or tune in on Salesforce+\u2014to unlock unprecedented success with three days of limitless impact with 1,600+ breakout sessions, 150+ hands-on trainings and demos, 50+ keynotes, and 240+ community [\u2026]"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1781727006316001lj8h": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260818070800/Screenshot-2026-08-13-at-12.08.26%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/what-are-security-essentials-for-salesforce-admins-podcast": {
+  "title": "What Are Security Essentials for Salesforce Admins? - Salesforce Admins",
+  "desc": "Salesforce admins can strengthen security with MFA, phishing-resistant auth, Security Center Essentials, and Health Check insights."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083843/Step-5.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/05/headless-360-what-it-means-for-developers": {
+  "title": "What Salesforce Headless 360 Means For Developers | Salesforce Developers Blog",
+  "desc": "Headless 360 exposes every Salesforce capability as an API, MCP tool, or CLI command. Learn why your platform expertise matters more in an agentic world."
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener": {
+  "title": "EventTarget: addEventListener() method - Web APIs | MDN",
+  "desc": "The addEventListener() method of the EventTarget interface sets up a function that will be called whenever the specified event is delivered to the target."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260819094656/Agent-Router.png": {
+  "title": "",
+  "desc": ""
+ },
+ "http://trailhead.salesforce.com/content/learn/modules/lightning-web-components-basics": {
+  "title": "",
+  "desc": "",
+  "error": "[Errno 54] Connection reset by peer"
+ },
+ "https://admin.salesforce.com/blog/2026/turn-conversations-into-data-with-the-in-person-meeting-assistant": {
+  "title": "Turn Conversations Into Actionable CRM Data With the In-Person Meeting Assistant - Salesforce Admins",
+  "desc": "Admins: Transform in-person meetings into trusted CRM data with the Mobile Meeting Assistant's secure, on-device AI transcription."
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Event/Event": {
+  "title": "Event: Event() constructor - Web APIs | MDN",
+  "desc": "The Event() constructor creates a new Event object. An event created in this way is called a synthetic event, as opposed to an event fired by the browser, and can be dispatched by a script."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/events.html": {
+  "title": "Communicate with Events | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Lightning web components dispatch standard DOM events. Components can also create and dispatch custom events. Use events to communicate up the compone"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824090616/VoiceNotesDisclaimer.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md": {
+  "title": "skills/skills/skill-creator/SKILL.md at main \u00b7 anthropics/skills \u00b7 GitHub",
+  "desc": "Public repository for Agent Skills. Contribute to anthropics/skills development by creating an account on GitHub."
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/use-custom-code.html": {
+  "title": "Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": ":::note As of October 14, 2025, Data Cloud has been rebranded to Data 360. During this transition, you may see references to Data Cloud in our applica"
+ },
+ "https://www.npmjs.com/package/skills": {
+  "title": "skills - npm",
+  "desc": "The open agent skills ecosystem. Latest version: 1.7.4, last published: 13 days ago. Start using skills in your project by running `npm i skills`. There are 131 other projects in the npm registry using skills."
+ },
+ "https://www.salesforce.com/blog/ai/": {
+  "title": "AI - Artificial Intelligence Resources, Events and Tips",
+  "desc": "Artificial intelligence moves fast. Keep up with the latest AI trends and learn more about how to make AI work for your organization."
+ },
+ "https://developer.salesforce.com/blogs/2026/06/the-mcp-server-for-marketing-cloud-engagement-is-now-ga": {
+  "title": "The MCP Server for Marketing Cloud Engagement is Now GA | Salesforce Developers Blog",
+  "desc": "Learn how to securely connect external AI agents to Marketing Cloud Engagement and expose core capabilities like data extensions and journeys as natural language tools."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.api_catalog_activate_salesforce_mcp_servers.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://modelcontextprotocol.io/specification/2025-06-18/schema": {
+  "title": "Schema Reference - Model Context Protocol",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_omnistudio_configure_integration_procedure_on_agentforce.htm&release=256&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105438/Flow-Image-7.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930085000/Screenshot-2026-09-30-at-10.49.50%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930085616/Screenshot-2026-09-30-at-10.56.05%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260916073516/Screenshot-2026-09-16-at-7.34.02%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/deejay-hub/salesforce-ada-content-mcp-server": {
+  "title": "GitHub - deejay-hub/salesforce-ada-content-mcp-server: A Salesforce content MCP with official documentation sources \u00b7 GitHub",
+  "desc": "A Salesforce content MCP with official documentation sources - deejay-hub/salesforce-ada-content-mcp-server"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/apex_namespace_DataSource.htm": {
+  "title": "Apex Reference Guide | Salesforce Developers",
+  "desc": "Apex Reference Guide"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.devops_center_dx_inspector.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_list.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_passkey_registration.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2025/finding-your-first-agentforce-win-as-a-salesforce-admin": {
+  "title": "Finding Your First Agentforce Win as a Salesforce Admin - Salesforce Admins",
+  "desc": "As a Salesforce Admin, the potential of AI is huge, and Agentforce puts that power directly in your hands. But with so many possibilities, the biggest question is often the simplest: Where do I begin? If you\u2019re exploring how Agentforce fits into your org, or even a specific project, you might find yourself wondering how [\u2026]"
+ },
+ "https://github.com/forcedotcom/sf-skills/blob/main/CONTRIBUTING.md": {
+  "title": "sf-skills/CONTRIBUTING.md at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/CONTRIBUTING.md at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://help.salesforce.com/s/articleView?id=005226934&type=1": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_ru.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/prompt-fundamentals": {
+  "title": "Prompt Fundamentals: Write Effective Prompts for AI",
+  "desc": "Prompt Fundamentals teaches how to write effective prompts for generative AI, starting with the six components that make prompts clear and actionable"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_deployment_devops_center_testing.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105320/Flow-Image-6.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_genaifunction.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk": {
+  "title": "GitHub - forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://admin.salesforce.com/blog/2026/why-salesforce-c\u2026er-in-the-ai-era": {
+  "title": "",
+  "desc": "",
+  "error": "'ascii' codec can't encode character '\\u2026' in position 31: ordinal not in ran"
+ },
+ "https://www.salesforce.com/blog/salesforce-architect-guide-dreamforce-2026": {
+  "title": "The Salesforce Architect\u2019s Guide to Dreamforce 2026 - Salesforce",
+  "desc": "Plan your Dreamforce 2026 experience with this guide for Salesforce Architects attending in San Francisco or on Salesforce+."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930084027/Screenshot-2026-09-30-at-10.40.14%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1786567772225001hg8P": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/js-props-intro.html": {
+  "title": "Fields, Properties, and Attributes | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Declare fields in your component\u2019s JavaScript class. Reference them in your component\u2019s template to dynamically update content."
+ },
+ "https://help.salesforce.com/s/articleView?id=005132110&type=1&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-ref-variables-system.html": {
+  "title": "Variables (System) | Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Agent Script provides predefined, prepopulated system variables that you can use in your agent. To access system variables, use"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise": {
+  "title": "Promise - JavaScript | MDN",
+  "desc": "The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value."
+ },
+ "https://admin.salesforce.com/blog/2025/inspiring-agentforce-use-cases-for-salesforce-admins": {
+  "title": "4 Inspiring Agentforce Use Cases for Salesforce Admins - Salesforce Admins",
+  "desc": "Discover 4 inspiring Agentforce use cases from the Salesforce Hackathon. See how Salesforce Admins are leveraging AI to solve real-world challenges."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908152424/Screenshot-2026-09-08-at-5.24.08%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/security-best-practices.html": {
+  "title": "Security Best Practices | Best Practices | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Secure your deployment with proper authentication, permission controls, and monitoring."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/overview": {
+  "title": "Salesforce Hosted MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Give AI agents a secure, governed way to interact with Salesforce data and automation using the Model Context Protocol (MCP). Any compatible AI client"
+ },
+ "https://trailhead.salesforce.com/en/credentials/businessanalyst": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155141/Screenshot-2026-09-08-at-5.51.30%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155312/Screenshot-2026-09-08-at-5.52.43%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://claude.ai/code": {
+  "title": "Claude Code",
+  "desc": "A shared Claude Code session on claude.ai/code"
+ },
+ "https://github.com/trailheadapps/agent-script-recipes/tree/main/force-app/main/01_languageEssentials/languageSettings": {
+  "title": "agent-script-recipes/force-app/main/01_languageEssentials/languageSettings at main \u00b7 trailheadapps/agent-script-recipes \u00b7 GitHub",
+  "desc": "A collection of easy-to-digest Agent Script examples. - agent-script-recipes/force-app/main/01_languageEssentials/languageSettings at main \u00b7 trailheadapps/agent-script-recipes"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Document": {
+  "title": "Document - Web APIs | MDN",
+  "desc": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree."
+ },
+ "https://admin.salesforce.com/blog/2026/dreamforce-2026-product-highlights-for-admins": {
+  "title": "Dreamforce 2026 Product Highlights for Admins - Salesforce Admins",
+  "desc": "Admin keynote at Dreamforce 2026: Build trusted AI, deliver trusted AI everywhere and govern AI"
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/testing-api-custom-scorers.html": {
+  "title": "Create Custom Scorers | Agentforce APIs and SDKs | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Custom scorers allow you to define evaluation logic for agent testing."
+ },
+ "https://www.salesforce.com/products/omnistudio/overview/": {
+  "title": "Salesforce Omnistudio: Build Guided Digital Experiences | Salesforce",
+  "desc": "Rapidly build industry-specific digital experiences. Create guided workflows and pixel-perfect UIs with Salesforce Omnistudio\u2019s low-code tools."
+ },
+ "https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.use_message_channel": {
+  "title": "Lightning Message Service | Use Components in Salesforce Targets | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Use Lightning message service to communicate across the DOM within a Lightning page. Communicate between Visualforce pages embedded in the same Lightn"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.devops_testing_ensure_high_quality_work_items_with_quality_gate_rules.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_agent_test_run.html": {
+  "title": "agent test run | agent Commands | Salesforce CLI Command Reference | Salesforce Developers",
+  "desc": "Start an agent test in your org."
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/webconsole-apex-anonymous.html": {
+  "title": "Use Anonymous Apex | Work with Apex Code | Web Console | Salesforce Developers",
+  "desc": "::include{src=\"../../../shared/apex-anonymous.md\"}"
+ },
+ "https://appexchange.salesforce.com/appxListingDetail?listingId=b5e1fa52-8a6d-4a7f-b787-88b0ede9e524": {
+  "title": "Deploy Salesforce Transaction Security Policies Faster with Transaction Security Policy Accelerator Quick Start | Salesforce AgentExchange",
+  "desc": "Transaction Security Policy Accelerator simplifies and speeds up Salesforce Transaction Security Policy adoption by giving you a one-click way to deploy best-practice Transaction Security Policies."
+ },
+ "https://www.salesforce.com/healthcare/cloud/": {
+  "title": "Health Cloud Industry Solutions by Salesforce | Salesforce",
+  "desc": "Learn how Health Cloud seamlessly connects systems and organizes data in a meaningful way to scale 1-to-1 engagement with every stakeholder."
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent": {
+  "title": "CustomEvent - Web APIs | MDN",
+  "desc": "The CustomEvent interface can be used to attach custom data to an event generated by an application."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_connector_start.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://trailhead.salesforce.com/trailblazercommunity": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779759594263001KlWk": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/get-started-api-versioning.html": {
+  "title": "API Versioning | Get Started | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "| AVAILABLE API VERSIONS | | ------------------------------------ | | Available in LWC API v59.0 and later |"
+ },
+ "https://developer.salesforce.com/docs/data/connectapi/references/spec": {
+  "title": "Data 360 Connect API | Data 360 Connect REST API | Salesforce Developers",
+  "desc": "Data 360 Connect API"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1776704005612001dxP3": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026": {
+  "title": "",
+  "desc": ""
+ },
+ "https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization": {
+  "title": "Authorization - Model Context Protocol",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779832433549001XokL": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260824083024/Step-1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/headless/agentic-experience-layer/": {
+  "title": "Headless Experience Layer | Salesforce",
+  "desc": "Headless Experience Layer (HXL) is Salesforce's agentic experience layer for securely deploying logic to any external app."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_perms_enforcing.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://tableau.github.io/tableau-mcp/docs/hosted-tableau-mcp": {
+  "title": "Hosted Tableau MCP | Tableau MCP",
+  "desc": "Tableau MCP is available as a managed service on every Tableau Cloud pod, accessible at a single URL//mcp.tableau.com. It is the fastest way to get an AI agent talking to your Tableau Cloud site \u2014 no servers to deploy, no credentials to manage, and no infrastructure to maintain."
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.external_client_apps.htm&type=5&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_mcp_server.htm": {
+  "title": "Install and Configure the Salesforce DX MCP Server | Salesforce DX MCP Server and Tools | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "Install the Salesforce DX MCP Server in your MCP client to start using the tools."
+ },
+ "https://www.salesforce.com/energy-utilities/cloud/": {
+  "title": "Energy & Utilities Cloud | Salesforce",
+  "desc": "See how Energy & Utilities Cloud improves service and drives business agility for digital utilities."
+ },
+ "https://sandbox-preview-prd-24f76e67b11e.herokuapp.com/": {
+  "title": "Sandbox Preview Guide",
+  "desc": "The Sandbox Preview Guide helps Salesforce customers to identify what type of sandboxes they have in use and to assist in their release planning efforts for existing preview and non-Preview sandboxes."
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/guide/data-sdk-intro.html": {
+  "title": "Work with the Data SDK | Access Salesforce Data and Platform Capabilities | Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "The Data SDK handles authentication, CSRF tokens, and base path resolution internally. To work with Data SDK, import the functions from"
+ },
+ "https://prostdev.com": {
+  "title": "Learn MuleSoft: Video Tutorials, DataWeave & ACB | ProstDev",
+  "desc": "ProstDev \u2014 where MuleSoft mastery meets fun. Easy-to-follow video tutorials, AI experiments, and deep-dive articles on MuleSoft, DataWeave, Anypoint Code Builder, and integration."
+ },
+ "https://developer.salesforce.com/blogs/2026/09/announcing-general-availability-web-console-your-modern-in-browser-ide": {
+  "title": "Announcing General Availability: Web Console \u2013 Your Modern In-Browser IDE | Salesforce Developers Blog",
+  "desc": "Learn how the generally available Web Console brings a modern, browser-based IDE to Salesforce so you can edit, debug, test, and validate without leaving your org."
+ },
+ "https://developer.salesforce.com/blogs/2026/06/security-anti-patterns-in-lightning-web-components": {
+  "title": "Security Anti-Patterns in Lightning Web Components | Salesforce Developers Blog",
+  "desc": "Learn how the platform\u2019s three independent security layers operate, how Lightning Web Security (LWS) distorts common APIs, and how to avoid the cross-namespace mistakes that lead to silent data failures."
+ },
+ "https://www.salesforce.com/products/free-trial/developer/": {
+  "title": "Developer Edition with Agentforce and Data 360 | Salesforce | Developer",
+  "desc": "Build enterprise-quality apps fast and get hands-on with Agentforce and Data 360."
+ },
+ "https://help.salesforce.com/articleView?id=000357271&type=1&mode=1": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260819094439/Super-Agent-1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "http://developer.salesforce.com/tools/salesforcecli": {
+  "title": "Salesforce Developers | Salesforce CLI | Developer",
+  "desc": "Salesforce CLI is a command-line interface for Salesforce DX features."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_sales_email_auth_substitute_owea.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_genaiplugininstructiondef.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/create-batch-transform.html": {
+  "title": "Invoke Code Extension by Creating a Batch Data Transform | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Invoke your code extension by creating a batch data transform that uses your deployed custom script."
+ },
+ "https://www.salesforce.com/dreamforce/training-and-certifications/": {
+  "title": "Training and Certifications at Dreamforce 2026",
+  "desc": "Level up your skills at Dreamforce with training & certifications. Earn Salesforce credentials and transform your career path."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261002134009/Screenshot-2026-10-02-at-3.39.52%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928103141/Screenshot-2026-09-28-at-12.31.29%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/builder-central-ai-development/": {
+  "title": "Builder Central: The Ultimate Salesforce AI Development Hub",
+  "desc": "Introducing the all-in-one workspace to build, configure, and deploy agents, apps, and experiences on Salesforce."
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_tokens_scopes.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=slack.slack_salesforce_setup.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/forums": {
+  "title": "Feed | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/considerations-when-writing-custom-code.html": {
+  "title": "Considerations When Writing Code Extension | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "To write code extension logic in Data 360, follow these best practices, architectural constraints, and Spark API limitations."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_saml_validator_enhancement.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/reference-wire-adapters-record.html": {
+  "title": "getRecord | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Use this wire adapter to get a record\u2019s data."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261013114151/Screenshot-2026-10-13-at-1.41.30%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111649/MultiFlowApprovalComponent.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/projects/quick-start-troubleshoot-code-with-dev-agent": {
+  "title": "Quick Start: Troubleshoot Code with AI Tools",
+  "desc": "Explore how to refine your Apex and Lightning Web Components using AI coding assistance. This project guides you through the setup of your development environment and"
+ },
+ "https://github.com/forcedotcom/mcp-hosted/wiki": {
+  "title": "Home \u00b7 forcedotcom/mcp-hosted Wiki \u00b7 GitHub",
+  "desc": "Salesforce Hosted MCP Servers. Contribute to forcedotcom/mcp-hosted development by creating an account on GitHub."
+ },
+ "https://github.com/trailheadapps/coral-cloud/tree/main/cc-employee-app/main/default": {
+  "title": "coral-cloud/cc-employee-app/main/default at main \u00b7 trailheadapps/coral-cloud \u00b7 GitHub",
+  "desc": "Sample application that showcases Data Cloud, Agents and Prompts. - coral-cloud/cc-employee-app/main/default at main \u00b7 trailheadapps/coral-cloud"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_adv_auth_passkey_enforcement.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/introducing-transaction-security-policy-accelerator/": {
+  "title": "One-Click Salesforce Transaction Security Policies",
+  "desc": "Learn how the Transaction Security Policy Accelerator helps security teams deploy proven policies for data protection and access control across any environment."
+ },
+ "https://admin.salesforce.com/blog/2026/september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast": {
+  "title": "September Monthly Retro: What Changed, What Matters, and What Admins Should Do Next - Salesforce Admins",
+  "desc": "Join the Salesforce Admins Podcast for a Dreamforce recap! Discover Builder Central, AI tools, and why security is crucial for admins."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_center_essentials.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://agentskills.io/home": {
+  "title": "Agent Skills Overview - Agent Skills",
+  "desc": "A standardized way to give AI agents new capabilities and expertise."
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/read-zero-copy-sources.html": {
+  "title": "Read Zero-Copy Data in Code Extension | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Write code extension scripts that read a data lake object (DLO) backed by a zero-copy connector or a data model object (DMO) mapped from that DLO. Bec"
+ },
+ "https://trailhead.salesforce.com/users/pozil/trailmixes/agentforce-vibes": {
+  "title": "Get Started with Agentforce Vibes Trailmix | Salesforce Trailhead",
+  "desc": "A collection of resources to get started with Agentforce Vibes"
+ },
+ "https://docs.anthropic.com/en/docs/claude-code/skills": {
+  "title": "Extend Claude with skills - Claude Code Docs",
+  "desc": "Create, manage, and share skills to extend Claude's capabilities in Claude Code. Includes custom commands and bundled skills."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155416/Screenshot-2026-09-08-at-5.53.55%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/manifest_samples.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://www.salesforce.com/plus/experience/tdx_2026/series/architects_at_tdx_2026/episode/episode-s1e13": {
+  "title": "Salesforce+ A Blueprint for Single-Org, Multi-Agent Orchestration",
+  "desc": "Learn how to architect single-org, multi-agent (SOMA) solutions by designing agent hand-offs, sharing context, and applying Well-Architected patterns for scalable Agentforce orchestration."
+ },
+ "https://apps.apple.com/us/app/salesforce-events/id1021413071": {
+  "title": "\u200eSalesforce Events App - App Store",
+  "desc": "Download Salesforce Events by salesforce.com on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Salesforce Events."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/batch-data-transforms-in-data-cloud-quick-look/get-started-with-batch-data-transforms-in-data-360": {
+  "title": "Essential Guide to Batch Data Transforms in Data 360",
+  "desc": "Unlock the potential of batch data transforms in Data 360 with this comprehensive guide. Learn how to create and manage batch data transforms effectively"
+ },
+ "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.os_migrate_omnistudio_custom_objects_to_standard_objects.htm&type=5&_ga=2.251188102.1251986665.1771926946-585422095.1771404282": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_studio_testing_center_setup_tests.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://arxiv.org/abs/2505.08643": {
+  "title": "[2505.08643] WixQA: A Multi-Dataset Benchmark for Enterprise Retrieval-Augmented Generation",
+  "desc": "Abstract page for arXiv paper 2505.08643: WixQA: A Multi-Dataset Benchmark for Enterprise Retrieval-Augmented Generation"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/ci-cd.html": {
+  "title": "CI/CD Integration | Salesforce Code Analyzer | Salesforce Developers",
+  "desc": "We recommend that you integrate Salesforce Code Analyzer into your Continuous Integration/Continuous Development (CI/CD) process to scan your code reg"
+ },
+ "https://www.salesforce.com/headless/toolkit-guide/": {
+  "title": "Dreamforce 2026 Headless Takeaway Guide | Salesforce",
+  "desc": "Dreamforce 2026 Headless Takeaway Guide"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/apex-result-caching.html": {
+  "title": "Client-Side Caching | Work with Salesforce Data | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "To improve runtime performance, annotate the Apex method with"
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_search_index_grounding.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://itunes.apple.com/us/podcast/buttonclick-admin-podcast/id914088438?mt=2&ign-mpt=uo%3D4": {
+  "title": "Salesforce Admins Podcast - Podcast - Apple Podcasts",
+  "desc": "Listen to Mike Gerholdt's Salesforce Admins Podcast podcast on Apple Podcasts."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111701/SetupwithAgentforce-OrgHealth.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://admin.salesforce.com/blog/2026/meet-your-users-new-ai-teammate-introducing-agentforce-coworker": {
+  "title": "Meet Your Users' New AI Teammate: Introducing Agentforce Coworker - Salesforce Admins",
+  "desc": "Learn how Agentforce Coworker helps Salesforce Admins connect users to trusted context, answers, and agent-powered actions."
+ },
+ "https://github.com/adr": {
+  "title": "Architectural Decision Records \u00b7 GitHub",
+  "desc": "Architectural Decision Records has 20 repositories available. Follow their code on GitHub."
+ },
+ "https://slack.com/help/articles/202026038-How-to-use-Slackbot": {
+  "title": "How to work with Slackbot | Slack",
+  "desc": "Navigate your workday with help from Slackbot, your personal agent for work. Slackbot has the same context and access to information you do, so answers are always relevant and personalized. Start a..."
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener": {
+  "title": "EventTarget: removeEventListener() method - Web APIs | MDN",
+  "desc": "The removeEventListener() method of the EventTarget interface removes an event listener previously registered with EventTarget.addEventListener() from the target. The event listener to be removed is identified using a combination of the event type, the event listener function itself, and various optional options that may affect the matching process; see Matching event listeners for removal."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261013114342/Screenshot-2026-10-13-at-1.43.29%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/engine-flow.html": {
+  "title": "Flow Scanner | Engines | Salesforce Code Analyzer | Salesforce Developers",
+  "desc": "Use the Flow Scanner engine to audit Salesforce Flows and report detailed information about security issues."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-html-expressions.html": {
+  "title": "Template Expressions | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Add sophisticated presentation logic to your LWC template files, and remove extra code from your component implementation. Beginning in Spring \u201926, a"
+ },
+ "https://status.salesforce.com/products/all/maintenances": {
+  "title": "Trust Status",
+  "desc": ""
+ },
+ "https://www.youtube.com/watch?v=ddzou7QHJHA": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/plus": {
+  "title": "Salesforce+ Events",
+  "desc": "Salesforce+ is a free platform offering live and on\u2011demand access to Salesforce\u2019s biggest events\u2014Dreamforce, TDX, Connections, Tableau Conference, and more. Enjoy unlimited access to our entire video library at no cost; just sign up with your Trailblazer account to become a member. Salesforce+ will illuminate the future of technology in the digital-first, work-anywhere world and inspire millions of Trailblazers to learn new skills, pursue new career opportunities, and drive change in the world."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155751/Screenshot-2026-09-08-at-5.57.38%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_versions.htm": {
+  "title": "List Available REST API Versions | Examples | REST API Developer Guide | Salesforce Developers",
+  "desc": "Use the Versions resource to list summary information about each REST API version currently available, including the version, label, and a link to eac"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.flow_considerations_feature_variable.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?language=en_US&id=data.c360_a_data_cloud.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog?search=sneak%20peek%3A&pr=https%3A%2F%2Fwww.salesforce.com%2Fdreamforce%2F&d=701ed00000p9KZeAAM&utm_content=701ed00000p9KZeAAM&utm_source=google&utm_medium=paid_search&utm_campaign=23626787453&utm_adgroup=194012598196&utm_term=salesforce%2Bannual%2Bevent&utm_matchtype=p&utm_variant=Control&utm_agent_cohort=qualified&_ga=2.55085035.1929735625.1787160272-746989549.1787081919&tab.day=20260917&search.sessionformat=option_1636133837017&search.location=1701274577750003eJ4i": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://gist.github.com/Samaritha/dff3dc671eaffd62def9d952dd8b6ff2": {
+  "title": "Data 360 Code Extension: windowed sliding-dialogue chunking function that preserves speaker turns in multispeaker transcripts. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" \u00b7 GitHub",
+  "desc": "Data 360 Code Extension: windowed sliding-dialogue chunking function that preserves speaker turns in multispeaker transcripts. Companion code for the Salesforce Developers blog \"Pro-Code Chunking of Data 360 Search Indexes for Agentforce.\" - datacloud_code_extension_multispeaker_dialogue_chunking.py"
+ },
+ "https://arxiv.org/abs/2407.01523": {
+  "title": "[2407.01523] MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations",
+  "desc": "Abstract page for arXiv paper 2407.01523: MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations"
+ },
+ "http://sforce.co/PrepareReleases": {
+  "title": "Prepare for Salesforce Releases | Salesforce Trailhead",
+  "desc": "Learn the latest Salesforce release features and craft your release strategy."
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk/blob/main/docs/examples/script/lead_scoring/train_model.py": {
+  "title": "datacloud-customcode-python-sdk/docs/examples/script/lead_scoring/train_model.py at main \u00b7 forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://twitter.com/SalesforceDevs": {
+  "title": "Salesforce Developers (@SalesforceDevs) / X",
+  "desc": "Build the Agentic Enterprise. Stay up to date with news and resources for Salesforce Developers."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.api_catalog_manage_mcp_servers.htm": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839238094001GU9f": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/ascript-blocks.html": {
+  "title": "Agent Script Blocks | Agent Script | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "A script consists of blocks where each block contains a set of properties. These properties can describe data or procedures. Agent Script contains sev"
+ },
+ "https://admin.salesforce.com/blog": {
+  "title": "Blog - Salesforce Admins",
+  "desc": "Find the latest content for Salesforce Administrators on topics such as adoption, customization, career development, certifications, automation and more."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930083720/Screenshot-2026-09-30-at-10.37.10%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.html": {
+  "title": "pyspark.sql.DataFrame \u2014 PySpark 4.3.0 documentation",
+  "desc": ""
+ },
+ "https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode": {
+  "title": "Salesforce Extension Pack - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - Extensions for developing on the Salesforce Platform"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_genaiplugin.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://www.salesforce.com/government/solutions/": {
+  "title": "Public Sector Solutions | Salesforce | Salesforce",
+  "desc": "Deploy faster, innovate faster, and increase government case worker productivity with public sector software and solutions from Salesforce."
+ },
+ "https://www.youtube.com/playlist?list=PLgIMQe2PKPSJNLEQTPkr06gKhjnHgI1Jb": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/agentforce/developers/vibe-coding/": {
+  "title": "Enterprise Vibe Coding \u2013 Agentforce Vibes | Salesforce",
+  "desc": "With Agentforce Vibes, leverage vibe coding to customize Salesforce faster and transform software development directly in your coding environment."
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_ai_retriever_test_billing.htm&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111610/Flow-PrimitiveCollection.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_aievaluationdefinition.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://admin.salesforce.com/blog/2025/metadata-your-admin-blueprint-for-building-better-agents": {
+  "title": "Metadata Is Your Admin Blueprint for Building Better Agents - Salesforce Admins",
+  "desc": "Salesforce metadata is your admin secret weapon to supercharge Agentforce! Learn how descriptions & topics help AI understand your customizations. Read now!"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.api_catalog.htm&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/salesforcecli/plugin-data-code-extension": {
+  "title": "GitHub - salesforcecli/plugin-data-code-extension \u00b7 GitHub",
+  "desc": "Contribute to salesforcecli/plugin-data-code-extension development by creating an account on GitHub."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155503/Screenshot-2026-09-08-at-5.54.50%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_version_settings_api.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_eventlogfile_composite_api.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://code.claude.com/docs/en/plugins": {
+  "title": "Plugins overview - Claude Code Docs",
+  "desc": "Understand what a Claude Code plugin is, when you need one instead of a standalone skill or MCP server, and which page to read to install or create one."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/ux-basics/learn-about-user-experience-design": {
+  "title": "Basics of User Experience Design",
+  "desc": "Explore user experience design with a deep dive into UX principles, design process, and frameworks. Improve app and website usability."
+ },
+ "https://sforce.co/SandboxPreviewGuide": {
+  "title": "Sandbox Preview Guide",
+  "desc": "The Sandbox Preview Guide helps Salesforce customers to identify what type of sandboxes they have in use and to assist in their release planning efforts for existing preview and non-Preview sandboxes."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111316/ListViews-InlineEditing.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111652/PreviewReportRecords.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/simplify-security-visibility-with-security-center-essentials/": {
+  "title": "Monitor Salesforce Security with Security Center Essentials",
+  "desc": "Simplify Salesforce security with Security Center Essentials. Track Health Check scores, audit integrations, and monitor IP ranges in one place."
+ },
+ "https://www.salesforce.com/products/free-trial/professional-prerelease-winter27": {
+  "title": "Winter \u201927 Pre-Release Program | Salesforce",
+  "desc": "The Winter '27 Pre-Release Program is an opportunity for the Salesforce community to get a hands-on sneak peek into features available in the upcoming release."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/agentforce-vibes-basics": {
+  "title": "Leverage AI for Effective Development with Agentforce Vibes",
+  "desc": "Explore how to utilize AI to enhance your development process with Agentforce Vibes. Discover key features like execution modes and prompting techniques for better"
+ },
+ "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown": {
+  "title": "Admin Release Countdown: Get Ready for Winter '27 - Salesforce Admins",
+  "desc": "Get ready for the Salesforce Winter \u201927 Release with key dates, release readiness tips, sandbox preview deadlines, Release Notes, and resources every Salesforce Admin needs."
+ },
+ "https://admin.salesforce.com/blog/2025/community-crafted-agentforce-use-cases-to-customize-for-your-org": {
+  "title": "Community-Crafted Agentforce Use Cases To Customize for Your Org - Salesforce Admins",
+  "desc": "Discover innovative Agentforce solutions from TDX. Learn how Agentblazers automate processes, streamline operations & enhance CRM with real-time insights."
+ },
+ "https://help.salesforce.com/apex/HTViewHelpDoc?id=data.c360_a_batch_transform_overview.htm": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.threads.net/@mikegerholdt/": {
+  "title": "Mike Gerholdt (@mikegerholdt) \u2022 Threads, Say more",
+  "desc": "238 Followers \u2022 280 Threads \u2022 Salesforce Admin Evangelist I live with @Gunnarthebasenji \ud83d\udc36 These inspiring words are my own. See the latest conversations with @mikegerholdt."
+ },
+ "https://admin.salesforce.com/blog/2026/test-for-outcomes-with-flow-testing-upgrades": {
+  "title": "Test for Outcomes with Flow Testing Upgrades - Salesforce Admins",
+  "desc": "Every admin knows the rule: Test in a sandbox before it breaks in production. Or as the saying goes, measure twice and cut once. When new or updated solutions are released to your users, you want to be able to predict that they will have the experience you intend. This also goes for ensuring that [\u2026]"
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/hxl-vibes.html": {
+  "title": "Use Agentforce Vibes to Build Widgets | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "Agentforce Vibes provides the"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839330648001G0C8": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://youtu.be/x7kwVCFpKyM?si=k7V_kyNXkUpMv1q4": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928103505/Screenshot-2026-09-28-at-12.34.49%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.next_generation_devops_center.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://agentexchange.salesforce.com/": {
+  "title": "AgentExchange | Agents, Apps & Capabilities for Salesforce",
+  "desc": "AgentExchange is the unified marketplace to discover, buy, and deploy trusted agents, apps, and capabilities that extend Salesforce wherever your people and agents choose to work."
+ },
+ "https://datatracker.ietf.org/doc/html/rfc6749": {
+  "title": "RFC 6749 - The OAuth 2.0 Authorization Framework",
+  "desc": "The OAuth 2.0 Authorization Framework (RFC 6749, )"
+ },
+ "https://admin.salesforce.com/blog/2025/how-should-i-clean-metadata-for-salesforce-ai-agents-podcast": {
+  "title": "How Should I Clean Metadata for Salesforce AI Agents? - Salesforce Admins",
+  "desc": "Learn why clean, consistent metadata is critical for Agentforce success\u2014and how Admins can start small to make a big impact."
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/overview": {
+  "title": "Salesforce Code Analyzer | Salesforce Developers",
+  "desc": "Ensure your code adheres to best practices, helping you identify problems earlier while you develop. Code Analyzer brings together multiple code scann"
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.apex_adapter_setup.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839331888001GGeX": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/headless-360-mcp.html": {
+  "title": "Headless 360 (Beta) | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/debug-your-code.html": {
+  "title": "Debug Apex Code | Work with Apex Code | Web Console | Salesforce Developers",
+  "desc": "Use debug logs to track events that occur in your org. To generate debug logs in Web Console,"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930090332/Screenshot-2026-09-30-at-11.03.20%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261026100852/Image-1-Spreadsheet.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/quickstart.html": {
+  "title": "Quick Start | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Set up your sandbox and local environment to run a sample batch data transform script locally against the sandbox. Deploy the script to your sandbox,"
+ },
+ "https://ideas.salesforce.com/s/search": {
+  "title": "IdeaExchange",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_annotation_InvocableMethod.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://www.learnexperiencecloud.com/": {
+  "title": "LearnExperienceCloud.com",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_best_practices.htm": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://trailhead.salesforce.com/en/credentials/aiassociate": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy": {
+  "title": "Shallow copy - Glossary | MDN",
+  "desc": "A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made. As a result, when you change either the source or the copy, you may also cause the other object to change too. That behavior contrasts with the behavior of a deep copy, in which the source and copy are completely independent."
+ },
+ "https://developer.salesforce.com/docs/data/agentforce-coworker/guide/agentforce-coworker-connect-to-existing-data-sources.html": {
+  "title": "Make Data 360 Objects Searchable in Agentforce Coworker | Agentforce Coworker | Agentforce Coworker | Salesforce Developers",
+  "desc": "When you turn on Agentforce Coworker, your Salesforce CRM data is automatically added as a source. To also search Data Model Objects (DMOs) from Data"
+ },
+ "https://trailhead.salesforce.com/trailblazer-community/groups/0F9300000001okuCAA?tab=discussion&sort=LAST_MODIFIED_DATE_DESC": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/builder-central-quick-look/get-to-know-builder-central": {
+  "title": "Build apps by describing them: conversational app creator",
+  "desc": "Builder Central lets admins and builders describe an app in plain language and get a full plan and preview. This conversational app creator generates objects, pages"
+ },
+ "https://code.claude.com/docs": {
+  "title": "Overview - Claude Code Docs",
+  "desc": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111542/Flow-DrillIntoVersions.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111601/Flow-MissingRequiredFields.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailheadstoreamer.com/category/salesforce-admins": {
+  "title": "Admins",
+  "desc": "Admins"
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_builder_intro.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.salesforce_app_post_meeting_notes.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/developerforce/pubsub": {
+  "title": "GitHub - developerforce/pubsub: The c/pubsub cross DOM messaging component \u00b7 GitHub",
+  "desc": "The c/pubsub cross DOM messaging component. Contribute to developerforce/pubsub development by creating an account on GitHub."
+ },
+ "https://admin.salesforce.com/blog/2025/introducing-setup-powered-by-agentforce": {
+  "title": "Introducing Setup with Agentforce: Your New Admin Superpower - Salesforce Admins",
+  "desc": "Editor\u2019s note: This post was updated on May 26, 2026, with the latest resources and information. Setup with Agentforce is generally available (GA). Read the full announcement here. Hello, Awesome Admins! I\u2019m excited to tell you about how we\u2019re improving Setup with the power of Agentforce. Setup with Agentforce is now GA. You are still [\u2026]"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1781727007867001leU5": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/data-cloud-trail": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_agentforce_legacy_agent_creation.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/be-release-ready-the-admin-habit-that-saves-you-every-time": {
+  "title": "Be Release Ready: The Admin Habit That Saves You Every Time - Salesforce Admins",
+  "desc": "Releases happen three times a year, every year, whether you\u2019re ready for them or not. If you handle releases well, you aren\u2019t working harder each release; you\u2019ve just made release readiness a habit, a muscle you don\u2019t have to think about anymore. A Salesforce Release is how Salesforce delivers new features and functionality to customers. [\u2026]"
+ },
+ "https://www.salesforce.com/financial-services/digital-insurance-software/": {
+  "title": "Digital Insurance Solutions | Salesforce",
+  "desc": "With Salesforce's digital insurance solutions, you can harmonize core processes, unify customer data, and deploy new insurance products quickly."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/tableau-next.html": {
+  "title": "Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Reference"
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779839357312001GYnr": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://www.salesforce.com/ca/agentforce/voice/": {
+  "title": "Agentforce Voice: AI Voice Agents For Every Channel | Salesforce CA",
+  "desc": "Deliver fast, natural conversations across phone, web, and mobile. Tailor agents to reflect your unique brand voice and provide consistent, trusted support."
+ },
+ "https://modelcontextprotocol.io/": {
+  "title": "What is the Model Context Protocol (MCP)? - Model Context Protocol",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729104430/Flow-Image-1.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105533/Flow-Image-8.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/dreamforce/register/?pr=https%3A%2F%2Fwww.salesforce.com%2Fdreamforce%2F&d=701ed00000p9KZYAA2&utm_content=701ed00000p9KZYAA2&utm_source=google&utm_medium=paid_search&utm_campaign=23626787453&utm_adgroup=194012597916&utm_term=dreamforce+san+francisco&utm_matchtype=p&utm_variant=Control&utm_agent_cohort=qualified": {
+  "title": "Register for Dreamforce 2026",
+  "desc": "Secure your spot at Dreamforce happening Sept 15\u201317, 2026, in San Francisco. Lock in the lowest price to experience the agentic enterprise."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930085402/Screenshot-2026-09-30-at-10.53.50%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/afv-library": {
+  "title": "GitHub - forcedotcom/sf-skills: Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - forcedotcom/sf-skills"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111710/WorkGuideEnhancementsDemo.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779865403729001c1no": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Event/bubbles": {
+  "title": "Event: bubbles property - Web APIs | MDN",
+  "desc": "The bubbles read-only property of the Event interface indicates whether the event bubbles up through the DOM tree or not."
+ },
+ "https://github.com/deejay-hub/salesforce-ada-agent-skills": {
+  "title": "GitHub - deejay-hub/salesforce-ada-agent-skills: Salesforce agent skills to learn and make decisions \u00b7 GitHub",
+  "desc": "Salesforce agent skills to learn and make decisions - GitHub - deejay-hub/salesforce-ada-agent-skills: Salesforce agent skills to learn and make decisions"
+ },
+ "https://www.salesforce.com/media/cloud/": {
+  "title": "Best CRM for Media Companies: Media Cloud | Salesforce",
+  "desc": "Explore media CRM pricing for Salesforce Media Cloud and find the right solution for your business needs."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog?search.role=option_1625262065962": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2021/the-ultimate-guide-to-flow-best-practices-and-standards": {
+  "title": "The Ultimate Guide to Flow Best Practices and Standards - Salesforce Admins",
+  "desc": "Learn Flow best practices, \u2018gotchas,\u2019 and design tips for admins to make your flows scale with your organization."
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/set-up-sdk.html": {
+  "title": "Set Up Salesforce CLI for Code Extension | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Salesforce CLI, the Code Extension plugin, and the Data Custom Code Python SDK work together as your local toolchain for Code Extension. Use this setu"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/apex-call-imperative.html": {
+  "title": "Call Apex Methods Imperatively | Work with Salesforce Data | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "To control when the method invocation occurs (for example, in response to clicking a button), call the method imperatively. When you call a method imp"
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-getstarted.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-cli-reference/guide/cli_reference_agent_test_create.html": {
+  "title": "agent test create | agent Commands | Salesforce CLI Command Reference | Salesforce Developers",
+  "desc": "Create an agent test in your org using a local test spec YAML file."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105129/Flow-Image-4.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_connection_instructions.htm&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155653/Screenshot-2026-09-08-at-5.56.31%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/supported-orgs.html": {
+  "title": "Supported Org Types | Get Started | Web Console | Salesforce Developers",
+  "desc": "Note that the available functionality in various orgs varies. For instance, full Apex development and feature access are available on active productio"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261006094316/Screenshot-2026-09-30-at-10.58.30%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins": {
+  "title": "Jen\u2019s Top Winter \u201927 Release Features For Admins - Salesforce Admins",
+  "desc": "The Salesforce Winter '27 release is here! Explore the most important features admins will want to be aware of in this blog post."
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.os_enable_omnistudio_metadata_api_support.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://slack.com/help/articles/52462858006675-Connect-Slackbot-to-Salesforce-with-MCP": {
+  "title": "Connect Slackbot to Salesforce with MCP | Slack",
+  "desc": "Add and configure Salesforce Model Context Protocol (MCP) servers in Slack to connect Slackbot with Salesforce or Data 360. When you add an MCP server, members of your workspace or Enterprise organ..."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111706/UserFieldHistory.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/industries/omnistudio/omnistudio-on-core-guide/": {
+  "title": "New Salesforce Omnistudio: Faster, Native, Low-Code | Salesforce",
+  "desc": "Build guided digital experiences with the all-new Omnistudio on Salesforce Core. Enjoy faster activation, native LWC tools, and better runtime."
+ },
+ "https://d259t2jj6zp7qm.cloudfront.net/images/20260507124128/abilities.mp4": {
+  "title": "",
+  "desc": ""
+ },
+ "http://anti-patterns.md": {
+  "title": "",
+  "desc": "",
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+ },
+ "https://help.salesforce.com/s/articleView?id=000380623&type=1&language=en_US": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-agents": {
+  "title": "Agentforce DX - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - Provides a suite of tools to iteratively build, preview, and test agents right in your IDE."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_sales_email_set_verification_requirements.htm&language=en_US&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_intelligent_context.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.agent_mcp.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/en/content/learn/modules/sf_releases/sf-releases-sandbox-preview?trail_id=sf_release_prep": {
+  "title": "Access Sandbox Preview for New Features",
+  "desc": "Explore and enable new Salesforce features early with a preview sandbox. Learn how to leverage preview instances for upcoming releases."
+ },
+ "https://en.wikipedia.org/wiki/Retrieval-augmented_generation": {
+  "title": "Retrieval-augmented generation - Wikipedia",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/projects/create-an-agent-using-pro-code-tools/create-an-agent-from-your-dx-project": {
+  "title": "Create and Activate Your Agent with Agent Script Techniques",
+  "desc": "Learn how to author agents using Agent Script and publishing techniques. This unit covers the full lifecycle from development to activation"
+ },
+ "https://admin.salesforce.com/blog/2026/what-is-soma-and-when-to-build-a-super-agent-or-a-single-agent": {
+  "title": "What Is Multi-Agent Orchestration, and When To Build a Super Agent or a Single Agent - Salesforce Admins",
+  "desc": "Learn when to use a single Salesforce agent vs. multi-agent orchestration and design scalable Agentforce architectures."
+ },
+ "https://developer.salesforce.com/blogs/2026/09/build-deploy-run-and-troubleshoot-complex-transformations-with-python-and-pyspark-while-keeping-execution-governed-by-data-360": {
+  "title": "Run Complex Data Transformations in Data 360 with Code Extension | Salesforce Developers Blog",
+  "desc": "Build, deploy, run, and troubleshoot complex transformations with Python and PySpark while keeping execution governed by Data 360."
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/guide/data-sdk-extension.html": {
+  "title": "Data SDK Extensions | Access Salesforce Data and Platform Capabilities | Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "A Data SDK extension adds a self-contained, named API that gives the SDK instance extra capabilities. Use an extension that comes with the SDK, such a"
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/slackbot-quick-look": {
+  "title": "Unlock the Power of Slackbot for Enhanced Productivity",
+  "desc": "Discover how to leverage Slackbot as your personal AI agent for work. Learn to interact effectively and boost your productivity through smart prompting"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.external_client_apps.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.headlessexperiencelayer.com/playground/": {
+  "title": "HXL Playground | Salesforce",
+  "desc": "Explore the Headless Experience Layer \u2014 build surface-agnostic widgets with Mosaic, preview them across Agentforce, Slack, and ChatGPT."
+ },
+ "https://www.youtube.com/playlist?list=PLACV3VmGs318": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/dreamforce/": {
+  "title": "Dreamforce 2027 | Salesforce",
+  "desc": "Watch Dreamforce 2026 on demand on Salesforce+ and join the list to learn more about Dreamforce 2027 in San Francisco. Transform every part of your business."
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Window": {
+  "title": "Window - Web APIs | MDN",
+  "desc": "The Window interface represents a window containing a DOM document; the document property points to the DOM document loaded in that window."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/data-wire-service-about.html": {
+  "title": "Understand the Wire Service | Work with Salesforce Data | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "The wire service provisions an immutable stream of data to the component. Each value in the stream is a newer version of the value that precedes it."
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/webconsole-apex-tests.html": {
+  "title": "Test Apex Code | Work with Apex Code | Web Console | Salesforce Developers",
+  "desc": "Use the Apex extension to run Apex tests and verify your code"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930083214/Screenshot-2026-09-30-at-10.31.52%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.security_data_access.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260729105013/Flow-Image-3.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/use-custom-function.html": {
+  "title": "Use Custom Functions in Data 360 | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Create custom chunking functions for the search index builder by using the Salesforce CLI, the code extension plugin, and the Data Custom Code Python"
+ },
+ "https://code.claude.com/docs/en/skills.md": {
+  "title": "Codebase Explorer",
+  "desc": ""
+ },
+ "https://www.salesforce.com/headless/agent-skills-plugins/": {
+  "title": "Agent Skills & Plugins | Salesforce",
+  "desc": "Capture your expertise as reusable Agent Skills and Plugins that AI agents apply consistently \u2013 across Claude, Slack, Agentforce, and more."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1781727008652001lBd7": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/reference-notify-record-update.html": {
+  "title": "notifyRecordUpdateAvailable(recordIds) | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Informs Lightning Data Service that record data has changed so that Lightning Data Service can take the appropriate actions to keep wire adapters upda"
+ },
+ "https://twitter.com/salesforcedevs": {
+  "title": "Salesforce Developers (@SalesforceDevs) / X",
+  "desc": "Build the Agentic Enterprise. Stay up to date with news and resources for Salesforce Developers."
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/platform-salesforce-connect-adapter-generate": {
+  "title": "sf-skills/skills/platform-salesforce-connect-adapter-generate at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/skills/platform-salesforce-connect-adapter-generate at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/sobject-all.html": {
+  "title": "SObject All | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930085940/Screenshot-2026-09-30-at-10.59.29%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_passkeys_page.htm&language=en_US&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html": {
+  "title": "Get Started | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Salesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.preauth_user_app_access_through_eca.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_limits_elastic_limits.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260908155851/Screenshot-2026-09-08-at-5.58.39%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/mcp-hosted?tab=readme-ov-file": {
+  "title": "GitHub - forcedotcom/mcp-hosted: Salesforce Hosted MCP Servers \u00b7 GitHub",
+  "desc": "Salesforce Hosted MCP Servers. Contribute to forcedotcom/mcp-hosted development by creating an account on GitHub."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.builder_central_set_up.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk/tree/main/docs/examples/script/lead_scoring": {
+  "title": "datacloud-customcode-python-sdk/docs/examples/script/lead_scoring at main \u00b7 forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://www.salesforce.com/products/free-trial/developer-prerelease-winter27/": {
+  "title": "Winter \u201927 Pre-Release Program | Salesforce",
+  "desc": "The Winter '27 Pre-Release Program is an opportunity for the Salesforce community to get a hands-on sneak peek into features available in the upcoming release."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.generative_ai_optimize_scorers.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/protect-your-salesforce-org-with-health-check": {
+  "title": "Protect Your Salesforce Org With Health Check - Salesforce Admins",
+  "desc": "Improve your Salesforce org's security with Health Check. Identify vulnerabilities and align settings with the Salesforce Baseline Standard."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/salesforce-channels": {
+  "title": "Salesforce Channels: Enhance Collaboration and Data Flow",
+  "desc": "Discover how to set up Salesforce channels for real-time collaboration across teams. Improve customer engagement and streamline workflows in Salesforce and Slack."
+ },
+ "http://trailhead.salesforce.com/content/learn/modules/apex_testing": {
+  "title": "",
+  "desc": "",
+  "error": "[Errno 54] Connection reset by peer"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_health_review.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://docs.irail.be/": {
+  "title": "iRail API Docs",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928103354/Screenshot-2026-09-28-at-12.33.39%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2025/what-is-mcp-a-simple-guide-to-model-context-protocol-for-salesforce-admins": {
+  "title": "What Is MCP? A Simple Guide to Model Context Protocol for Salesforce Admins - Salesforce Admins",
+  "desc": "Model Context Protocol is a new standard that lets agents talk to each other. We break down what it is, how it works & what it means for Salesforce Admins."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/salesforce-headless-360-quick-look": {
+  "title": "Unlock the Power of Headless 360 for Your Organization",
+  "desc": "Explore how Headless 360 transforms organizational capabilities by making data accessible from any environment. Learn to leverage powerful AI tools and streamline"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930082547/Screenshot-2026-09-30-at-10.25.31%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://play.google.com/store/search?q=salesforce%20events&c=apps&hl=en_US&gl=US": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/04/performance-first-apex-development-with-apexguru-in-salesforce-dx-mcp-server": {
+  "title": "Performance-First Apex Development with ApexGuru in Salesforce DX MCP Server | Salesforce Developers Blog",
+  "desc": "Shift your performance analysis left with ApexGuru and the Salesforce DX MCP Server. Now, you can catch and fix costly Apex bottlenecks directly in your IDE before you ever hit deploy."
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide": {
+  "title": "Get Started | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Agentforce is the agent-driven layer of the Salesforce Platform, and it helps you deploy AI agents that work side-by-side with your employees to exten"
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/testing-agentforce": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 404: Not Found"
+ },
+ "https://arxiv.org/abs/2501.00321": {
+  "title": "[2501.00321] OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning",
+  "desc": "Abstract page for arXiv paper 2501.00321: OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning"
+ },
+ "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-overview.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://architect.salesforce.com/docs/architect/well-architected/guide/overview.html": {
+  "title": "Homepage | Salesforce Architects | Architect",
+  "desc": "Discover trusted architecture guidance from Salesforce. Explore the Well-Architected Framework, decision guides, and resources built for Salesforce architects."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_externaldatasource.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/data-ui-api.html": {
+  "title": "Lightning Data Service | Work with Salesforce Data | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Records loaded in Lightning Data Service are cached and shared across components. If a page is composed of components showing the same record, all com"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.advisements_setup.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.reference_wire_adapters_record": {
+  "title": "getRecord | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Use this wire adapter to get a record\u2019s data."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111547/Flow-EnforceUserPermissions.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/create-external-client-app.html": {
+  "title": "Create an External Client App | Set Up Your Org | Hosted MCP Servers | Salesforce Developers",
+  "desc": "To integrate third-party applications with your Salesforce org via APIs and security controls, you must use an External Client App for registration an"
+ },
+ "https://code.claude.com/docs/en/best-practices.md": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930090208/Screenshot-2026-09-30-at-11.01.56%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_einstein_agentforce_versioning_improvements.htm&release=256&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/custom-servers.html": {
+  "title": "Build Custom MCP Servers | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Salesforce ships various standard MCP servers bundling out-of-box capabilities oriented around discrete product areas. To combine MCP tools from diffe"
+ },
+ "https://developer.salesforce.com/docs/platform/webconsole/guide/launch.html": {
+  "title": "Launch Web Console | Get Started | Web Console | Salesforce Developers",
+  "desc": "When Web Console is enabled, you can open it from these locations on the Setup page."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_automate_flow_builder_disabled_and_read_only_fields.htm&release=250&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261013114746/Screenshot-2026-10-13-at-1.47.27%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://architect.salesforce.com/docs/architect/well-architected/guide/overview": {
+  "title": "Homepage | Salesforce Architects | Architect",
+  "desc": "Discover trusted architecture guidance from Salesforce. Explore the Well-Architected Framework, decision guides, and resources built for Salesforce architects."
+ },
+ "https://trailhead.salesforce.com/trailblazer-community/groups/0F9300000001okuCAA?tab=discussion": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/devagent-mcp.html": {
+  "title": "Agentforce Vibes Overview | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_data_query.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/code-builder/guide/codebuilder-overview.html": {
+  "title": "Get Started | Agentforce Vibes IDE | Salesforce Developers",
+  "desc": "Agentforce Vibes IDE is a web-based integrated development environment that delivers the full power and flexibility of Visual Studio Code in your brow"
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/write-custom-chunking-function.html": {
+  "title": "Write and Validate a Custom Chunking Function | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "In code extension, function runs are specific to search index chunking, where your code controls how content is split before vectorization and indexin"
+ },
+ "https://admin.salesforce.com/blog/2026/setup-with-agentforce-is-generally-available": {
+  "title": "Setup with Agentforce Is Now Generally Available: Built With Admin Feedback at the Center - Salesforce Admins",
+  "desc": "Setup with Agentforce is now Generally Available. Discover how you can leverage AI to simplify setup and configuration."
+ },
+ "https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-quickstart.html": {
+  "title": "Quick Start | Agentforce Vibes Developer Guide | Salesforce Developers",
+  "desc": "This topic walks you through your first three interactions with Agentforce Vibes: asking a question, making a code change, and using Plan Mode."
+ },
+ "https://github.com/forcedotcom/datacloud-customcode-python-sdk/tree/main/docs/examples/script/account_rollup": {
+  "title": "datacloud-customcode-python-sdk/docs/examples/script/account_rollup at main \u00b7 forcedotcom/datacloud-customcode-python-sdk \u00b7 GitHub",
+  "desc": "Contribute to forcedotcom/datacloud-customcode-python-sdk development by creating an account on GitHub."
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/security-center?_ga=2.61073771.632181158.1785358858-1260058040.1785358858": {
+  "title": "View & Manage Security Data Easily",
+  "desc": "Discover how to analyze and manage your security data efficiently with the Security Center module on Salesforce Trailhead."
+ },
+ "https://reg.salesforce.com/flow/plus/df26/sessioncatalog/page/catalog/session/1779816857547001EC43": {
+  "title": "Dreamforce",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_gov_limits.htm": {
+  "title": "Apex Developer Guide | Salesforce Developers",
+  "desc": "Apex Developer Guide"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_formula.htm": {
+  "title": "FORMULA() (Beta) | Salesforce Object Query Language (SOQL) | SOQL and SOSL Reference | Salesforce Developers",
+  "desc": "Use the"
+ },
+ "https://slack.com/help/articles/30754346665747-Connect-Salesforce-and-Slack": {
+  "title": "Connect Salesforce and Slack | Slack",
+  "desc": "To set up Slack features that integrate with Salesforce (like Slackbot, Salesforce channels, or Agentforce), configure a connection between Slack and Salesforce. When you connect Salesforce and Sla..."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260928103030/Screenshot-2026-09-28-at-12.30.11%E2%80%AFPM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261001111551/Flow-Filter.gif": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/trailbl%20%20%20%20%20%20azer-community/groups/0F94S000000kQixSAE": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 400: Bad Request"
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20260930083902/Screenshot-2026-09-30-at-10.38.27%E2%80%AFAM.png": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind": {
+  "title": "Function.prototype.bind() - JavaScript | MDN",
+  "desc": "The bind() method of Function instances creates a new function that, when called, calls this function with its this keyword set to the provided value, and a given sequence of arguments preceding any provided when the new function is called."
+ },
+ "https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.reference_notify_record_update": {
+  "title": "notifyRecordUpdateAvailable(recordIds) | LWC API Modules | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Informs Lightning Data Service that record data has changed so that Lightning Data Service can take the appropriate actions to keep wire adapters upda"
+ },
+ "https://sforce.co/4977GHH": {
+  "title": "Group Detail | Salesforce Trailblazer Community",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/data/data-cloud-code-ext/guide/author-custom-script.html": {
+  "title": "Write and Validate Custom Script | Code Extension in Data 360 | Data 360 Code Extension Guide | Salesforce Developers",
+  "desc": "Write custom scripts for batch data transforms in a standard Python environment by using your preferred IDE and validate them locally against a sandbo"
+ },
+ "https://www.salesforce.com/data/": {
+  "title": "Data 360 (Formerly Data Cloud) | Salesforce",
+  "desc": "Unify all customer data with Data 360 (formerly Data Cloud). Get the real-time insights you need to personalize every customer experience."
+ },
+ "http://docs.anthropic.com/claude-code": {
+  "title": "Overview - Claude Code Docs",
+  "desc": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser."
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_genaiplannerbundle.htm": {
+  "title": "Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html": {
+  "title": "Standard Servers | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Salesforce provides a set of standard MCP servers that expose built-in platform and product capabilities. These servers are pre-configured by Salesfor"
+ }
+}

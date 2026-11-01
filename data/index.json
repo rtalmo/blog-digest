@@ -1,0 +1,777 @@
+[
+  {
+    "key": "dev/2026-10-29-build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics",
+    "title": "Build Trusted Conversational Analytics with AIforce, Data 360, and Tableau Semantics",
+    "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics",
+    "source": "dev",
+    "date": "2026-10-29",
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "admin/2026-10-29-why-salesforce-certifications-matter-more-than-ever-in-the-ai-era",
+    "title": "Why Salesforce Certifications Matter More Than Ever in the AI Era",
+    "url": "https://admin.salesforce.com/blog/2026/why-salesforce-certifications-matter-more-than-ever-in-the-ai-era",
+    "source": "admin",
+    "date": "2026-10-29",
+    "topics": [
+      "Careers & Certification",
+      "Agentforce & AI",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "admin/2026-10-29-what-does-an-admin-certification-prove-in-the-agentforce-era-podcast",
+    "title": "What Does an Admin Certification Prove in the Agentforce Era?",
+    "url": "https://admin.salesforce.com/blog/2026/what-does-an-admin-certification-prove-in-the-agentforce-era-podcast",
+    "source": "admin",
+    "date": "2026-10-29",
+    "topics": [
+      "Careers & Certification",
+      "Agentforce & AI",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "dev/2026-10-28-the-tdx-2027-call-for-participation-is-now-open",
+    "title": "The TDX 2027 Call for Participation Is Now Open",
+    "url": "https://developer.salesforce.com/blogs/2026/10/the-tdx-2027-call-for-participation-is-now-open",
+    "source": "dev",
+    "date": "2026-10-28",
+    "topics": [
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "dev/2026-10-28-explore-the-headless-toolkit-with-the-pronto-sample-app",
+    "title": "Explore the Headless Toolkit with the Pronto Sample App",
+    "url": "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app",
+    "source": "dev",
+    "date": "2026-10-28",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "admin/2026-10-28-the-tdx-2027-call-for-participation-is-now-open",
+    "title": "The TDX 2027 Call for Participation Is Now Open",
+    "url": "https://admin.salesforce.com/blog/2026/the-tdx-2027-call-for-participation-is-now-open",
+    "source": "admin",
+    "date": "2026-10-28",
+    "topics": [
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "admin/2026-10-27-that-spreadsheet-your-team-keeps-emailing-build-a-salesforce-app-with-builder-central",
+    "title": "That Spreadsheet Your Team Keeps Emailing? Build a Salesforce App With Builder Central",
+    "url": "https://admin.salesforce.com/blog/2026/that-spreadsheet-your-team-keeps-emailing-build-a-salesforce-app-with-builder-central",
+    "source": "admin",
+    "date": "2026-10-27",
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-10-26-headless-experience-layer-widget-formulas-math-and-logic-with-json",
+    "title": "Headless Experience Layer Widget Formulas: Math and Logic with JSON",
+    "url": "https://developer.salesforce.com/blogs/2026/10/headless-experience-layer-widget-formulas-math-and-logic-with-json",
+    "source": "dev",
+    "date": "2026-10-26",
+    "topics": [
+      "LWC / UI",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "dev/2026-10-21-agentforce-voice-for-agent-script-route-real-phone-calls-to-your-agent",
+    "title": "Agentforce Voice for Agent Script: Route Real Phone Calls to Your Agent",
+    "url": "https://developer.salesforce.com/blogs/2026/10/agentforce-voice-for-agent-script-route-real-phone-calls-to-your-agent",
+    "source": "dev",
+    "date": "2026-10-21",
+    "topics": [
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "dev/2026-10-20-protect-apex-shares-custom-row-causes-on-standard-objects",
+    "title": "Protect Apex Shares: Custom Row Causes on Standard Objects",
+    "url": "https://developer.salesforce.com/blogs/2026/10/protect-apex-shares-custom-row-causes-on-standard-objects",
+    "source": "dev",
+    "date": "2026-10-20",
+    "topics": [
+      "Apex & Code",
+      "Security & Admin",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-10-19-building-a-claude-code-mod-for-salesforce",
+    "title": "Building a Claude Code Mod for Salesforce",
+    "url": "https://developer.salesforce.com/blogs/2026/10/building-a-claude-code-mod-for-salesforce",
+    "source": "dev",
+    "date": "2026-10-19",
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "dev/2026-10-15-whats-new-in-salesforce-multi-framework-angular-is-now-ga",
+    "title": "What\u2019s New in Salesforce Multi-Framework: Angular Is Now GA",
+    "url": "https://developer.salesforce.com/blogs/2026/10/whats-new-in-salesforce-multi-framework-angular-is-now-ga",
+    "source": "dev",
+    "date": "2026-10-15",
+    "topics": [
+      "LWC / UI",
+      "Releases"
+    ]
+  },
+  {
+    "key": "admin/2026-10-15-winter-27-what-admins-should-check-before-their-org-upgrades-podcast",
+    "title": "Winter \u201927: What Admins Should Check Before Their Org Upgrades",
+    "url": "https://admin.salesforce.com/blog/2026/winter-27-what-admins-should-check-before-their-org-upgrades-podcast",
+    "source": "admin",
+    "date": "2026-10-15",
+    "topics": [
+      "Releases",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "admin/2026-10-15-be-release-ready-the-admin-habit-that-saves-you-every-time",
+    "title": "Be Release Ready: The Admin Habit That Saves You Every Time",
+    "url": "https://admin.salesforce.com/blog/2026/be-release-ready-the-admin-habit-that-saves-you-every-time",
+    "source": "admin",
+    "date": "2026-10-15",
+    "topics": [
+      "Releases",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "dev/2026-10-14-stop-credential-stuffing-with-b2c-commerce-ecdn",
+    "title": "Stop Credential Stuffing with B2C Commerce eCDN",
+    "url": "https://developer.salesforce.com/blogs/2026/10/stop-credential-stuffing-with-b2c-commerce-ecdn",
+    "source": "dev",
+    "date": "2026-10-14",
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-10-13-salesforce-microfrontends-embed-web-apps-in-lightning",
+    "title": "Salesforce Microfrontends: Embed Web Apps in Lightning",
+    "url": "https://developer.salesforce.com/blogs/2026/10/salesforce-microfrontends-embed-web-apps-in-lightning",
+    "source": "dev",
+    "date": "2026-10-13",
+    "topics": [
+      "LWC / UI",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-10-07-building-interactive-ui-with-hxl",
+    "title": "Building Interactive UI with Headless Experience Layer",
+    "url": "https://developer.salesforce.com/blogs/2026/10/building-interactive-ui-with-hxl",
+    "source": "dev",
+    "date": "2026-10-07",
+    "topics": [
+      "Agentforce & AI",
+      "LWC / UI",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-10-06-advanced-code-extension-pyspark-examples-for-batch-data-transforms",
+    "title": "Advanced Code Extension PySpark Examples for Batch Data Transforms",
+    "url": "https://developer.salesforce.com/blogs/2026/10/advanced-code-extension-pyspark-examples-for-batch-data-transforms",
+    "source": "dev",
+    "date": "2026-10-06",
+    "topics": [
+      "Data Cloud",
+      "Apex & Code",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-10-05-developers-guide-to-the-winter-27-release",
+    "title": "The Salesforce Developer\u2019s Guide to the Winter \u201927 Release",
+    "url": "https://developer.salesforce.com/blogs/2026/10/developers-guide-to-the-winter-27-release",
+    "source": "dev",
+    "date": "2026-10-05",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "admin/2026-10-05-jens-top-winter-27-release-features-for-admins",
+    "title": "Jen\u2019s Top Winter \u201927 Release Features For Admins",
+    "url": "https://admin.salesforce.com/blog/2026/jens-top-winter-27-release-features-for-admins",
+    "source": "admin",
+    "date": "2026-10-05",
+    "topics": [
+      "Releases",
+      "Security & Admin",
+      "Flow & Automation"
+    ]
+  },
+  {
+    "key": "dev/2026-10-01-agentforce-voice-for-agent-script-voice-enabling-best-practices",
+    "title": "Agentforce Voice for Agent Script: Voice-Enabling Best Practices",
+    "url": "https://developer.salesforce.com/blogs/2026/10/agentforce-voice-for-agent-script-voice-enabling-best-practices",
+    "source": "dev",
+    "date": "2026-10-01",
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "admin/2026-10-01-how-do-i-decide-if-a-new-salesforce-feature-belongs-in-my-org-podcast",
+    "title": "How Do I Decide If a New Salesforce Feature Belongs in My Org?",
+    "url": "https://admin.salesforce.com/blog/2026/how-do-i-decide-if-a-new-salesforce-feature-belongs-in-my-org-podcast",
+    "source": "admin",
+    "date": "2026-10-01",
+    "topics": [
+      "Security & Admin",
+      "Releases",
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "admin/2026-09-29-flow-test-mode-beta-the-future-of-flow-testing",
+    "title": "Flow Test Mode (Beta): The Future of Flow Testing",
+    "url": "https://admin.salesforce.com/blog/2026/flow-test-mode-beta-the-future-of-flow-testing",
+    "source": "admin",
+    "date": "2026-09-29",
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "dev/2026-09-24-pro-code-chunking-of-data-360-search-indexes-for-agentforce",
+    "title": "Pro-Code Chunking of Data 360 Search Indexes for Agentforce",
+    "url": "https://developer.salesforce.com/blogs/2026/09/pro-code-chunking-of-data-360-search-indexes-for-agentforce",
+    "source": "dev",
+    "date": "2026-09-24",
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "admin/2026-09-24-september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast",
+    "title": "September Monthly Retro: What Changed, What Matters, and What Admins Should Do Next",
+    "url": "https://admin.salesforce.com/blog/2026/september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast",
+    "source": "admin",
+    "date": "2026-09-24",
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "admin/2026-09-22-skills-in-agentforce-vibes-a-guide-for-admins",
+    "title": "Skills in Agentforce Vibes: A Guide for Admins",
+    "url": "https://admin.salesforce.com/blog/2026/skills-in-agentforce-vibes-a-guide-for-admins",
+    "source": "admin",
+    "date": "2026-09-22",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "dev/2026-09-17-salesforce-microfrontend-ui-embedding-jp",
+    "title": "Salesforce Microfrontend (UI Embedding) \u3067 React \u30a2\u30d7\u30ea\u306e\u57cb\u3081\u8fbc\u307f\u3092\u8a66\u3059",
+    "url": "https://developer.salesforce.com/blogs/2026/09/salesforce-microfrontend-ui-embedding-jp",
+    "source": "dev",
+    "date": "2026-09-17",
+    "topics": [
+      "LWC / UI",
+      "Integration & APIs",
+      "Releases"
+    ]
+  },
+  {
+    "key": "admin/2026-09-17-dreamforce-2026-product-highlights-for-admins",
+    "title": "Dreamforce 2026 Product Highlights for Admins",
+    "url": "https://admin.salesforce.com/blog/2026/dreamforce-2026-product-highlights-for-admins",
+    "source": "admin",
+    "date": "2026-09-17",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "dev/2026-09-16-intent-driven-tool-selection-using-abilities-in-agentforce-vibes-jp",
+    "title": "\u958b\u767a\u306e\u610f\u56f3\u306b\u5fdc\u3058\u3066\u30c4\u30fc\u30eb\u3092\u81ea\u52d5\u3067\u9078\u629e \u2013 Agentforce Vibes\u306e\u65b0\u6a5f\u80fd\u300c\u30a2\u30d3\u30ea\u30c6\u30a3\u300d",
+    "url": "https://developer.salesforce.com/blogs/2026/09/intent-driven-tool-selection-using-abilities-in-agentforce-vibes-jp",
+    "source": "dev",
+    "date": "2026-09-16",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-09-16-how-to-secure-salesforce-hosted-mcp-servers-jp",
+    "title": "Salesforce Hosted MCP Server\u3092\u30bb\u30ad\u30e5\u30a2\u306b\u3059\u308b\u65b9\u6cd5",
+    "url": "https://developer.salesforce.com/blogs/2026/09/how-to-secure-salesforce-hosted-mcp-servers-jp",
+    "source": "dev",
+    "date": "2026-09-16",
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-09-16-connect-slack-to-salesforce-with-hosted-mcp-servers-jp",
+    "title": "Hosted MCP Server\u3092\u4f7f\u3063\u3066Salesforce\u306bSlack\u3092\u63a5\u7d9a\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/09/connect-slack-to-salesforce-with-hosted-mcp-servers-jp",
+    "source": "dev",
+    "date": "2026-09-16",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "dev/2026-09-16-build-a-decision-scoring-skill-for-any-agent-jp",
+    "title": "AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u7528\u306e\u610f\u601d\u6c7a\u5b9a\u30b9\u30b3\u30a2\u30ea\u30f3\u30b0\u30b9\u30ad\u30eb\u3092\u4f5c\u6210\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/09/build-a-decision-scoring-skill-for-any-agent-jp",
+    "source": "dev",
+    "date": "2026-09-16",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-09-14-build-custom-salesforce-connect-adapters-smarter-with-salesforce-skills",
+    "title": "Build Custom Salesforce Connect Adapters Smarter with Salesforce Skills",
+    "url": "https://developer.salesforce.com/blogs/2026/09/build-custom-salesforce-connect-adapters-smarter-with-salesforce-skills",
+    "source": "dev",
+    "date": "2026-09-14",
+    "topics": [
+      "Integration & APIs",
+      "Agentforce & AI",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-09-10-build-deploy-run-and-troubleshoot-complex-transformations-with-python-and-pyspark-while-keeping-execution-governed-by-data-360",
+    "title": "Run Complex Data Transformations in Data 360 with Code Extension",
+    "url": "https://developer.salesforce.com/blogs/2026/09/build-deploy-run-and-troubleshoot-complex-transformations-with-python-and-pyspark-while-keeping-execution-governed-by-data-360",
+    "source": "dev",
+    "date": "2026-09-10",
+    "topics": [
+      "Data Cloud",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "admin/2026-09-10-what-does-the-salesforce-admin-job-market-look-like-right-now-podcast",
+    "title": "What Does the Salesforce Admin Job Market Look Like Right Now?",
+    "url": "https://admin.salesforce.com/blog/2026/what-does-the-salesforce-admin-job-market-look-like-right-now-podcast",
+    "source": "admin",
+    "date": "2026-09-10",
+    "topics": [
+      "Careers & Certification",
+      "Security & Admin",
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "admin/2026-09-09-use-agentforce-vibes-to-find-and-fix-metadata-gaps",
+    "title": "Use Agentforce Vibes to Find and Fix Metadata Gaps",
+    "url": "https://admin.salesforce.com/blog/2026/use-agentforce-vibes-to-find-and-fix-metadata-gaps",
+    "source": "admin",
+    "date": "2026-09-09",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "dev/2026-09-08-announcing-general-availability-web-console-your-modern-in-browser-ide",
+    "title": "Announcing General Availability: Web Console \u2013 Your Modern In-Browser IDE",
+    "url": "https://developer.salesforce.com/blogs/2026/09/announcing-general-availability-web-console-your-modern-in-browser-ide",
+    "source": "dev",
+    "date": "2026-09-08",
+    "topics": [
+      "DevOps & Tooling",
+      "Apex & Code",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "admin/2026-09-03-security-center-essentials-what-admins-need-to-know-now-podcast",
+    "title": "Security Center Essentials: What Admins Need to Know Now",
+    "url": "https://admin.salesforce.com/blog/2026/security-center-essentials-what-admins-need-to-know-now-podcast",
+    "source": "admin",
+    "date": "2026-09-03",
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-09-02-improve-enterprise-rag-accuracy-in-data-360",
+    "title": "Improve Enterprise RAG Accuracy in Data 360",
+    "url": "https://developer.salesforce.com/blogs/2026/09/improve-enterprise-rag-accuracy-in-data-360",
+    "source": "dev",
+    "date": "2026-09-02",
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "admin/2026-09-01-how-to-find-your-first-agentforce-use-case",
+    "title": "How to Find Your First Agentforce Use Case",
+    "url": "https://admin.salesforce.com/blog/2026/how-to-find-your-first-agentforce-use-case",
+    "source": "admin",
+    "date": "2026-09-01",
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "dev/2026-08-31-tdx-tokyo-2026-lightning-minihack-live",
+    "title": "\u3010TDX Tokyo 2026\u3011Lightning MiniHack Live \u30d5\u30a1\u30a4\u30ca\u30ea\u30b9\u30c8\u5ea7\u8ac7\u4f1a: \u521d\u4ee3\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u3068\u6311\u6226\u8005\u305f\u3061\u304c\u8a9e\u308b\u300c\u6700\u901f\u300d\u306e\u821e\u53f0\u88cf\u3068 AI \u6642\u4ee3\u306e\u5b9f\u88c5\u529b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/tdx-tokyo-2026-lightning-minihack-live",
+    "source": "dev",
+    "date": "2026-08-31",
+    "topics": [
+      "Community & Events",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "admin/2026-08-27-what-does-the-salesforce-platform-app-builder-certification-prove-today-podcast",
+    "title": "What Does the Salesforce Platform App Builder Certification Prove Today?",
+    "url": "https://admin.salesforce.com/blog/2026/what-does-the-salesforce-platform-app-builder-certification-prove-today-podcast",
+    "source": "admin",
+    "date": "2026-08-27",
+    "topics": [
+      "Careers & Certification",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ]
+  },
+  {
+    "key": "admin/2026-08-27-post-meeting-voice-notes-what-admins-need-to-know",
+    "title": "Post-Meeting Voice Notes: What Admins Need to Know",
+    "url": "https://admin.salesforce.com/blog/2026/post-meeting-voice-notes-what-admins-need-to-know",
+    "source": "admin",
+    "date": "2026-08-27",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Flow & Automation"
+    ]
+  },
+  {
+    "key": "dev/2026-08-26-master-the-agentic-development-lifecycle-for-agentforce-jp",
+    "title": "Agentforce\u306e\u30a8\u30fc\u30b8\u30a7\u30f3\u30c6\u30a3\u30c3\u30af\u958b\u767a\u30e9\u30a4\u30d5\u30b5\u30a4\u30af\u30eb\u3092\u30de\u30b9\u30bf\u30fc\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/master-the-agentic-development-lifecycle-for-agentforce-jp",
+    "source": "dev",
+    "date": "2026-08-26",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "admin/2026-08-26-security-center-essentials",
+    "title": "Security Center Essentials",
+    "url": "https://admin.salesforce.com/blog/2026/security-center-essentials",
+    "source": "admin",
+    "date": "2026-08-26",
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-08-25-shift-left-natively-testing-and-quality-gates-in-devops-center",
+    "title": "Shift Left Natively: Testing and Quality Gates in DevOps Center",
+    "url": "https://developer.salesforce.com/blogs/2026/08/shift-left-natively-testing-and-quality-gates-in-devops-center",
+    "source": "dev",
+    "date": "2026-08-25",
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-08-25-new-agentforce-metadata-and-development-lifecycle-jp",
+    "title": "\u65b0\u3057\u3044Agentforce\u30e1\u30bf\u30c7\u30fc\u30bf\u3068\u958b\u767a\u30e9\u30a4\u30d5\u30b5\u30a4\u30af\u30eb",
+    "url": "https://developer.salesforce.com/blogs/2026/08/new-agentforce-metadata-and-development-lifecycle-jp",
+    "source": "dev",
+    "date": "2026-08-25",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-08-25-build-a-salesforce-agent-skill-with-claude-code-jp",
+    "title": "Claude Code\u3067Salesforce\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30b9\u30ad\u30eb\u3092\u69cb\u7bc9\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/build-a-salesforce-agent-skill-with-claude-code-jp",
+    "source": "dev",
+    "date": "2026-08-25",
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "dev/2026-08-25-analyze-and-consolidate-apex-triggers-via-agentforce-vibes-jp",
+    "title": "Agentforce Vibes\u3067Apex\u30c8\u30ea\u30ac\u30fc\u3092\u5206\u6790\u3057\u3001\u7d71\u5408\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/analyze-and-consolidate-apex-triggers-via-agentforce-vibes-jp",
+    "source": "dev",
+    "date": "2026-08-25",
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "admin/2026-08-25-bring-crm-conversations-into-slack-with-salesforce-channels-and-slackbot",
+    "title": "Bring CRM Conversations Into Slack With Salesforce Channels and Slackbot",
+    "url": "https://admin.salesforce.com/blog/2026/bring-crm-conversations-into-slack-with-salesforce-channels-and-slackbot",
+    "source": "admin",
+    "date": "2026-08-25",
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-08-24-headless-experience-layer-custom-ui-widget-jp",
+    "title": "Headless Experience Layer \u306b\u3088\u308b\u30ab\u30b9\u30bf\u30e0\u30a6\u30a3\u30b8\u30a7\u30c3\u30c8\uff1aMCP \u7d4c\u7531\u3067\u53d6\u5f15\u5148\u306e\u5546\u8ac7\u30b5\u30de\u30ea\u30fc\u3092 AI \u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u30a2\u30d7\u30ea\u306b\u8868\u793a\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/headless-experience-layer-custom-ui-widget-jp",
+    "source": "dev",
+    "date": "2026-08-24",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "dev/2026-08-20-data-and-communication-anti-patterns-in-lightning-web-components",
+    "title": "Data and Communication Anti-Patterns in Lightning Web Components",
+    "url": "https://developer.salesforce.com/blogs/2026/08/data-and-communication-anti-patterns-in-lightning-web-components",
+    "source": "dev",
+    "date": "2026-08-20",
+    "topics": [
+      "LWC / UI",
+      "Apex & Code",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "admin/2026-08-20-how-to-set-up-a-super-agent-with-connected-subagents",
+    "title": "How to Set Up a Super Agent with Connected Subagents",
+    "url": "https://admin.salesforce.com/blog/2026/how-to-set-up-a-super-agent-with-connected-subagents",
+    "source": "admin",
+    "date": "2026-08-20",
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "admin/2026-08-20-how-ai-could-change-the-way-admins-set-up-salesforce-podcast",
+    "title": "How AI Could Change the Way Admins Set Up Salesforce",
+    "url": "https://admin.salesforce.com/blog/2026/how-ai-could-change-the-way-admins-set-up-salesforce-podcast",
+    "source": "admin",
+    "date": "2026-08-20",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "dev/2026-08-19-headless-development-with-skills-and-a-claude-code-plugin",
+    "title": "Headless Development with Skills and a Claude Code Plugin",
+    "url": "https://developer.salesforce.com/blogs/2026/08/headless-development-with-skills-and-a-claude-code-plugin",
+    "source": "dev",
+    "date": "2026-08-19",
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "Apex & Code"
+    ]
+  },
+  {
+    "key": "dev/2026-08-19-developers-guide-dreamforce-2026",
+    "title": "The Salesforce Developer\u2019s Guide to Dreamforce 2026",
+    "url": "https://developer.salesforce.com/blogs/2026/08/developers-guide-dreamforce-2026",
+    "source": "dev",
+    "date": "2026-08-19",
+    "topics": [
+      "Community & Events",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "admin/2026-08-19-salesforce-admins-guide-to-dreamforce-2026",
+    "title": "Salesforce Admin\u2019s Guide to Dreamforce 2026",
+    "url": "https://admin.salesforce.com/blog/2026/salesforce-admins-guide-to-dreamforce-2026",
+    "source": "admin",
+    "date": "2026-08-19",
+    "topics": [
+      "Community & Events",
+      "Agentforce & AI",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-08-14-migrate-from-managed-package-runtime-to-the-omnistudio-standard-runtime",
+    "title": "Migrate From Managed Package Runtime to the Omnistudio Standard Runtime",
+    "url": "https://developer.salesforce.com/blogs/2026/08/migrate-from-managed-package-runtime-to-the-omnistudio-standard-runtime",
+    "source": "dev",
+    "date": "2026-08-14",
+    "topics": [
+      "Releases",
+      "DevOps & Tooling",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "admin/2026-08-13-stop-ai-hallucinations-with-better-salesforce-metadata-podcast",
+    "title": "Stop AI Hallucinations with Better Salesforce Metadata",
+    "url": "https://admin.salesforce.com/blog/2026/stop-ai-hallucinations-with-better-salesforce-metadata-podcast",
+    "source": "admin",
+    "date": "2026-08-13",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "dev/2026-08-12-build-production-ready-apps-in-claude-code-with-salesforce-skills-jp",
+    "title": "Salesforce\u306e\u30b9\u30ad\u30eb\u3092\u6d3b\u7528\u3057\u3066\u3001Claude Code\u3067\u672c\u756a\u904b\u7528\u53ef\u80fd\u306a\u30a2\u30d7\u30ea\u3092\u69cb\u7bc9\u3059\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/08/build-production-ready-apps-in-claude-code-with-salesforce-skills-jp",
+    "source": "dev",
+    "date": "2026-08-12",
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "dev/2026-08-11-extending-agentforce-with-external-mcp-tools-via-mulesoft",
+    "title": "Extending Agentforce with External MCP Tools via MuleSoft",
+    "url": "https://developer.salesforce.com/blogs/2026/08/extending-agentforce-with-external-mcp-tools-via-mulesoft",
+    "source": "dev",
+    "date": "2026-08-11",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "admin/2026-08-11-the-salesforce-admins-guide-to-creating-test-data-for-flow-testing",
+    "title": "The Salesforce Admin\u2019s Guide to Creating Test Data for Flow Testing",
+    "url": "https://admin.salesforce.com/blog/2026/the-salesforce-admins-guide-to-creating-test-data-for-flow-testing",
+    "source": "admin",
+    "date": "2026-08-11",
+    "topics": [
+      "Flow & Automation",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ]
+  },
+  {
+    "key": "dev/2026-08-06-migrate-legacy-agents-to-the-new-agentforce-builder",
+    "title": "Migrate Legacy Agents to the New Agentforce Builder",
+    "url": "https://developer.salesforce.com/blogs/2026/08/migrate-legacy-agents-to-the-new-agentforce-builder",
+    "source": "dev",
+    "date": "2026-08-06",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Releases"
+    ]
+  },
+  {
+    "key": "admin/2026-08-06-the-small-salesforce-flow-setting-that-changes-user-behavior",
+    "title": "The Small Salesforce Flow Setting That Changes User Behavior",
+    "url": "https://admin.salesforce.com/blog/2026/the-small-salesforce-flow-setting-that-changes-user-behavior",
+    "source": "admin",
+    "date": "2026-08-06",
+    "topics": [
+      "Flow & Automation",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "admin/2026-08-06-from-inbox-requests-to-a-user-management-system-podcast",
+    "title": "From Inbox Requests to a User Management System",
+    "url": "https://admin.salesforce.com/blog/2026/from-inbox-requests-to-a-user-management-system-podcast",
+    "source": "admin",
+    "date": "2026-08-06",
+    "topics": [
+      "Flow & Automation",
+      "Security & Admin",
+      "Community & Events"
+    ]
+  },
+  {
+    "key": "admin/2026-08-06-admin-winter-27-release-countdown",
+    "title": "Admin Release Countdown: Get Ready for Winter \u201927",
+    "url": "https://admin.salesforce.com/blog/2026/admin-winter-27-release-countdown",
+    "source": "admin",
+    "date": "2026-08-06",
+    "topics": [
+      "Releases",
+      "Security & Admin"
+    ]
+  }
+]

@@ -1,0 +1,1636 @@
+{
+  "2026-10-13-salesforce-microfrontends-embed-web-apps-in-lightning": {
+    "topics": [
+      "LWC / UI",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "Salesforce Microfrontends (via UI Embedding) embed React, Angular, Vue and other web apps inside Lightning alongside LWC.",
+      "Architecture: a custom LWC host renders `lightning-ui-embedding`; the guest app runs in a sandboxed iframe and exchanges context, data and events with the host.",
+      "Example use: an Account page keeps native LWC for record details and actions, and shows an embedded React app for a specialized experience.",
+      "Post walks through a simple host/guest build and places Microfrontends within the wider Multi-Framework story."
+    ],
+    "tasks": [
+      {
+        "title": "Build a host LWC + embedded React guest from the multiframework-recipes repo",
+        "effort": "M"
+      },
+      {
+        "title": "Evaluate which existing web app in my repo could be embedded instead of rebuilt as LWC",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-14-stop-credential-stuffing-with-b2c-commerce-ecdn": {
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ],
+    "summary": [
+      "B2C Commerce release 26.9 adds four eCDN detection fields (`cf.waf.credential_check.*`) for leaked-credential detection, with no third-party bot-management entitlement needed.",
+      "Use them in firewall and rate-limiting rules; Managed Challenge is available as a rule action.",
+      "Prerequisite: Salesforce must enable the Leaked-Credential-Check managed transform for your zone via a support case.",
+      "Covers SFRA, SLAS (Basic auth is decoded, so PWA Kit and headless are covered), a working SFRA example that prompts a password reset, and how to monitor detections."
+    ],
+    "tasks": [
+      {
+        "title": "Review the SFRA example and decide whether it applies to any storefront I work on",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-15-whats-new-in-salesforce-multi-framework-angular-is-now-ga": {
+    "topics": [
+      "LWC / UI",
+      "Releases"
+    ],
+    "summary": [
+      "Winter '27: Angular is GA, joining React as the second generally available Multi-Framework UI framework.",
+      "Microfrontend is GA: embed React and Angular in Lightning Experience, Experience Cloud, the Salesforce mobile app and Mobile Publisher.",
+      "Non-site (internal) Multi-Framework apps can now be distributed as managed packages.",
+      "Adds localization/i18n and MFA support; Multi-Framework Insights (performance and usage) is in Beta."
+    ],
+    "tasks": [
+      {
+        "title": "Try the Angular recipes in a scratch org",
+        "effort": "M"
+      },
+      {
+        "title": "Read the Winter '27 release notes for Headless 360 / Multi-Framework",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-19-building-a-claude-code-mod-for-salesforce": {
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "Walkthrough of building `sf-headless-band`, a Claude Code mod that shows your Salesforce default org above the prompt.",
+      "Resolves the default org the way the CLI does (SF_TARGET_ORG, then project config, then global config) and shows alias, My Domain and org type; scratch orgs show days remaining, and production is red.",
+      "Adds one line per Salesforce MCP server showing which org it reaches (DX MCP Server `--orgs` flag, or Hosted MCP Server).",
+      "Explains what makes a mod different from settings hooks, skills and MCP servers: it runs inside Claude Code and can draw its own UI."
+    ],
+    "tasks": [
+      {
+        "title": "Clone sf-headless-band and install it",
+        "effort": "S"
+      },
+      {
+        "title": "Build my own Claude Code mod (e.g. a blog-digest status band) using the same pattern",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-10-20-protect-apex-shares-custom-row-causes-on-standard-objects": {
+    "topics": [
+      "Apex & Code",
+      "Security & Admin",
+      "Releases"
+    ],
+    "summary": [
+      "Standard objects now support custom row causes (Apex sharing reasons), rolling out to all orgs by end of October 2026; this removes the old reliance on the Manual row cause.",
+      "New setting 'Keep Manual Shares when Transferring Records' (available now) stops manual shares being deleted on owner change.",
+      "Define the reason in Metadata API (`sharingReasons`, e.g. `Case.On_Call_Expert__c`), then use it in Apex (`CaseShare.RowCause`) or in Flow.",
+      "Benefit: Apex shares stay separate from users' manual shares, and admins can see why each user has access."
+    ],
+    "tasks": [
+      {
+        "title": "Audit my Apex sharing code for Manual-row-cause workarounds that can be deleted",
+        "effort": "M"
+      },
+      {
+        "title": "Prototype the On-Call Expert CaseShare example in a scratch org",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-21-agentforce-voice-for-agent-script-route-real-phone-calls-to-your-agent": {
+    "topics": [
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "Second post in a series: take a voice-ready Agent Script agent and route real inbound phone calls to it. The script logic doesn't change.",
+      "Needs an org with full Agentforce Voice (not a free Developer Edition), plus a phone number and an agent user.",
+      "Check entitlements first with a SOQL query on `TenantUsageEntitlement` (ten-digit long code numbers and inbound voice credits).",
+      "Setup is mostly Salesforce CLI from a DX project; the post ends with checking a call after you hang up."
+    ],
+    "tasks": [
+      {
+        "title": "Check whether any org I have access to has Agentforce Voice entitlements",
+        "effort": "S"
+      },
+      {
+        "title": "Read the prior 'Voice-Enabling Best Practices' post and voice-enable an agent in agent-script-recipes",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-10-26-headless-experience-layer-widget-formulas-math-and-logic-with-json": {
+    "topics": [
+      "LWC / UI",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "HXL widgets (beta) are declarative JSON UI components that can be embedded in Claude, ChatGPT and Agentforce, with no JavaScript or lifecycle hooks.",
+      "Formulas in `{!...}` expressions (based on the open-source Salesforce formula engine) let widgets do math and logic with IF, CASE, AND, LEN and so on.",
+      "That moves display logic (win rate, phone-number check, badge variant) out of Apex and into the widget, next to the display.",
+      "Includes a before/after of an account card widget and a link to a playground."
+    ],
+    "tasks": [
+      {
+        "title": "Build the account card HXL widget in the playground",
+        "effort": "S"
+      },
+      {
+        "title": "Refactor an Apex-computed display field into a widget formula",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-10-28-explore-the-headless-toolkit-with-the-pronto-sample-app": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Pronto is a new open-source sample app (fictional AI food-delivery platform) showing the Headless Toolkit: Salesforce in Claude, Slack, Agentforce Coworker and more.",
+      "Ships two orchestrator agents and 16+ actions, with multi-agent orchestration: both reuse a connected 'storefront explorer' subagent without losing conversation context.",
+      "Exposes business logic to external clients through Salesforce Hosted MCP Servers (invocable actions, REST resources, API catalog).",
+      "Good source of reference patterns: agent files, MCP server definitions, action classes and an LWR site."
+    ],
+    "tasks": [
+      {
+        "title": "Clone trailheadapps/pronto and deploy to a scratch org",
+        "effort": "M"
+      },
+      {
+        "title": "Study the multi-agent orchestration .agent files and reuse the pattern",
+        "effort": "M"
+      },
+      {
+        "title": "Expose one of my own Apex actions through a Hosted MCP Server",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-10-28-the-tdx-2027-call-for-participation-is-now-open": {
+    "topics": [
+      "Community & Events"
+    ],
+    "summary": [
+      "TDX 2027 call for participation is open; the submission deadline is November 16, 2026.",
+      "Best-performing TDX 2026 sessions were hands-on, code-first and AI-native, with real implementations and architecture trade-offs.",
+      "Formats include 20-minute theater sessions (max two presenters) and breakout sessions."
+    ],
+    "tasks": [
+      {
+        "title": "Decide whether to submit a TDX 2027 session (deadline Nov 16, 2026)",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-29-build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics": {
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "A shared semantic layer gives people and agents consistent metric definitions such as revenue and pipeline, instead of logic scattered across queries and reports.",
+      "Stack: Data 360 DLOs/DMOs for data, a Tableau semantic data model (SDM) for definitions, relationships and calculations, an Agentforce agent to answer questions, and MCP for external AI clients.",
+      "Governance comes from Data 360 classifications, tags and policies; there are also notes on SDM calibration and optimizing the model for AI.",
+      "Links to Semantic Layer Query API and Connect API docs, and an open-source converter (apache/ossie)."
+    ],
+    "tasks": [
+      {
+        "title": "Build a small SDM over a Data 360 DMO and query it from an agent",
+        "effort": "L"
+      },
+      {
+        "title": "Read the Semantic Layer Query API overview",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-07-building-interactive-ui-with-hxl": {
+    "topics": [
+      "Agentforce & AI",
+      "LWC / UI",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "The Headless Experience Layer (HXL), part of the Headless Toolkit in AIforce, lets you define an interactive widget once in declarative JSON and render it natively in Agentforce and in MCP clients that support MCP Apps, such as Claude and ChatGPT.",
+      "HXL has three core concepts: Components (surface-aware UI primitives), Widgets (composed experiences, stored as a UiWidgetBundle under uiWidgets/<name>/ with a .uiwidget-meta.xml, a composition JSON, and an optional schema.json), and Custom Lightning Types (CLTs) that bind data shape to a widget through renderer.json.",
+      "Widgets are not LWC or React and contain no JavaScript. They use {!$attrs.x} placeholders and forEach/forItem for lists, and the data comes from an Apex invocable action, so existing sharing and field-level security still apply.",
+      "Agentforce needs one CLT typed to the Apex class, and the Agent Script output must set complex_data_type_name and is_displayable: True. MCP needs two nested CLTs (inner mirrors the Apex output, outer mirrors the actionName/isSuccess/outputValues envelope) with paths like {!$attrs.outputValues.reviews.averageRating}, plus a uiResource on the MCP server tool definition.",
+      "The beta supports two client actions, sendMessage and openLink. Agentforce may sometimes return follow-up answers as text instead of the card, so name the action explicitly in the subagent instructions. The HXL Playground previews can differ from live surfaces, so test on each target."
+    ],
+    "tasks": [
+      {
+        "title": "Paste the Pronto customerReviews.json composition into the HXL Playground and tweak the layout with sample data",
+        "effort": "S"
+      },
+      {
+        "title": "Build a widget plus CLT for an existing Apex invocable action in a scratch org and render it in Agentforce Builder",
+        "effort": "M"
+      },
+      {
+        "title": "Add the nested CLTs and a uiResource to an MCP server definition and test rendering the widget in Claude or ChatGPT",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-09-24-pro-code-chunking-of-data-360-search-indexes-for-agentforce": {
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI",
+      "Apex & Code"
+    ],
+    "summary": [
+      "Native Data 360 chunking (section-aware, semantic passage extraction) works for clean content but breaks down on dense tables, multispeaker transcripts, and PII-laden documents in complex PDFs.",
+      "Data 360 Code Extension functions let you deploy sandboxed, stateless Python chunking scripts inside the Salesforce trust boundary, authored locally with the Data Custom Code SDK, deployed via Salesforce CLI or UI, and wired in at search index creation.",
+      "For tables, a structure-aware function detects markdown, grid and HTML tables, keeps each as a unit, and repeats column headers in every sub-chunk when a table exceeds the size limit; in the example, the agent went from being unable to interpret '42.1 35.8 22.4...' to correctly reporting 87.9% YoY growth and a 28.1% operating margin for AI & Automation.",
+      "For multispeaker dialogue, a sliding window (WINDOW_SIZE=6 turns, STRIDE=3, MAX_CHUNK_CHARS=1500) preserves speaker attribution and timestamps and keeps questions co-located with answers, fixing native chunks where speakers and topics were mashed together.",
+      "Caveat from the author: the sample code relies on regex heuristics, covers only happy-path inputs, and can produce false positives and negatives, so production use needs hardening; the post also covers a third use case, masking exposed PII, though the provided text is truncated before it."
+    ],
+    "tasks": [
+      {
+        "title": "Build a header-preserving table chunker with the Data Custom Code SDK and test it locally on a sample multi-page PDF",
+        "effort": "M"
+      },
+      {
+        "title": "Deploy a Code Extension chunking function to a scratch/dev org and compare its chunks against native ADL chunks using vector_search queries",
+        "effort": "L"
+      },
+      {
+        "title": "Audit existing Data 360 search indexes for documents with tables or transcripts that native chunking likely fragments",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-16-build-a-decision-scoring-skill-for-any-agent-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ],
+    "summary": [
+      "The post introduces /decide, a structured skill in the open-source Salesforce Ada Agent Skills repo. It makes a coding agent run a technical decision through a pipeline and write the result to disk as an Architectural Decision Record (ADR).",
+      "The pipeline has five steps: gather context, list solution options from official docs, define evaluation criteria, assess risk per option (Low/Medium/High with citations), and compute a decision score. The human reviews and confirms after the options, criteria and risk steps, and the agent pauses at each of these checkpoints.",
+      "Scoring is rule-based. Risk levels map to fixed values (Low=85, Medium=55, High=25), which are weighted by Well-Architected pillars: Reliability 20%, Stability 20%, Operational Excellence 20%, Resource Optimization 15%, Cost Optimization 15%, Fairness 10%. The highest score is always the recommendation.",
+      "Design patterns include a folder layout with CLAUDE.md global rules plus SKILL.md pipeline logic, separate format template files per step, and a roughly 350-line scoring file loaded only at the final step. Critical rules are repeated in at least two files so they survive long conversations.",
+      "Facts are checked against docs via an MCP server. The authors built a custom salesforce-content server with keyword and vector search, the repo includes a Context7 fallback, and the skill falls back to web search or model knowledge if no MCP is available. The skill is demonstrated with Claude Code, and the repo has templates for Gemini and Codex CLI."
+    ],
+    "tasks": [
+      {
+        "title": "Clone salesforce-ada-agent-skills and run /decide on a real packaging or architecture question in Claude Code",
+        "effort": "S"
+      },
+      {
+        "title": "Review the generated ADR and risk matrix, then adjust the Well-Architected pillar weights in CLAUDE.md to match your team's priorities",
+        "effort": "M"
+      },
+      {
+        "title": "Build a custom decision-scoring skill for your own domain, with format templates, a fixed risk-to-score mapping and human review checkpoints",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-09-02-improve-enterprise-rag-accuracy-in-data-360": {
+    "topics": [
+      "Data Cloud",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "Enterprise RAG failures compound across four stages (content processing, content splitting, search, generation), and the post argues accuracy is mostly a configuration problem rather than an LLM problem.",
+      "Intelligent Parsing routes each page to text or vision-model extraction, raising OHR-Bench v2 end-to-end accuracy from 65% to 84.4% (charts/diagrams 57.9% to 76.3%, reading order 11.9% to 67.1%) and keeping tables intact; it is listed as expected November 2026.",
+      "Enriched Indexing, toggled in Search Index Setup, generates metadata and anticipated-question chunks for each chunk, adding +2.4 pp (84.4% to 86.8%) on OHR-Bench v2.",
+      "Tuning chunk size (512 to 2048 tokens), top-k (10 to 30) and a domain-tuned generation prompt took WixQA knowledge-base accuracy from 62.5% to 92.5% with no code changes.",
+      "Knowledge Graph (GA expected November 2026) and auto-tuning (found the optimal configuration in three iterations in early testing) are coming; the post recommends building a 20-50 question golden dataset to evaluate your own pipeline in Intelligent Context."
+    ],
+    "tasks": [
+      {
+        "title": "Build a 20-50 question golden Q&A set from your own docs and run a baseline evaluation in Data 360 Intelligent Context",
+        "effort": "M"
+      },
+      {
+        "title": "In a Data 360 sandbox, test chunk size 2048, top-k 30 and a domain-tuned generation prompt against the baseline",
+        "effort": "M"
+      },
+      {
+        "title": "Enable Enriched Indexing on a search index and compare retrieval for differently-worded queries",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-25-shift-left-natively-testing-and-quality-gates-in-devops-center": {
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "Apex & Code"
+    ],
+    "summary": [
+      "DevOps Center Testing is now generally available natively in DevOps Center, acting as a single source of truth for test definitions and results across tools.",
+      "Built-in test providers are Apex unit tests (with code coverage tracking), Flow tests, and Salesforce Code Analyzer v5 (PMD, ESLint, Flow Scanner), while partner tools from ACCELQ, Copado, Panaya, Provar, Quality Clouds, and Tricentis are coming soon.",
+      "Automated quality gates can be set per pipeline stage, such as on pull request creation or pre-promotion, and they block promotion on failing Apex tests, coverage below threshold, or critical Code Analyzer findings, with feedback shown in the work item.",
+      "Four new Agentforce Vibes skills (dx-devops-test-pipeline-configure, dx-devops-test-suite-assignments-configure, dx-devops-test-suite-run, dx-devops-test-failures-analyze) support configuring gates, assigning and running suites, and analyzing failures, and can optionally create a fix WorkItem on explicit request.",
+      "To get started, open the new Tests tab in your DevOps Center pipeline, add providers, and define gate thresholds, then trigger the same gates from existing CI tools via the Salesforce CLI or REST API."
+    ],
+    "tasks": [
+      {
+        "title": "Enable DevOps Center Testing in a sandbox pipeline, add Apex, Flow, and Code Analyzer providers, and configure a pre-promotion quality gate",
+        "effort": "M"
+      },
+      {
+        "title": "Try the dx-devops-test-failures-analyze Agentforce Vibes skill against a deliberately failing Apex test and review its fix suggestions",
+        "effort": "S"
+      },
+      {
+        "title": "Prototype triggering DevOps Center test gates from an existing CI script via the CLI or REST API",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-10-29-why-salesforce-certifications-matter-more-than-ever-in-the-ai-era": {
+    "topics": [
+      "Careers & Certification",
+      "Agentforce & AI",
+      "Security & Admin"
+    ],
+    "summary": [
+      "The author, a former Marketing Cloud admin at an online travel agency, says earning the Salesforce Administrator certification gave them the platform foundation to push back on data models and build cross-functional solutions.",
+      "Certification is framed as resting on three pillars: validated core competency, governance and trust standards (security, compliance, ethical implementation), and problem-solving frameworks for turning business requirements into technical solutions.",
+      "The post argues that domain expertise is what makes AI output reliable rather than merely plausible, and that human oversight is needed where AI models fail on governance.",
+      "Because AI lets almost anyone produce decent baseline work, the author says a Platform Admin certification gives hiring managers independent verification of hands-on skills.",
+      "Keeping a certification current is presented as a way to keep skills from calcifying around one org's way of doing things, and the post links Trailhead resources including AI Certification and AI Fundamentals."
+    ],
+    "tasks": [
+      {
+        "title": "Pick a certification pathway matching your role and draft a study plan, starting with the Trailhead AI Fundamentals content",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-01-how-do-i-decide-if-a-new-salesforce-feature-belongs-in-my-org-podcast": {
+    "topics": [
+      "Security & Admin",
+      "Releases",
+      "Community & Events"
+    ],
+    "summary": [
+      "Salesforce Admins Podcast guest Alastair Dinning, a Senior Solution Architect with Salesforce Professional Services, shares a framework for deciding whether a new release feature belongs in your org.",
+      "He recommends reading release notes with your business processes and user pain points in mind, so you can tell real value from a shiny new toy.",
+      "To surface pain points, he suggests sitting with key users, running a steering committee of power users, or mining a case management system for feedback.",
+      "He describes three paths for a new feature: build it declaratively (tailored but costs time), buy it from the AppExchange (costs money but deploys fast, and partners may make improvements), or code it custom (most expensive and least flexible).",
+      "He suggests building a declarative prototype that gets about 80% of the way there to collect feedback before investing in custom code, and notes that sometimes keeping the org stable is the best choice."
+    ],
+    "tasks": [
+      {
+        "title": "Review the latest release notes against your user pain points and shortlist one or two features worth adopting",
+        "effort": "S"
+      },
+      {
+        "title": "Prototype a declarative solution (for example Dynamic Forms on a cluttered page) in a sandbox and gather user feedback",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-10-what-does-the-salesforce-admin-job-market-look-like-right-now-podcast": {
+    "topics": [
+      "Careers & Certification",
+      "Security & Admin",
+      "Community & Events"
+    ],
+    "summary": [
+      "The Salesforce Admins Podcast episode features recruiters Maria Alvarez-Zarrilli (Throughline HR) and William Walsh (Harvey Nash) on the current admin job market.",
+      "The market is more competitive than a few years ago, and certifications alone no longer differentiate candidates; employers want admins who have solved real business problems in Salesforce.",
+      "Maria's top hiring signal is 'requirements literacy': pushing back, making recommendations, and keeping a long-term vision, since AI is shortening project runways.",
+      "William says demand is growing for skills in data quality, automation, AI tools, and specific industry clouds (e.g., Revenue Cloud and CPQ in financial services), while warning against becoming too niche.",
+      "Candidates should describe impact rather than features on resumes and in interviews, and should attend user groups and local events, since community referrals often beat mass-applying."
+    ],
+    "tasks": [
+      {
+        "title": "Rewrite resume and LinkedIn bullets to describe business impact (outcomes, metrics) instead of feature lists",
+        "effort": "S"
+      },
+      {
+        "title": "Find and attend a local Salesforce user group or community event, and pick one industry cloud or AI/data skill to deepen",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-01-how-to-find-your-first-agentforce-use-case": {
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
+      "Security & Admin"
+    ],
+    "summary": [
+      "The post advises admins to pick a small first Agentforce use case: one recurring problem for one user group, with one clear job and a measurable outcome.",
+      "Listen for friction signals such as \"I can never find\u2026\" or \"Can you summarize this for me?\". Users who export Salesforce data into unapproved consumer AI tools are a strong sign of unmet need and a data-handling risk that a governed Agentforce experience could replace.",
+      "Keep a friction log for at least a week, recording the goal, what slowed users down, the workaround, how often it happens, and what a better outcome looks like.",
+      "First check whether Agentforce is the right tool, meaning the job needs natural-language interpretation, summarization, context, or next-step decisions. Otherwise use something like Flow. Then score the remaining criteria from 1 to 5: data readiness (weighted most heavily), business value, frequency, manageable risk, and measurable outcome.",
+      "For implementation, use a standard action where one exists (for example Summarize Record, which uses a Record Summary prompt template). Otherwise build a custom action powered by a prompt template (tailored generative output) or by Flow (deterministic processes). Combining Agentforce for interpretation with Flow for approved steps often works best."
+    ],
+    "tasks": [
+      {
+        "title": "Start a one-week friction log of user struggles in your org and score the top candidates with the data-readiness-first scorecard",
+        "effort": "M"
+      },
+      {
+        "title": "Try the Summarize Record standard action with a Record Summary prompt template on related records in a scratch org or sandbox",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-27-what-does-the-salesforce-platform-app-builder-certification-prove-today-podcast": {
+    "topics": [
+      "Careers & Certification",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "The Salesforce Certified Platform App Builder exam has been refreshed in its 11th year, based on interviews with subject matter experts including admins, app builders, and architects.",
+      "The biggest change is a deeper emphasis on Flow: choosing the right flow type for a situation, creating flows, troubleshooting them, and maintaining and monitoring them.",
+      "Agentforce is now included as an automation tool in app building, but only at the level of knowing when to reach for it, since the separate Agentforce Specialist exam covers deeper expertise.",
+      "Salesforce fundamentals and user interface remain exam topics because they have stayed important since the exam's early versions, and Salesforce Admin was named the role that most aligns with the exam.",
+      "Prep advice includes using the new Trailhead trail with interactive sandbox badges, reading the exam guide closely (verbs like 'create' or 'configure' signal deeper knowledge than 'describe' or 'understand'), and scheduling the free Dreamforce certification exam."
+    ],
+    "tasks": [
+      {
+        "title": "Work through the Trailhead 'Prepare for Your Salesforce Platform App Builder Certification' trail, focusing on the Flow troubleshooting and monitoring badges",
+        "effort": "M"
+      },
+      {
+        "title": "Compare the updated Platform App Builder exam guide's section weightings and verbs against your current skills to find gaps in Flow and Agentforce",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-27-post-meeting-voice-notes-what-admins-need-to-know": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Flow & Automation"
+    ],
+    "summary": [
+      "Post-Meeting Voice Notes lets reps record a single-user spoken debrief in the Salesforce mobile app when a live meeting wasn't transcribed, for example when the customer declined recording or the rep forgot to start it.",
+      "It is enabled as part of the In-Person Meeting Assistant, and because only the logged-in rep speaks, no verbal consent workflow is needed.",
+      "Privacy matches the In-Person Meeting Assistant: audio is processed on-device and never leaves it, only the text transcript syncs, and transcripts are wiped on logout.",
+      "It uses the existing Conversation Intelligence permission sets, so no permission changes are needed. Transcripts feed call summaries and next steps, keyword insights, Flow invocable actions and Prompt Builder follow-up email templates.",
+      "Requirements and caveats: users must be on the New Seller Experience (Sales Cloud Mobile), devices must have an NPU (capable iPhones, iPads or Android devices), and a network connection is required to sync because offline use is not supported at GA."
+    ],
+    "tasks": [
+      {
+        "title": "Audit Conversation Intelligence permission sets, New Seller Experience assignment and NPU device compatibility for reps before enabling voice notes",
+        "effort": "M"
+      },
+      {
+        "title": "Draft rep guidance on when to use the In-Person Meeting Assistant versus Post-Meeting Voice Notes, including the network sync requirement",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-20-how-ai-could-change-the-way-admins-set-up-salesforce-podcast": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "The Salesforce Admins Podcast interviews Khushwant Singh, SVP of Product Management for the AI Application Development Platform, about Headless 360, which was announced at TDX.",
+      "Headless 360 separates the frontend from the backend. Salesforce data, visualizations and agents can then appear in external sites, apps, Slack, ChatGPT and other surfaces without rebuilding them. One example is Williams Sonoma's Olive agent, an Agentforce agent embedded on a non-Salesforce site.",
+      "Salesforce is translating the platform into model context protocols (MCPs), skills and metadata so AI agents can use it directly. The layers were built for humans over the past 27 years and are now being opened to agents as well.",
+      "Setup with Agentforce already lets admins use natural language prompts to create objects, Lightning pages and flows, manage users and access, and troubleshoot formulas. It is presented as the first step toward setting up Salesforce through conversation.",
+      "Admins stay in control. Humans initiate actions, validate results and provide governance, and Singh stresses that trust, quality and governance matter more as AI adoption speeds up. He advises admins to try Setup with Agentforce now."
+    ],
+    "tasks": [
+      {
+        "title": "Try Setup with Agentforce in a sandbox or scratch org to create an object, a Lightning page and a flow using natural language prompts",
+        "effort": "S"
+      },
+      {
+        "title": "Complete the Trailhead 'Salesforce Headless 360: Quick Look' module and read the Admins blog post on MCP, then list which of your org's integrations or portals could use Headless 360",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-19-salesforce-admins-guide-to-dreamforce-2026": {
+    "topics": [
+      "Community & Events",
+      "Agentforce & AI",
+      "Releases"
+    ],
+    "summary": [
+      "Dreamforce 2026 runs September 15-17 in San Francisco and on Salesforce+, with 1,600+ breakout sessions, 150+ hands-on trainings and demos, 50+ keynotes, and 240+ community roundtables.",
+      "Key admin events include the Admin Keynote ('Bring the Agentic Enterprise to Life'), the Main Keynote with Marc Benioff, the 'True to the Core' Q&A with Parker Harris, and Sneak Peeks of unreleased features across Agentforce, Headless, Flow, and User Access Management.",
+      "Hands-on areas include Headless 360 Basecamp (a 15-minute exercise configuring Salesforce MCPs in a third-party AI system), Camp Mini Hack (30-minute challenges on Agentforce, Apex & Flow, and Data 360), Camp Trailhead badges, and the Agentforce Zone (Agentforce Studio, Builder, Operations, Voice, Multi-Agent Orchestration, Observability).",
+      "Recommended admin sessions cover Agentforce Coworker, Setup with Agentforce for multi-step tasks, securing headless Salesforce implementations, connecting ChatGPT, Gemini, and Claude to a live org through Headless 360, Data 360 basics, admin security fundamentals, and screen flows.",
+      "FeatureFest offers a first look at Winter '27 features, including IdeaExchange favorites. Trailblazer Bootcamp (Sept 12-14) offers certification prep, and completing the Road to Dreamforce Quest by Sept 14 enters you in a draw for 1 of 100 prize boxes."
+    ],
+    "tasks": [
+      {
+        "title": "Build a personal Dreamforce 2026 schedule in My Agenda, filtering the catalog by Role > Administrator",
+        "effort": "S"
+      },
+      {
+        "title": "Complete the Road to Dreamforce Quest on Trailhead and review Headless 360 and Agentforce Coworker prerequisites",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-13-stop-ai-hallucinations-with-better-salesforce-metadata-podcast": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Community & Events"
+    ],
+    "summary": [
+      "Skye Tyler (Principal Solution Consultant, Beyond the Horizon Technology) argues that clean metadata is essential for reliable AI agents, comparing agents to an enthusiastic intern with short-term memory problems.",
+      "Agents look at metadata (field labels, descriptions, help text) before reading field values, so ambiguous fields such as four similarly named date fields lead the agent to guess.",
+      "Because LLMs are non-deterministic, a guess may be right many times and then wrong on a later run, and the wrong answer still sounds fluent and confident.",
+      "Recommended approach is 'clean-as-you-go': whenever you update an object or build a new AI-enabled business process, review and update descriptions and help text for the related fields the agent can touch.",
+      "The episode also covers Skye's career path from nonprofit arts, advice to share what you know in the Salesforce community, and a preview of a Dreamforce session on the topic."
+    ],
+    "tasks": [
+      {
+        "title": "Audit one Agentforce-relevant object in a sandbox for fields with empty descriptions/help text or confusingly similar labels, and fill them in",
+        "effort": "M"
+      },
+      {
+        "title": "Test an agent prompt against an object with ambiguous date fields before and after adding field descriptions, and compare answer consistency over repeated runs",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-06-advanced-code-extension-pyspark-examples-for-batch-data-transforms": {
+    "topics": [
+      "Data Cloud",
+      "Apex & Code",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "Code Extension lets you run custom PySpark scripts against DLOs and DMOs in an isolated Spark environment in Data 360, driving the same batch transform pipeline as native transforms; batch transform support is now GA.",
+      "The workflow uses the datacustomcode SDK's Client() with `sf data-code-extension script run` for local runs (reads the first 1000 rows by default, writes only to console) and `sf data-code-extension script deploy` (zips the project via Docker and uploads it through the Connect API) for deployed runs with no default row limit.",
+      "Example 1 rolls up account hierarchy ARR to any depth with an iterative join loop in plain Python over DataFrames, writing to Account_Rollup__dll; it assumes an acyclic hierarchy, so cyclic parent_id__c data needs a max-depth counter to avoid hanging the job.",
+      "Example 2 flattens a JSON-array event column into one row per event using from_json and explode_outer, with the reusable parsing helper placed in the exact-named payload/py-files/ directory and the entrypoint in payload/entrypoint.py.",
+      "Example 3 scores leads with a bundled scikit-learn model: it ships the model zip in payload/files/, declares scikit-learn, joblib and pandas in requirements.txt, scores a small grid of categorical combinations with predict_proba and left-joins it to the leads DLO, coalescing nulls to `__unknown__`."
+    ],
+    "tasks": [
+      {
+        "title": "Clone the datacloud-customcode-python-sdk repo and run the account_rollup example locally with `sf data-code-extension script run`",
+        "effort": "S"
+      },
+      {
+        "title": "Deploy the json_explode example to a Data 360 sandbox/scratch org and compare the full-scale run against the 1000-row local run",
+        "effort": "M"
+      },
+      {
+        "title": "Prototype a bundled scikit-learn scoring transform (churn or propensity) using the lead_scoring pattern and the categorical-grid join approach",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-10-05-developers-guide-to-the-winter-27-release": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "LWC / UI"
+    ],
+    "summary": [
+      "Winter '27 completes rollout on October 9, 2026, and the headline developer theme is the Headless Toolkit, which exposes Salesforce capabilities as APIs, MCP tools, or CLI commands for any authenticated caller, including AI agents.",
+      "The new Salesforce Development plugin for Claude Code installs with `/plugin install salesforce-development@claude-plugins-official` and adds Salesforce skills, org context through Salesforce-hosted MCP servers, and an Apex/SOQL language server; the skills library also works with other agents via `npx skills add forcedotcom/sf-skills`.",
+      "The plugin can now recommend specialized plugins from a catalog (dx-org-lifecycle, dx-devops, agentforce-adlc, experience-lwc/experience-react, integration), searchable with `/salesforce-development:discover plugins <task>`.",
+      "Salesforce Multi-Framework adds Angular alongside React, with templates angularinternalapp, angularexternalapp and angularbasic. Apps are a UIBundle metadata type, and Winter '27 also adds 2GP packaging and Scale Center insights (Beta).",
+      "The Data SDK gains extensions via defineDataExtension (called as sdk.ext.<name>), a labels extension, minimum API version, per-request headers (included in the cache key), and an i18n module. Microfrontend embedding (Beta) uses lightning-ui-embedding with props and CustomEvents, supports internal React/Angular apps on the salesforce.app domain, and needs event listeners added in renderedCallback because the event names contain dots."
+    ],
+    "tasks": [
+      {
+        "title": "Install the Salesforce Development plugin in Claude Code and try it against a scratch org project",
+        "effort": "S"
+      },
+      {
+        "title": "Scaffold an Angular app with the angularinternalapp template, add a Data SDK extension, and deploy it to a scratch org",
+        "effort": "M"
+      },
+      {
+        "title": "Build the HXL snow-report style widget for an Agentforce agent action using a custom Lightning type and UiWidgetBundle",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-10-01-agentforce-voice-for-agent-script-voice-enabling-best-practices": {
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Voice-enabling an Agent Script agent is not a rewrite: you enable Agentforce Voice in the org, add three voice blocks to the script, and retune the instructions for listeners.",
+      "The org must have Agentforce Voice turned on (it runs on Salesforce Voice with Telephony Providers). You can check by searching for Telephony under Add Connections in Agentforce Builder, and a free Developer Edition org currently doesn't support it.",
+      "The three required script blocks are a top-level `language` (default_locale), `connection telephony` (which makes it a voice agent), and `modality voice` (outbound persona_id and model.id, inbound filler_words_detection).",
+      "`language` must appear both at the top level and inside `modality voice`, because the persona_id resolves against a model and language and otherwise silently falls back to the default voice.",
+      "Supported voice models are eleven_v3_conversational, eleven_flash_v2_5, eleven_flash_v2 (English only) and kotoba (Japanese). The model can only be set in Script view, and the legacy flat voice_id format cannot pick a model."
+    ],
+    "tasks": [
+      {
+        "title": "Check whether your org has Agentforce Voice by looking for Telephony under Add Connections in Agentforce Builder",
+        "effort": "S"
+      },
+      {
+        "title": "Clone Agent Script Recipes, deploy the voiceAgent recipe to a voice-enabled org, and test it by describing a bug out loud",
+        "effort": "M"
+      },
+      {
+        "title": "Add language, connection telephony and modality voice blocks plus STT-repair instructions to an existing text Agent Script agent, and compare the voice behavior",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-09-17-salesforce-microfrontend-ui-embedding-jp": {
+    "topics": [
+      "LWC / UI",
+      "Integration & APIs",
+      "Releases"
+    ],
+    "summary": [
+      "Salesforce Microfrontend (UI Embedding), currently Beta and tested on a Winter '27 Preview scratch org (API 68.0), lets a React UI Bundle from Multi-Framework be embedded in Lightning Experience record pages via `lightning-ui-embedding`.",
+      "Embedding needs a thin wrapper LWC that passes the app's `*.salesforce.app` URL as `src` to `<lightning-ui-embedding>`. The app URL must also be registered under Setup > Trusted URLs with the `frame-src` CSP context enabled.",
+      "`recordId` did not arrive in `state.props`, which was empty on the record page. The reliable route was custom events on the `sf-embedding` channel: the LWC dispatches `caseRecordId` and the app dispatches `requestRecordId`.",
+      "Waiting only for `sf-embedding.component.ready` dropped the event, because the app registers its listener after `createViewSDK()` resolves. A handshake fixed this: the app registers its listener and then requests the recordId, and the LWC replies on either `ready` or the request.",
+      "Two other pitfalls: keep `src` as a fixed base URL after mount, and avoid `100vh`/`min-h-screen` inside the iframe, which makes the auto-resizer grow the iframe without end. The post suggests using `height:auto` instead, and the LWC height is a design attribute clamped to 420\u2013720px."
+    ],
+    "tasks": [
+      {
+        "title": "Build a wrapper LWC with lightning-ui-embedding in a Winter '27 scratch org and embed a React UI Bundle on a Case page",
+        "effort": "M"
+      },
+      {
+        "title": "Implement the recordId handshake (caseRecordId / requestRecordId custom events) and test for dropped events on page navigation",
+        "effort": "S"
+      },
+      {
+        "title": "Audit the React app's CSS for 100vh/min-h-screen usage that would trigger the iframe auto-resize loop",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-16-intent-driven-tool-selection-using-abilities-in-agentforce-vibes-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ],
+    "summary": [
+      "Agentforce Vibes has a new feature called Abilities, which automatically picks the Salesforce DX MCP Server tools that fit a developer's intent. Developers no longer need to hand-pick tools or switch modes.",
+      "The problem it addresses: more than 80 DX MCP tools are available, but enabling all of them bloats prompts, hurts output quality and raises token cost. Only a default subset is on, and customizing it means hand-editing the local mcp_config.json with internal tool names.",
+      "Abilities are domain-specific capability groups, such as Apex and LWC development, DevOps operations, mobile development and core platform management. An internal Ability Coordinator evaluates each prompt and prepares the toolset before the model is called. Abilities can combine within one request.",
+      "Tool selection uses RAG-based semantic search in three phases. Tool definitions (name, description, parameters, usage context) are embedded and stored in a vector database. The prompt is embedded with the same model and matched by cosine similarity, typically returning about 10 tools. Those tools are then injected into the model's context as a temporary function catalog.",
+      "Orchestrator tools often need helper tools that the search may not return, so Abilities add dependent tools after selection. Skills are separate: Abilities decide which tools are available, while Skills define reusable task workflows (e.g. refactoring triggers, generating tests, deploying)."
+    ],
+    "tasks": [
+      {
+        "title": "Try Abilities in Agentforce Vibes with prompts spanning Apex, LWC and deploy tasks, and compare the tools it selects",
+        "effort": "S"
+      },
+      {
+        "title": "Review your local mcp_config.json for manually enabled DX MCP tools and test whether Abilities make them unnecessary",
+        "effort": "S"
+      },
+      {
+        "title": "Read the Agentforce Vibes developer guide on Abilities and Skills, then draft a reusable Skill (e.g. test generation) that pairs with Abilities",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-16-how-to-secure-salesforce-hosted-mcp-servers-jp": {
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "Salesforce Hosted MCP Server security is built in layers: authentication, authorization, permission control (object/field level), and logging for audit.",
+      "Authentication supports only the OAuth 2.0 authorization code flow through an External Client App (ECA). Shared service or integration-user sessions are called an anti-pattern, and machine-to-machine flows are not planned.",
+      "A dedicated ECA per MCP client (Claude, ChatGPT, Cursor) is strongly recommended. The new `mcp_api` OAuth scope grants MCP server access without the broad `api` scope.",
+      "Authorization controls include restricting ECA access to approved profiles or permission sets (for example an \"MCP Client User\" permission set), trusted IP ranges, and a shorter refresh token lifetime (the default is 1 year). Tokens can be revoked in Setup under OAuth Usage.",
+      "All MCP servers are disabled by default, so enable only the ones you want to expose. Tool annotations (for example destructive or idempotent hints) help agents behave safely, but clients are not required to honor them."
+    ],
+    "tasks": [
+      {
+        "title": "Create a dedicated ECA with the mcp_api scope, restricted to an MCP Client User permission set, in a scratch org or sandbox",
+        "effort": "M"
+      },
+      {
+        "title": "Shorten the refresh token policy and add trusted IP ranges on the MCP ECA, then test token revocation under OAuth Usage",
+        "effort": "S"
+      },
+      {
+        "title": "Pull the API Total Usage event log and filter for SALESFORCE_HOSTED_MCP rows to review user, status code, and IP patterns",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-16-connect-slack-to-salesforce-with-hosted-mcp-servers-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Slackbot, Slack's built-in AI teammate and MCP client, can connect to Salesforce Hosted MCP Servers (Headless 360) so users can query and act on Salesforce data from Slack conversations without opening Salesforce tabs.",
+      "Salesforce ships standard Hosted MCP Servers for SObject All, Tableau and Data 360. You can also build custom MCP servers that expose Apex actions, Flows, Apex REST endpoints, API Catalog APIs, Prompt Builder templates and Agentforce agents without writing integration code.",
+      "Setup is done in the Slack admin UI in three steps: open the MCP server settings (the path differs for Business+/Enterprise Select and Enterprise Grid/Enterprise+), add a Hosted MCP Server, then set access to everyone, specific groups or members, or no one yet.",
+      "Prerequisites are a paid Slack plan (Business+, Enterprise Select, Enterprise Grid or Enterprise+), a Salesforce org already connected to Slack, Slack and Salesforce admin rights, and at least one active Hosted MCP Server. Users are authenticated through the existing Slack\u2013Salesforce account mapping, so no separate login is needed.",
+      "Every Slackbot MCP call follows the Salesforce security model (object permissions, field-level security, sharing rules) per user and per request, and Slack prompts the user to confirm before it runs a custom MCP tool."
+    ],
+    "tasks": [
+      {
+        "title": "Enable a Hosted MCP Server (e.g. SObject All) in a sandbox org and connect it to Slackbot via the Slack admin MCP settings",
+        "effort": "M"
+      },
+      {
+        "title": "Build a custom MCP server in a scratch or sandbox org that exposes a Flow, such as an account-health-score Flow, and test it from Slackbot",
+        "effort": "M"
+      },
+      {
+        "title": "Review permission sets, field-level security and sharing rules for the users who would get Slackbot MCP access, and decide which groups to allow",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-14-build-custom-salesforce-connect-adapters-smarter-with-salesforce-skills": {
+    "topics": [
+      "Integration & APIs",
+      "Agentforce & AI",
+      "Apex & Code"
+    ],
+    "summary": [
+      "The new platform-salesforce-connect-adapter-generate skill (in the open-source sf-skills repo) gives coding agents the DataSource framework context needed to generate a custom Salesforce Connect Apex adapter from a plain-language API description.",
+      "A custom adapter needs two Apex classes, DataSource.Provider (declares objects, query capabilities, and auth method) and DataSource.Connection (handles QueryContext, makes the callout, and returns a TableResult).",
+      "The skill enforces required details that commonly break agent-written code: ExternalId and DisplayUrl columns on every table, a designated name column, correct DataSource.DataType mappings, and Named Credentials via the callout: prefix instead of hardcoded secrets.",
+      "With the Salesforce Headless 360 MCP Server, the agent can register the external data source through the external-data-source-setup operation, leaving only the validate-and-sync step as one click in Setup.",
+      "The demo uses the public iRail API (714 Belgian train stations), but the generated code is only a first pass: you must add error handling and a test class before deploying to production, and Winter '27 is planned to extend headless external data source lifecycle management (subject to change)."
+    ],
+    "tasks": [
+      {
+        "title": "Install the skill (npx skills add forcedotcom/sf-skills) and generate the iRail adapter in a scratch org with a Connect license",
+        "effort": "M"
+      },
+      {
+        "title": "Connect the Headless 360 MCP Server to your coding agent and try registering an external data source via external-data-source-setup",
+        "effort": "M"
+      },
+      {
+        "title": "Write a test class and error handling for a generated adapter, including a callout mock, to meet production deploy coverage",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-10-build-deploy-run-and-troubleshoot-complex-transformations-with-python-and-pyspark-while-keeping-execution-governed-by-data-360": {
+    "topics": [
+      "Data Cloud",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Data 360 Code Extension lets developers write complex batch transformations in Python and PySpark, package them as a script, deploy to Data 360, and invoke them through a batch data transform, so governed data never leaves the platform.",
+      "A package contains payload/config.json (sdkVersion 6.1.0, entryPoint, dataspace, explicit read/write DLO permissions) and entrypoint.py, which uses the Data Custom Code SDK to read DLOs as Spark DataFrames and write with WriteMode.MERGE; a script must read and write the same object type (DLO-to-DLO or DMO-to-DMO, not mixed).",
+      "Local validation uses Salesforce CLI with the @salesforce/plugin-data-code-extension plugin, Python 3.11 and salesforce-data-customcode==6.1.0, running `sf data-code-extension script run` against a sandbox on up to 1,000 sampled records with console-only output; performance must be measured after deployment.",
+      "Deploy via Setup (Code Extension page) or `sf data-code-extension script zip/deploy` with --cpu-size CPU_L/XL/2XL/4XL; the CLI has a documented limitation for DMO-to-DMO transforms, which require the UI path.",
+      "The transform is created in the Data Transforms UI or via the Connect API (POST /ssot/data-transforms with a BYOC_SCRIPT macro), then run and monitored through the actions/run and run-history endpoints; creation can outlive the wait window, so check MktDataTransform before resubmitting."
+    ],
+    "tasks": [
+      {
+        "title": "Build a small Code Extension package (config.json + entrypoint.py) and run it locally against a sandbox with `sf data-code-extension script run`",
+        "effort": "M"
+      },
+      {
+        "title": "Deploy the script to a sandbox with the CLI, wire it to a batch data transform, and compare run time at CPU_2XL versus another size",
+        "effort": "M"
+      },
+      {
+        "title": "Write a Data 360 SQL query against DataCustomCodeLogs__dll and SOQL checks on DataCustomCode and MktDataTransform to build a troubleshooting runbook",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-08-announcing-general-availability-web-console-your-modern-in-browser-ide": {
+    "topics": [
+      "DevOps & Tooling",
+      "Apex & Code",
+      "LWC / UI"
+    ],
+    "summary": [
+      "Web Console, a browser-based IDE built on VS Code for the Web and the Salesforce Extensions for VS Code, is now Generally Available as a modern alternative to Developer Console.",
+      "It supports Apex editing, Anonymous Apex, SOQL with SOQL Builder and query plans, Apex tests, trace flags and debug logs, and Org Browser metadata retrieval.",
+      "Unlike Developer Console, it adds Lightning Web Component viewing and editing; Certinia Apex Log Analyzer log analysis is listed as coming soon.",
+      "Apex editing is read-only in production orgs and allowed inline in sandboxes and other non-production orgs.",
+      "It is enabled by default for users with admin permissions and launches from the Setup gear menu with no local install."
+    ],
+    "tasks": [
+      {
+        "title": "Open Web Console in a sandbox and edit an Apex class and an LWC via Org Browser, then run its tests",
+        "effort": "S"
+      },
+      {
+        "title": "Reproduce a failing Apex job in a sandbox and debug it in Web Console using trace flags, debug logs, and tests",
+        "effort": "M"
+      },
+      {
+        "title": "Check the Web Console and Developer Console settings in Setup for your orgs and decide whether to keep the legacy Developer Console enabled",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-31-tdx-tokyo-2026-lightning-minihack-live": {
+    "topics": [
+      "Community & Events",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "Lightning MiniHack Live, a speed-and-accuracy Salesforce implementation contest, was held for the first time at TDX Tokyo 2026 (Agentforce World Tour Tokyo) in June 2026, with four finalists in a 1 vs 1 tournament.",
+      "The final challenge was a validation requirement that could be built with a validation rule, Flow, or Apex trigger, with the exception logic \"skip the budget-overrun check when the urgent flag is on\".",
+      "Finalists chose different implementations: Apex trigger (Suzuki, to cut UI click time and make a single save round-trip), Flow (Omuro, for stable timing), a custom error (Hasegawa, for certainty), and Flow with hotkeys and formulas (Madani, the champion).",
+      "Champion Madani won by practicing with video timing analysis, using Flow while doing other work during load times, and delegating tasks to AI (including Agentforce Grid) while working on non-AI tasks in parallel.",
+      "The finalists agreed that implementation skill in the AI era means precisely describing requirements, being able to converse with customers, and reviewing and correcting AI output, since AI often produces plausible but wrong results."
+    ],
+    "tasks": [
+      {
+        "title": "Time yourself building the same validation (urgent flag skips budget check) as a validation rule, a record-triggered Flow, and an Apex trigger in a scratch org, then compare speed and reliability",
+        "effort": "M"
+      },
+      {
+        "title": "Try Agentforce Grid in a Developer Edition org to see which implementation steps you can delegate to AI while working on others in parallel",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-26-master-the-agentic-development-lifecycle-for-agentforce-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ],
+    "summary": [
+      "With Salesforce Headless 360, Agentforce configuration (data model, Flow/Apex actions, agent definitions, permissions) is exposed through APIs, MCP tools and CLI commands, so coding agents such as Claude Code, Codex and Agentforce Vibes can drive the whole development lifecycle from natural language.",
+      "Installing the open-source skill library with `npx skills add forcedotcom/sf-skills` gives the assistant three core skills: developing-agentforce (design, build, deploy, debug), testing-agentforce (test specs and batch runs) and observing-agentforce (production traces in Data 360); Node.js and Salesforce CLI are prerequisites.",
+      "The post's key habit is to design before building: use plan mode and a prompt that makes the assistant interview you one question at a time as a decision tree. Split subagents by domain rather than task difficulty (typically 1-5), using a hub-and-spoke layout when work spans several domains.",
+      "The assistant generates an authoring bundle with Agent Script, validates it locally, deploys the underlying Flow/Apex and then the bundle (`sf agent generate/validate authoring-bundle`, `sf project deploy start --metadata ...`), and retries automatically on deploy errors. The post recommends scoping each deploy to specific metadata, working only in scratch orgs or sandboxes, and explicitly asking for permission sets (FLS/CRUD).",
+      "Testing has two modes, quick `sf agent preview start/send/end` smoke tests and YAML test specs run with `sf agent test create/run` (assertions: expectedTopic, expectedActions, expectedOutcome, with the LLM-judged expectedOutcome the most reliable). Multi-turn and state-variable injection support is still being added."
+    ],
+    "tasks": [
+      {
+        "title": "Install forcedotcom/sf-skills in a scratch-org project and have your coding agent scaffold a simple single-subagent Agentforce agent via plan-mode interview",
+        "effort": "M"
+      },
+      {
+        "title": "Write a YAML test spec with expectedTopic, expectedActions and expectedOutcome, then run it with `sf agent test create` and `sf agent test run`",
+        "effort": "S"
+      },
+      {
+        "title": "Preview an agent with `sf agent preview`, then feed a local trace JSON to your assistant to diagnose and fix a routing or action issue",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-25-new-agentforce-metadata-and-development-lifecycle-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ],
+    "summary": [
+      "The new Agentforce Builder (GA in Spring '26) separates developer intent from runtime execution: authors write a human-readable Agent Script stored as a single .agent file in the new AiAuthoringBundle metadata type, and the draft stays editable until a version is committed.",
+      "Committing a version makes the platform convert the .agent script into the runtime Bot and GenAiPlannerBundle metadata, and preview mode (including a simulation mode isolated from org data) lets you test drafts before that.",
+      "GenAiPlannerBundle was restructured into a per-version bundle folder containing the .genAiPlannerBundle file, agentGraph JSON, an agentScript snapshot for sync detection, plannerActions, and localActions with input/output schema.json, so deployments carry all dependencies.",
+      "Local assets (local subagents and actions) are clones of global assets tied to one agent version, so editing them no longer ripples to every agent that shares the global subagent; GenAiPlannerBundle version numbers follow commit order and may not match AiAuthoringBundle versions.",
+      "The package.xml must include GenAiFunction, Bot, GenAiPlannerBundle, GenAiPlugin and AiAuthoringBundle at API version 66.0 or later."
+    ],
+    "tasks": [
+      {
+        "title": "Retrieve an existing agent as AiAuthoringBundle plus GenAiPlannerBundle in a scratch org using a package.xml at API 66.0, and inspect the file layout",
+        "effort": "S"
+      },
+      {
+        "title": "Prototype a CI pipeline that deploys AiAuthoringBundle, publishes it with sf agent publish authoring-bundle, then activates the chosen version",
+        "effort": "M"
+      },
+      {
+        "title": "Compare the fully automated deploy (AiAuthoringBundle,GenAiPlannerBundle together) with the publish-and-activate flow, and note which suits your release process",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-25-build-a-salesforce-agent-skill-with-claude-code-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Agent Skills are structured prompt packages (SKILL.md plus references/, assets/, and hooks/scripts/) that make Claude Code produce Apex that passes security review, respects governor limits, follows team frameworks, and scores well in static analysis.",
+      "SKILL.md frontmatter uses a description with TRIGGER when / DO NOT TRIGGER when conditions so the right skill activates (for example authoring-apex vs authoring-lwc), and the body defines a fixed multi-phase workflow (Author, Validate with Code Analyzer and tests, Report) with explicit exit criteria.",
+      "The references/ files (best-practices, design-patterns, anti-patterns, security-guide, transaction-security-policy) work best when short, one rule per section, with BAD/GOOD code pairs, reasons for failures, and positively phrased rules. The assets/ templates (service, selector, batch, queueable, transaction-security-policy) act as few-shot examples.",
+      "Hooks such as UserPromptSubmit and PostToolUse (matcher Write|Edit) run Python validation scripts. The example preflight script checks that @salesforce/plugin-code-analyzer is installed at version 5.5.0 or later, which gives mechanical enforcement on top of instructions. Hooks are Claude Code-specific, while the skill content is portable.",
+      "The SKILL.md format is an open spec under Apache 2.0, supported by 30+ agents (Agentforce Vibes, Cursor, VS Code, Gemini CLI, Codex, and others). The post stresses that LLM output is probabilistic, so preventive structure and detective validation are both needed. It also points to Anthropic's skill-creator skill as a starting point."
+    ],
+    "tasks": [
+      {
+        "title": "Scaffold a minimal authoring-apex skill (SKILL.md with TRIGGER/DO NOT TRIGGER description plus one anti-patterns.md reference) in a scratch project and test Claude Code on a trigger handler",
+        "effort": "M"
+      },
+      {
+        "title": "Add the preflight hook script that checks the Salesforce Code Analyzer plugin version, and confirm it warns when the plugin is missing or outdated",
+        "effort": "S"
+      },
+      {
+        "title": "Audit your repo's Apex conventions (sharing, USER_MODE, trigger framework) and turn them into BAD/GOOD reference sections and service/selector templates",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-08-25-analyze-and-consolidate-apex-triggers-via-agentforce-vibes-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "The post shows how to use Agentforce Vibes in VS Code to consolidate multiple custom Apex triggers on one object (an Opportunity example) into a single trigger, handler, helper and test class.",
+      "It ships reusable skills (apex-trigger-risk-scan, apex-trigger-consolidation-analysis) and a /trigger-consolidation workflow, installed by copying a .a4drules/ directory into the SFDX project root with no restart needed.",
+      "The skills assess risk across 15 dimensions: 7 per trigger (execution order, recursion, governor limits, before/after context, bypass mechanisms, static variables) and 8 across triggers (logic overlap/conflict, helper coupling, test coverage gaps, automation re-entry, cumulative governor usage). Output is a 1-10 risk score.",
+      "The workflow pulls metadata via Salesforce CLI and writes an audit plan to docs/trigger-audit-plan.md, then stops for human review and edit before generating any code. Managed-package triggers are unreadable and left untouched.",
+      "Generated code includes a 200-record bulk test, and leaves // CONFLICT and // ASYNC REQUIRED comments for manual resolution."
+    ],
+    "tasks": [
+      {
+        "title": "Install the .a4drules skills and workflow in a scratch org project and run /trigger-consolidation on a simple object",
+        "effort": "M"
+      },
+      {
+        "title": "Audit my org for objects with multiple custom Apex triggers and rank them by consolidation priority",
+        "effort": "S"
+      },
+      {
+        "title": "Review a generated docs/trigger-audit-plan.md and resolve the // CONFLICT and // ASYNC REQUIRED items before deploying to a sandbox",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-08-24-headless-experience-layer-custom-ui-widget-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "LWC / UI"
+    ],
+    "summary": [
+      "The Headless Experience Layer (HXL), announced at TDX 2026, entered beta in August 2026 and lets Salesforce data appear as rich custom UI widgets in external AI agent apps such as Slackbot, ChatGPT and Claude.",
+      "The post builds an account opportunity summary widget in 7 steps: an Apex invocable class, LightningTypes with a renderer, a UiWidgetBundle, a GenAiFunction, a McpServerDefinition, deployment, and enabling the MCP server and connecting from an agent app.",
+      "Data flows through two separate paths: tools (the Apex action, registered through GenAiFunction in the API catalog) and resources (the widget UI), and McpServerDefinition ties them together.",
+      "The MCP response is a 3-layer envelope (Result \u2192 OutputValues \u2192 Apex Summary), and renderer.json maps values into widget attributes with expressions like {!$attrs.outputValues.summary.accountName}. A wrong path depth means nothing displays.",
+      "Widgets are built as JSON trees of tile/* components (row, column, avatar, badge, text, icon). Using a nonexistent tile/icon name such as 'currency' crashes the whole widget with a NullPointerException and only a generic 'unexpected error' message; 'briefcase' and 'dollar-sign' work."
+    ],
+    "tasks": [
+      {
+        "title": "Enable HXL in a Developer Edition org on Summer '26 Patch 14.4+ and deploy the hxl-mcp-widget-sample repo",
+        "effort": "M"
+      },
+      {
+        "title": "Connect the deployed MCP server to Claude or ChatGPT and test the account opportunity summary widget with real data",
+        "effort": "M"
+      },
+      {
+        "title": "Build a second HXL widget for a different object, trying out other tile/* components and checking valid icon names",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-08-20-data-and-communication-anti-patterns-in-lightning-web-components": {
+    "topics": [
+      "LWC / UI",
+      "Apex & Code",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "This is the second post in a series on LWC anti-patterns; it covers the @wire service, public @api properties, and event handling, following a first post on security and Lightning Web Security.",
+      "The central mental model is that @wire is a subscription, not a one-time fetch. Adapters can emit multiple times (cache, network, other components' edits), so handlers must be idempotent and derive all state from the latest emission.",
+      "Wire data is immutable, so copy it into a local property before mutating. Never change wire config inside renderedCallback(), which causes an infinite render loop. Don't assume multiple adapters fire in order, and don't read wire data in connectedCallback().",
+      "For LDS caching, use notifyRecordUpdateAvailable() after imperative Apex writes instead of refreshApex(), which is deprecated for LDS adapters like getRecord. Don't mix Apex and LDS for the same record, and don't add dummy optionalFields to bust the cache.",
+      "Other wire fixes: import field tokens from @salesforce/schema, use full relationship paths such as Case.Account.Name in getRecord, and gate dependent data with undefined reactive properties instead of promise chains. Use top-level '$prop' config values instead of swapping a config object, and use imperative Apex rather than @wire for DML."
+    ],
+    "tasks": [
+      {
+        "title": "Audit your LWC repo for renderedCallback() assignments to wire config properties and direct mutations of wired data",
+        "effort": "M"
+      },
+      {
+        "title": "Find imperative Apex writes in your components and add notifyRecordUpdateAvailable() calls; replace refreshApex() on getRecord wires",
+        "effort": "M"
+      },
+      {
+        "title": "Replace string-literal field names in getRecord wires with @salesforce/schema imports in a scratch org",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-19-headless-development-with-skills-and-a-claude-code-plugin": {
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "Apex & Code"
+    ],
+    "summary": [
+      "Headless development relies on three components: agent skills (SKILL.md folders loaded lazily by name and description), MCP servers (a standard way to connect agents to external systems), and agent plugins (installable bundles of skills, MCP servers and utilities).",
+      "Plugins are currently AI-vendor-specific, unlike skills and MCP servers, which are standards.",
+      "The open-source sf-skills library has over 100 Salesforce skills, installable in other agentic environments with `npx skills add forcedotcom/sf-skills`. It comes pre-installed in Agentforce Vibes.",
+      "Skills were renamed under a defined taxonomy (e.g., DX > DevOps > Test > Failures Analyze) and now pass an automated gated verification pipeline. Each skill now has its own version and dependency metadata, including the minimum Salesforce API version.",
+      "The first official plugin, `salesforce-development` for Claude Code, bundles about 40 core development skills. It also includes the salesforce-dev, architecture-review and ADLC agents, and three MCP servers (salesforce-api-context, salesforce-metadata-experts, salesforce-lsp with Apex/SOQL language servers). Hooks cover org detection, Agent Script validation and deployment validation, and commands include /setup, /discovery, /org, /login and /logout."
+    ],
+    "tasks": [
+      {
+        "title": "Install the salesforce-development plugin in Claude Code against a scratch org and run /setup, then try prompts like creating an Apex service class and its test class",
+        "effort": "M"
+      },
+      {
+        "title": "Run `npx skills add forcedotcom/sf-skills` in another agent (Cursor, Codex or OpenCode) and compare the results with the Claude plugin",
+        "effort": "S"
+      },
+      {
+        "title": "Review the sf-skills repository's skill metadata (versions, dependencies) and the taxonomy naming, and note which skills would fit your team's workflows",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-19-developers-guide-dreamforce-2026": {
+    "topics": [
+      "Community & Events",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "The guide highlights Dreamforce 2026 (San Francisco and Salesforce+ livestream) with 1,600+ breakout sessions, 150+ hands-on trainings and demos, 50+ keynotes, and 240+ community roundtables.",
+      "Key keynotes for developers are the Main Keynote with Marc Benioff, the Developer Keynote 'Build the Agentic Enterprise' (Headless 360 demos), and the unscripted 'True to the Core' with Parker Harris.",
+      "Trailblazer Forest hands-on areas include Headless 360 Theater (six 20-minute intro sessions), AIforce (a 15-minute exercise configuring Salesforce MCPs in a third-party AI system), Camp Mini Hack (30-minute challenges), Camp Trailhead badges, and Platform Park (20 demos).",
+      "Featured developer sessions cover the Metadata Grounding MCP and Skills Library with Agentforce Vibes and Claude Code, deterministic agents with Agent Script, querying Data 360 from Apex in five lines, Document AI with Headless Data 360, Apex best practices for apps and agents, and Mobile SDK Skills.",
+      "The Road to Dreamforce Quest must be completed by September 14, 2026 for a chance at 1 of 100 prize boxes; Trailblazer Bootcamp runs September 12-14, and Dreamfest is September 16 at Oracle Park."
+    ],
+    "tasks": [
+      {
+        "title": "Browse the Developer Trail Map and the 'Developer' role filter in the session catalog to pick sessions for a personal agenda",
+        "effort": "S"
+      },
+      {
+        "title": "Try Agent Script in a scratch org or IDE to build a deterministic, testable agent",
+        "effort": "M"
+      },
+      {
+        "title": "Configure a Salesforce MCP server with a third-party coding agent and test grounding on org metadata",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-14-migrate-from-managed-package-runtime-to-the-omnistudio-standard-runtime": {
+    "topics": [
+      "Releases",
+      "DevOps & Tooling",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "The Omnistudio Migration Assistant (OMA), a Salesforce CLI plugin, automates moving Flexcards, Omniscripts, Data Mappers and Integration Procedures from managed package runtimes (Vlocity Industries or Omnistudio Foundation) to the Omnistudio standard runtime.",
+      "Salesforce cites internal testing in which execution averaged 2112 ms on the standard runtime versus 5061 ms on a managed package runtime, with claimed gains of up to 5x for Flexcards, 4x for Integration Procedures, 3x for Data Mappers and 2x for Omniscripts.",
+      "Migration has three phases (development, validation, production). The first runs OMA in Assess mode, fixes flagged issues until the report is clean, then runs Migrate mode. The tool is installed with `sf plugins install @salesforce/plugin-omnistudio-migration-tool@2.0.0-rc.57`, and the commands are `sf omnistudio:migration:assess` and `sf omnistudio:migration:migrate` with `-u` and `-a`.",
+      "Prerequisites and caveats: upgrade to Vlocity Industries managed package Winter '26 or later first; never migrate directly in production; and do not uninstall the package afterward, because existing workflows may still rely on its schema.",
+      "OMA is said to cut manual effort by 95%, but older Angular-based components and industry-specific object mappings still need manual work. Customers already on the standard runtime need no action, and Omnistudio has been package-free for new customers since Summer '25."
+    ],
+    "tasks": [
+      {
+        "title": "Install the OMA plugin in a sandbox and run `sf omnistudio:migration:assess -a` to produce a baseline migration-blocker report",
+        "effort": "S"
+      },
+      {
+        "title": "Record a baseline of automated regression and smoke tests for key Omnistudio flows, to compare against after migration",
+        "effort": "M"
+      },
+      {
+        "title": "Inventory Angular-based Omniscripts and custom-object mappings that OMA can't migrate automatically, and estimate the manual rework",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-12-build-production-ready-apps-in-claude-code-with-salesforce-skills-jp": {
+    "topics": [
+      "Agentforce & AI",
+      "Apex & Code",
+      "LWC / UI"
+    ],
+    "summary": [
+      "Salesforce Skills for Claude Code (installed via `npx skills add forcedotcom/sf-skills`) generate Apex, LWC, and test classes from natural-language prompts, with output checked by Salesforce Code Analyzer and at least 75% test coverage.",
+      "Claude maps the prompt to skills such as generating-apex, generating-apex-test, generating-lwc-components, and debugging-apex-logs, then applies guardrails like no SOQL in loops, enforced sharing rules, and mandatory test generation.",
+      "Before reporting completion, the skills run `sf code-analyzer` and `sf apex run test`; the tutorial's Account creation form (LWC + AccountCreationController + test class) reached 100% coverage, including bulk tests with 251+ records.",
+      "The sf-skills library has 60+ skills, covering batch jobs (Database.Stateful), service-selector-domain layers, screen flows (generating-flow), Apex log analysis, OmniStudio, Trigger Actions Framework, and Custom REST resources; it is open source and can be forked for team conventions.",
+      "Caveats: it is distributed through GitHub rather than as a Salesforce npm package, the 'skills' npm package is not owned by Salesforce, and output must be reviewed and tested in a sandbox (field API names, FLS, sharing) before production deployment."
+    ],
+    "tasks": [
+      {
+        "title": "Install forcedotcom/sf-skills in a scratch org project and build the accountCreationForm tutorial end to end",
+        "effort": "S"
+      },
+      {
+        "title": "Prompt Claude to generate a Database.Stateful batch job with tests, then run Code Analyzer manually and compare findings",
+        "effort": "M"
+      },
+      {
+        "title": "Fork sf-skills and add a custom skill or template encoding your team's naming and trigger framework conventions",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-08-11-extending-agentforce-with-external-mcp-tools-via-mulesoft": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "The post shows how Agentforce agents can call external MCP (Model Context Protocol) tools over JSON-RPC via HTTP, with no custom Apex callouts or middleware.",
+      "It deploys a stateless timezone MCP server on MuleSoft CloudHub (single JAR, 0.1 vCore Micro worker). The server uses DataWeave 2.0 and exposes four tools: get_current_time, convert_time, time_difference and list_timezones, covering 50+ cities mapped to IANA IDs.",
+      "The server implements the MCP methods initialize, tools/list and tools/call. It validates a Bearer token (returning JSON-RPC error -32000 if the token is missing or invalid) and is secured with OAuth 2.0 client credentials through an Anypoint Connected App and an API Manager policy.",
+      "To register it in Salesforce, go to Setup \u2192 API Catalog \u2192 MCP Server \u2192 Import External MCP Server and supply the /mcp URL and OAuth details. Salesforce then fetches a token, negotiates protocol version 2024-11-05, discovers tools via tools/list and creates GenAiFunction metadata. You must add the tools to the allowlist before using them.",
+      "In Agent Studio you create an Agentforce Employee Agent with a subagent, add the MCP tools from the Asset Library, then commit and activate the version and test it in Preview (e.g. 'What is the current time in New Delhi?'). Salesforce handles token caching and refresh, retries and error handling."
+    ],
+    "tasks": [
+      {
+        "title": "Clone the timezone MCP server repo, build it with ./build.sh and deploy it to CloudHub via Runtime Manager",
+        "effort": "M"
+      },
+      {
+        "title": "In a scratch org or sandbox, register the MCP server under API Catalog, allowlist the tools and build a 'Time Zone Assistant' Agentforce Employee Agent to test it in Preview",
+        "effort": "M"
+      },
+      {
+        "title": "Identify one existing Apex callout in your org that could be replaced by an MCP tool and sketch the server design",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-06-migrate-legacy-agents-to-the-new-agentforce-builder": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Releases"
+    ],
+    "summary": [
+      "Starting the week of July 13, 2026, new agents can only be created in the new Agentforce Builder; existing legacy agents keep working and stay editable, so migration is now the path forward.",
+      "The legacy engine classifies a message into one subagent and then runs a ReAct loop. The new engine is graph-based, with subagents as nodes, transitions between them, and variables that carry state, and it is authored in Agent Script (hybrid natural-language and programmatic logic).",
+      "In Setup, Agentforce Studio \u2192 Agentforce Agents \u2192 'Upgrade to New Builder' creates a new version with all subagents, actions, system messages, settings and connections converted to Agent Script, and the original agent stays active and untouched.",
+      "The recommended approach is to migrate as-is first, confirm the agent works with tests, and only then harden it with variables, conditionals, filters and transitions where decisions have business consequences, in small batches.",
+      "Regression testing runs the same suite against v1 and v2 with the Salesforce CLI. Add `--test-runner agentforce-studio` to `sf agent test create` and `sf agent test run` to target the Beta AiTestingDefinition metadata (using `<scorer>` tags) instead of the legacy AiEvaluationDefinition."
+    ],
+    "tasks": [
+      {
+        "title": "Run 'Upgrade to New Builder' on a non-production agent in a sandbox and review the generated Agent Script in Canvas view",
+        "effort": "M"
+      },
+      {
+        "title": "Write a baseline YAML test spec with topic_sequence_match, action_sequence_match and bot_response_rating, then run it against both v1 (testing-center) and v2 (agentforce-studio) via sf agent test",
+        "effort": "M"
+      },
+      {
+        "title": "Update the Salesforce CLI and agent plugin (sf update) and verify the --test-runner flag is recognized",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-29-what-does-an-admin-certification-prove-in-the-agentforce-era-podcast": {
+    "topics": [
+      "Careers & Certification",
+      "Agentforce & AI",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Salesforce Admins Podcast episode with Stacy Jacobs (Partner Ecosystem & GTM Leader) argues certifications still matter even though AI can walk anyone through building things like a custom object.",
+      "Stacy says getting the most from Agentforce requires understanding how Salesforce works in your specific business context, since AI assembles the pieces but humans decide what the finished solution should look like.",
+      "Certifications help even veteran admins learn best practices for security models, native out-of-the-box features they may not be using, and how to build confidently with AI.",
+      "Many Salesforce certifications emphasize soft skills that help you build the right solution to the actual business problem, rather than just an app that meets stated requirements.",
+      "Stacy recommends using AI to gather study materials and prepare for exams, including Slack skills that help you study, but not to obtain answers to exam questions; Trailhead links include Salesforce Certified Business Analyst and AI Associate."
+    ],
+    "tasks": [
+      {
+        "title": "Take the Trailhead AI Associate content and note which native platform features or security-model practices you aren't yet using in your org",
+        "effort": "M"
+      },
+      {
+        "title": "Use an AI assistant to build a quiz from official Trailhead study material for your next certification and run through it",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-27-that-spreadsheet-your-team-keeps-emailing-build-a-salesforce-app-with-builder-central": {
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "Releases"
+    ],
+    "summary": [
+      "Builder Central is an AI-powered conversational workspace (currently in beta) where Admins plan, build, preview and deploy Salesforce solutions such as apps, agents, flows, custom objects, fields and permission sets using plain language.",
+      "The author recreated an old Object Creator demo, a 'Bulk Delivery Management' app with a custom 'Bulk Delivery' object, from a single prompt, with no spreadsheet or Object Manager work, and it took about 12 minutes in real time.",
+      "Builder Central first produces a project plan for review, then builds in a separate workspace where nothing reaches the org until you publish, and it can also assign the permission set and create list views on request.",
+      "The generated record page was missing some fields, so the author fixed it in Lightning App Builder, which shows the conversational and declarative tools can be used together.",
+      "The author recommends trying it in a sandbox first and reviewing the plan, permissions, automation and UX as usual, and notes that the beta has limitations to check; at general availability it is intended to become the single place to manage and configure sandbox and production orgs."
+    ],
+    "tasks": [
+      {
+        "title": "Recreate a past app or business scenario in Builder Central in a sandbox, then review the project plan and generated components",
+        "effort": "M"
+      },
+      {
+        "title": "Complete the Trailhead module 'Get to Know Builder Central' and note the beta limitations",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-10-15-winter-27-what-admins-should-check-before-their-org-upgrades-podcast": {
+    "topics": [
+      "Releases",
+      "Flow & Automation",
+      "Agentforce & AI"
+    ],
+    "summary": [
+      "Builder Central (beta) is an agent-powered workspace where admins describe an app or agent in natural language, and it plans, builds in a virtual environment, lets you preview and tweak the result, and then deploys from sandbox to production.",
+      "Setup with Agentforce is now GA. It no longer requires Data 360, though related list enrichments and custom report types still need it, and its two permission sets are now bundled into a single permission set group.",
+      "Setup with Agentforce can bulk freeze/unfreeze users, trigger password resets, summarize permission sets and groups, find profiles with specific permissions, and reorganize role hierarchies.",
+      "Flow gets three Winter '27 enhancements: Edit History (review, restore and reuse past versions), multi-record processing with Screen Flows from List Views and Related Lists, and Test Mode (beta) with saved manual tests that can seed an automated test suite.",
+      "A new sharing setting, 'keep manual shares when transferring records', preserves manual shares when record ownership changes, which previously dropped them silently."
+    ],
+    "tasks": [
+      {
+        "title": "Enable Setup with Agentforce in a sandbox, assign the new permission set group, and try a bulk user freeze and a profile permission query",
+        "effort": "S"
+      },
+      {
+        "title": "Try Flow Test Mode (beta) and Edit History on an existing flow in a sandbox, and save a manual test as the start of a regression suite",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-10-15-be-release-ready-the-admin-habit-that-saves-you-every-time": {
+    "topics": [
+      "Releases",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Salesforce ships three releases a year (Spring, Summer, Winter), and features move from Pilot to Beta to GA, which tells you whether to adopt now, wait, or flag for later.",
+      "The post gives a four-step readiness habit: plan and learn, get hands-on, test, and communicate.",
+      "Keep a mix of preview and non-preview sandboxes during the roughly four-week preview window. Dev, integration, and UAT sandboxes that form the deployment path should stay non-preview, refreshed if they were slated to move to preview.",
+      "Deploy from like states (non-preview sandbox to non-preview sandbox to non-preview Production). Avoid deploying from a preview sandbox into non-preview Production: new-release metadata such as new permissions can make the deployment fail, and Git doesn't track the release version, so source control won't catch it.",
+      "Check a sandbox's state with the Sandboxes page's Location column plus the Salesforce Sandbox Preview Guide. To handle the 600+ page Release Notes, have an AI tool condense them and show which sections it skipped, then verify its judgment yourself."
+    ],
+    "tasks": [
+      {
+        "title": "Audit sandboxes in Setup and the Sandbox Preview Guide, and mark each as preview or non-preview, with the dev/UAT deployment path kept non-preview",
+        "effort": "S"
+      },
+      {
+        "title": "Review pending Release Updates in Setup and test those nearing enforcement in a sandbox",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-10-05-jens-top-winter-27-release-features-for-admins": {
+    "topics": [
+      "Releases",
+      "Security & Admin",
+      "Flow & Automation"
+    ],
+    "summary": [
+      "The post is an admin-focused guide to Winter '27 highlights, with the reminder that the 600+ page release notes don't need to be read in full, and it explains pilot, beta and GA feature phases.",
+      "Two new User Interface Settings (off by default) allow list view inline editing of any field the user can access, even if it isn't on the page layout, and across lists with multiple record types.",
+      "User Field History Tracking is now GA and auto-enabled, tracking up to 20 User fields with data retained for up to 18 months in the UI.",
+      "A new 'Keep manual shares when transferring records' sharing setting stops Salesforce from deleting manual shares on owner change, and Custom Row Causes for standard objects via Metadata API are targeted for October 10, with Setup management by early November (forward-looking).",
+      "Email and MFA updates include a User Email Domains page, importing authorized email domains into sandboxes from production, per-domain verification rules (Always, For Updated Addresses Only, Never), and Chrome extension entries (`chromeextension://[32-char-id]`, no wildcards) in Trusted URLs."
+    ],
+    "tasks": [
+      {
+        "title": "Enable User Field History Tracking and the 'Keep manual shares when transferring records' setting in a sandbox, then test a record owner transfer",
+        "effort": "S"
+      },
+      {
+        "title": "Review User Email Domains and Authorized Email Domains in Setup, and configure 'Allow copy to sandbox' for production domains",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-09-29-flow-test-mode-beta-the-future-of-flow-testing": {
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Flow Test Mode (Beta) is a dedicated testing workspace that replaces the Debug button in Flow Builder and merges debugging and automated testing into one experience.",
+      "Debug runs can be saved as named manual test scenarios that keep the triggering record, input variables, and mocked outputs, so they can be reused or shared with coworkers.",
+      "Saved scenarios can be turned into permanent regression tests by adding assertions (expected results), using Apex test classes to create isolated test data for each test.",
+      "New inputs include static 15- or 18-character record IDs (useful for Cases, Campaign Members, Content Document, and Setup objects) and primitive collections, which can be entered as a semicolon-delimited list.",
+      "Subflow and action outputs can be mocked, for example to fake an HTTP callout response, and flow coverage visualization on the canvas arrives in Winter '27 along with Agentforce for Flow Headless test generation."
+    ],
+    "tasks": [
+      {
+        "title": "Enable Flow Test Mode (Beta) in a sandbox or scratch org and save two manual test scenarios on a record-triggered flow",
+        "effort": "S"
+      },
+      {
+        "title": "Convert a saved scenario into an automated regression test with assertions and mock an HTTP callout action, then check whether deployment to another org requires the beta setting",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-24-september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast": {
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Community & Events"
+    ],
+    "summary": [
+      "The September Monthly Retro podcast episode with Joshua Birk and Kate Lessard recaps Dreamforce 2026 from an admin's perspective.",
+      "Builder Central is a low-code/no-code AI workspace for building React sites, flows, agents, data models and permissions from plain-language prompts, with automated testing, safety checks and built-in controls.",
+      "Admins can upload requirements documents and business-process information to Builder Central so it builds against their actual data model and org structure; the hosts stress testing in a sandbox and \"trust but verify\".",
+      "Headless 360 and the Headless Experience Layer let Salesforce surface in Slack, Claude and other interfaces; the keynote demoed running an auto-launched case-escalation flow directly from Claude.",
+      "The main Dreamforce takeaway is that governance and trust matter more, so admins should focus on data cleanup and strict permissions, and on tracking how data moves across platforms and who can access it; new tools include Security Center Essentials and the Transaction Security Policy Accelerator."
+    ],
+    "tasks": [
+      {
+        "title": "Try Builder Central in a sandbox with a requirements doc and check the generated flow or data model against your org",
+        "effort": "M"
+      },
+      {
+        "title": "Evaluate the Transaction Security Policy Accelerator and Security Center Essentials in a sandbox and compare them with your current security policies",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-22-skills-in-agentforce-vibes-a-guide-for-admins": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Agentforce Vibes opens from Setup as a cloud-hosted Visual Studio Code instance configured for your org, so admins work in a virtualized environment rather than directly in the org.",
+      "Skills are packaged instructions for distinct tasks, such as creating objects, adding fields or validation rules, and deploying metadata. Vibes picks the matching skill from the verbs in your prompt, which avoids guessing and wasting tokens.",
+      "A library of Salesforce and Trailblazer Community skills now comes pre-installed. Find them under Toolkit > Skills, add more with + Add Skill, or get them from the GitHub repo forcedotcom/afv-library.",
+      "Plan mode shows a plan for approval before Vibes executes anything. All changes stay on Vibes' own filesystem until you explicitly ask it to deploy, so you should try it in a Developer Edition, scratch org or sandbox.",
+      "In the author's example, a prompt to build a report of active system administrators led to a deploy that initially failed because Vibes guessed the wrong report type. It then retried with other APIs, and the author warns that technical errors such as access tokens may appear along the way."
+    ],
+    "tasks": [
+      {
+        "title": "In a sandbox or scratch org, open Agentforce Vibes, set up a Standard project, and use Plan mode to create and deploy a report from a prompt",
+        "effort": "S"
+      },
+      {
+        "title": "Browse the pre-installed skills in Toolkit > Skills and the forcedotcom/afv-library repo, then try a permission set or record-triggered flow skill in a sandbox",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-17-dreamforce-2026-product-highlights-for-admins": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "LWC / UI"
+    ],
+    "summary": [
+      "Builder Central is a new no-code, AI-powered workspace for building apps, agents, and experiences from natural language. It enters beta the week after Dreamforce for orgs with Agentforce enabled, and every org gets it free with usage limits.",
+      "Salesforce Quick Pages lets admins and permissioned users build single-page React apps on top of existing data without putting org metadata at risk.",
+      "Agentforce Coworker is an out-of-the-box autonomous assistant in Lightning that respects the logged-in user's permissions. Admins can set it up in under 5 minutes.",
+      "The Headless Experience Layer (HXL) lets admins build deterministic UI widgets tied to data, automation, and business logic that work across every interface. The HXL Playground is available to try now.",
+      "Security Center Essentials is a free dashboard for security posture, enabled by assigning the View Security Center Pages permission, with no support case needed."
+    ],
+    "tasks": [
+      {
+        "title": "Assign View Security Center Pages permission and review the Security Center Essentials dashboard in a sandbox",
+        "effort": "S"
+      },
+      {
+        "title": "Install the Transaction Security Policy Accelerator from AgentExchange in a sandbox and evaluate prebuilt policies against current TSPs",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-09-use-agentforce-vibes-to-find-and-fix-metadata-gaps": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Before building an Agentforce agent, the post argues you should fix your metadata first, because field labels, API names and descriptions are the context the agent uses to understand your data.",
+      "The review starts by scoping to the objects, fields and flows one agent use case touches, such as the 23-field Opportunity object, rather than cleaning the whole org.",
+      "Agentforce Vibes IDE is opened from Setup (gear icon, then Agentforce Vibes) in a Developer Edition org. A first prompt in non-Plan mode pulls the Opportunity field metadata into a table that can be downloaded as CSV or Markdown.",
+      "A second prompt, run in Plan mode and explicitly told not to make changes, flags custom fields whose label, API name and description describe different concepts or whose descriptions are missing or ambiguous. For each one it shows evidence and, where the evidence supports it, a draft description. In the author's test it flagged five custom fields and drafted good descriptions for three.",
+      "After you review the drafts and click Approve Plan, Vibes updates the field descriptions and summarizes the changes. Fields it couldn't describe (OrderNumber__c, TrackingNumber__c, Stage_1__c to Stage_4__c) go to the business for answers, and those answers can be applied by attaching a CSV to the chat or with a one-line prompt."
+    ],
+    "tasks": [
+      {
+        "title": "In a Developer Edition org, run the Agentforce Vibes metadata-pull and Plan-mode gap-review prompts against a custom or Opportunity object and approve the drafted field descriptions",
+        "effort": "S"
+      },
+      {
+        "title": "Pick one planned agent use case, list its objects, fields and flows, and use Vibes to audit the custom field descriptions in a sandbox, then send the unresolved fields to the business owners as a CSV",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-09-03-security-center-essentials-what-admins-need-to-know-now-podcast": {
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ],
+    "summary": [
+      "Security Center Essentials is now fully rolled out to production orgs and some sandboxes, extending Health Check's point-in-time configuration score with ongoing visibility into an org's security posture.",
+      "It currently surfaces seven metrics, including installed managed packages, connected apps and third-party access, trusted IP ranges, who installed what, and recent changes; this is planned to expand to 14 metrics by Dreamforce.",
+      "Sabrina Simeroth recommends two review questions: what should be in my environment (owner, installer, users of each package), and what changed most recently (expected or not, by whom, and the impact on business processes).",
+      "Admins should set a monitoring cadence tied to business milestones, such as checking before and after a weekly Tuesday update, and escalate anything unexpected to the security and governance team.",
+      "A perfect Health Check score shouldn't be the goal: it should start a security review rather than end one, and any gaps you accept should be known, intentional risks."
+    ],
+    "tasks": [
+      {
+        "title": "Open Security Center Essentials in a production or sandbox org and inventory managed packages, connected apps, and trusted IP ranges, noting owner and installer for each",
+        "effort": "S"
+      },
+      {
+        "title": "Run Health Check, document any intentional deviations from the baseline, and set up a recurring review cadence tied to your release or update schedule",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-26-security-center-essentials": {
+    "topics": [
+      "Security & Admin",
+      "Releases"
+    ],
+    "summary": [
+      "Security Center Essentials is a free, centralized org security dashboard for admins that is generally available now and needs no support case to enable.",
+      "The dashboard shows a Health Check Score measured against the Salesforce baseline or a custom baseline you define.",
+      "It keeps 30 days of metric history so you can track improvements and regressions, and use it as evidence of progress for leadership.",
+      "Core metrics shown in one place include connected apps, installed packages, login IP ranges, and trusted IP ranges.",
+      "To enable it, assign the 'View Security Center Pages' permission, then open it from the App Launcher or Setup."
+    ],
+    "tasks": [
+      {
+        "title": "Assign View Security Center Pages to yourself in a sandbox or prod org and review the Health Check Score against the Salesforce baseline",
+        "effort": "S"
+      },
+      {
+        "title": "Audit connected apps and trusted IP ranges in Security Center Essentials and list stale or unapproved items to remove",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-25-bring-crm-conversations-into-slack-with-salesforce-channels-and-slackbot": {
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "Salesforce channels create a dedicated Slack channel for a Salesforce record (Accounts, Opportunities, Cases, Campaigns, or custom objects), so conversations stay tied to CRM data.",
+      "Setup is in Setup > Slack Channels for Records: enable Show Slack Button on Selected Objects, pick objects (Accounts, Opportunities and Cases are suggested starting points), and add them via Add Objects if needed.",
+      "Admins then add the Slack component to Lightning record pages in Lightning App Builder and activate the page as Org Default, App Default, or by App, Record Type, or Profile.",
+      "Default channel preferences, set from the Slack organization's settings, cover channel name, channel privacy, and which related lists show in the channel.",
+      "Slackbot can summarize a record (e.g. 'Catch me up on the Acme account'), create or update Salesforce records, and answer questions from Salesforce data and Slack conversations."
+    ],
+    "tasks": [
+      {
+        "title": "Enable Salesforce channels for Account in a sandbox, add the Slack component to the Account record page, and create a test record channel",
+        "effort": "S"
+      },
+      {
+        "title": "Draft a channel naming convention and pilot plan for Accounts, Opportunities and Cases, and try Slackbot record summaries and updates in the pilot channels",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-20-how-to-set-up-a-super-agent-with-connected-subagents": {
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
+      "Security & Admin"
+    ],
+    "summary": [
+      "A single do-everything agent gets hard to maintain because subagents (formerly topics) compete for the same requests and the reasoning engine makes surprising choices.",
+      "The recommended pattern is a Super Agent that owns the user conversation and delegates to Connected Subagents, with each one decomposed by functional domain, workflow stage, or capability.",
+      "Use a Connected Subagent where work hands off to a different team or system and the task has its own input and output plus enough reasoning and data access. If it's a single step with no real reasoning, make it an action instead.",
+      "Keep the Super Agent's instructions focused on routing, and put cross-cutting concerns there: guardrails and compliance (e.g. GDPR opt-out), one-time user verification and context priming, disambiguation, and human handoff.",
+      "In the author's Pronto Delivery Concierge build, description-based routing was right only about 80% of the time, so they added a deterministic Agent Script conditional (if @variables.order_status == \"In Progress\": invoke @actions.go_to_Logistics_Dispatch) after a Get Order Details flow action."
+    ],
+    "tasks": [
+      {
+        "title": "Build a Super Agent in a sandbox with two Connected Subagents and add an order_status conditional that overrides description-based routing",
+        "effort": "L"
+      },
+      {
+        "title": "Audit existing Agentforce subagent descriptions for vague or overlapping wording and apply the one-sentence 'no and' test",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-11-the-salesforce-admins-guide-to-creating-test-data-for-flow-testing": {
+    "topics": [
+      "Flow & Automation",
+      "Apex & Code",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Dedicated, system-generated test data makes flow tests predictable, because tests no longer depend on records that may be deleted, changed, or missing in another org.",
+      "Flow tests that rely on org data break when the chosen record changes or when a flow version moves to a data-dry sandbox or Developer Edition org.",
+      "Test data comes from an Apex class that is annotated @isTest, has a method annotated @testSetup, and is declared global so the flow testing UI can see it.",
+      "The data is ephemeral: it exists only while the test runs and is never written to the data layer, so you can create, update, and delete records freely.",
+      "Admins should give developers a brief on the flow's purpose, the trigger record and fields, related records, and the data volume needed (for example 500 records instead of 5), then attach the class on the flow test's Test Setup tab."
+    ],
+    "tasks": [
+      {
+        "title": "Write a global @isTest class with a @testSetup method for a simple flow, deploy it to a scratch org, and attach it on the flow test's Test Setup tab",
+        "effort": "M"
+      },
+      {
+        "title": "Audit existing flow tests for dependence on specific org records and list candidates to move to dedicated Apex test data",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-08-06-the-small-salesforce-flow-setting-that-changes-user-behavior": {
+    "topics": [
+      "Flow & Automation",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Pairing a boolean toggle (e.g., tgl_update_client) with the Read Only and Disabled settings on Screen Flow components lets you capture user intent, not just the final field values.",
+      "A boolean formula resource that inverts the toggle (True when the toggle is off) is applied to the Read Only or Disabled setting on every field, so fields stay locked until the user turns the toggle on.",
+      "The toggle's own Disabled setting is set to tgl_update_client.value, so once it's on it can't be switched off. This stops users from thinking they need to uncheck it to 'lock in' their edits.",
+      "Read Only fields still allow highlighting and copying text, while Disabled fields are grayed out and block copy-paste. Static booleans can permanently lock fields such as name and date of birth.",
+      "Caveat: toggles aren't always initialized to False, so a skipped screen or conditional visibility can leave the value null, and writing null to a checkbox field errors. Set it to False in an Assignment element before the record update."
+    ],
+    "tasks": [
+      {
+        "title": "Build a scratch-org Screen Flow with a toggle, an inverse formula resource, and Read Only/Disabled fields, then write the toggle to a checkbox field",
+        "effort": "S"
+      },
+      {
+        "title": "Audit existing Screen Flows that pre-populate record data and add 'section changed' toggles, with an Assignment element to default them to False",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-08-06-from-inbox-requests-to-a-user-management-system-podcast": {
+    "topics": [
+      "Flow & Automation",
+      "Security & Admin",
+      "Community & Events"
+    ],
+    "summary": [
+      "Michelle Wolfe, a Platform Engineer, built a no-code, Flow-powered user management system that handles requests, approvals, user creation, permissions, communications and onboarding.",
+      "The problem was onboarding classes of 80+ new hires, where managers emailed individual members of a three-person admin team who then created each account by hand.",
+      "A screen flow now collects the request details and creates a case, which centralizes intake and lets the team track productivity, due dates and workload.",
+      "After the manager approves, an autolaunched flow validates the data, creates the alias and username, and sets the profile and permissions from the request. A second autolaunched flow closes the case and sends a confirmation email and a welcome email.",
+      "She replaced Add Multiple Users and bulk upload because Add Multiple Users doesn't support custom fields, so records failed her validation rules, and bulk upload broke on typos."
+    ],
+    "tasks": [
+      {
+        "title": "Prototype a screen flow in a scratch org that captures new-user request details (including a custom Team Name field) and creates a Case",
+        "effort": "M"
+      },
+      {
+        "title": "Build an approval-triggered autolaunched flow that creates a User with a generated alias and username and assigns a profile and permission set",
+        "effort": "L"
+      }
+    ]
+  },
+  "2026-08-06-admin-winter-27-release-countdown": {
+    "topics": [
+      "Releases",
+      "Security & Admin"
+    ],
+    "summary": [
+      "The post is an admin countdown of key dates for the Winter '27 Salesforce release.",
+      "August 13: admins can sign up for a pre-release Developer Edition org with all Winter '27 features, and anyone with a Summer '26 pre-release org can log back into it.",
+      "August 19: Release Notes are published in Salesforce Help, and the Release Readiness Trailblazer Community Group offers community breakdowns and Q&A.",
+      "August 27 before 5 p.m. PT is the deadline to refresh a sandbox that is not slated for preview, using the Sandbox Preview Guide, and sandbox preview begins August 28 (the post also mentions a January 8 deadline, which looks inconsistent with the August dates).",
+      "Winter '27 reaches production on September 4, October 2 and October 9, depending on the instance, so check the Maintenance Calendar and Release Updates in Setup, and look for Admin Evangelist Jen's Be Release Ready blog on October 5."
+    ],
+    "tasks": [
+      {
+        "title": "Sign up for a Winter '27 pre-release Developer Edition org and test key customizations",
+        "effort": "S"
+      },
+      {
+        "title": "Check the Sandbox Preview Guide for your sandbox instances and refresh before the deadline if needed, then review Release Updates in Setup",
+        "effort": "M"
+      }
+    ]
+  }
+}
