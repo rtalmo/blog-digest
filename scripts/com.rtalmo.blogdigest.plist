@@ -6,11 +6,11 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/zsh</string>
-    <string>/Users/rtalmo/Documents/VSCodeProjects/blog-digest/scripts/refresh.sh</string>
+    <string>/Users/rtalmo/blog-digest/scripts/refresh.sh</string>
   </array>
   <key>StartCalendarInterval</key>
   <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>0</integer></dict>
-  <key>StandardOutPath</key><string>/Users/rtalmo/Documents/VSCodeProjects/blog-digest/logs/refresh.log</string>
-  <key>StandardErrorPath</key><string>/Users/rtalmo/Documents/VSCodeProjects/blog-digest/logs/refresh.log</string>
+  <key>StandardOutPath</key><string>/Users/rtalmo/blog-digest/logs/refresh.log</string>
+  <key>StandardErrorPath</key><string>/Users/rtalmo/blog-digest/logs/refresh.log</string>
 </dict>
 </plist>
