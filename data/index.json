@@ -1,5 +1,29 @@
 [
   {
+    "key": "dev/2026-11-03-protect-your-salesforce-commerce-api-scapi-from-bots-and-ai-agents-with-ecdn",
+    "title": "Protect Your Salesforce Commerce API (SCAPI) from Bots and AI Agents with eCDN",
+    "url": "https://developer.salesforce.com/blogs/2026/11/protect-your-salesforce-commerce-api-scapi-from-bots-and-ai-agents-with-ecdn",
+    "source": "dev",
+    "date": "2026-11-03",
+    "topics": [
+      "Security & Admin",
+      "Integration & APIs",
+      "Releases"
+    ]
+  },
+  {
+    "key": "admin/2026-11-03-admins-aiforce-new-skills-to-build",
+    "title": "Admins & AIforce: New Skills to Build",
+    "url": "https://admin.salesforce.com/blog/2026/admins-aiforce-new-skills-to-build",
+    "source": "admin",
+    "date": "2026-11-03",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ]
+  },
+  {
     "key": "dev/2026-10-29-build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics",
     "title": "Build Trusted Conversational Analytics with AIforce, Data 360, and Tableau Semantics",
     "url": "https://developer.salesforce.com/blogs/2026/10/build-trusted-conversational-analytics-with-aiforce-data-360-and-tableau-semantics",

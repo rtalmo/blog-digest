@@ -1632,5 +1632,57 @@
         "effort": "M"
       }
     ]
+  },
+  "2026-11-03-protect-your-salesforce-commerce-api-scapi-from-bots-and-ai-agents-with-ecdn": {
+    "topics": [
+      "Security & Admin",
+      "Integration & APIs",
+      "Releases"
+    ],
+    "summary": [
+      "The October 2026 B2C Commerce release makes the SCAPI zone (the eCDN zone in front of Commerce API traffic) manageable in Business Manager and the CDN API. One zone is shared across Dev, Staging, and Production and is managed from Production only.",
+      "The SCAPI zone supports custom firewall rules, rate limiting, IP access lists, analytics, and cache purge. It does not support WAF managed rulesets, mTLS, TLS 1.3 settings, HSTS, Page Shield, or Under Attack Mode, and the Crypto tab is read-only.",
+      "The new SCAPI Identity Header (SIH) lets you accept Shopper API traffic only from Managed Runtime. Enable the Managed Runtime SCAPI Request Identification feature per instance, then add a custom block rule on the instance's path segment (e.g. f_ecom_abcd_prd plus /shopper) after the locked managed allow rule. Start in Log mode before switching to Block.",
+      "Custom BFFs, mobile backends, and partner integrations can't present the SIH, so each needs its own allow rule with a server-side shared-secret header, placed above the block rule. SLAS hardening: Strict Client Auth requires an x-slas-client-auth header for private clients, but PWA Kit and Storefront Next don't send it yet, so enabling it for those clients breaks shopper login with 401s. SLAS also throttles refresh-token exchanges to 3 per 60 seconds, returning a 429 beyond that.",
+      "Two new fields work on every eCDN zone: Known Bot (cf.client.bot) and Verified Bot Category (cf.verified_bot_category, 17 categories such as AI Crawler, AI Search, AI Assistant, and Search Engine Crawler). Use them to rate limit AI traffic on expensive endpoints like product search (example: 30 requests per 60 seconds per IP, log first). They cover only Cloudflare-verified bots, so unverified or spoofed automation needs bot scores or a third-party bot manager."
+    ],
+    "tasks": [
+      {
+        "title": "Audit which API clients call Shopper API directly (BFFs, mobile, partners) and map them to needed SIH allow rules",
+        "effort": "M"
+      },
+      {
+        "title": "Create a Log-mode custom firewall rule on the SCAPI zone for direct /shopper traffic and review Security Analytics matches before enforcing",
+        "effort": "M"
+      },
+      {
+        "title": "Add a Log-mode rate limiting rule for AI Crawler and AI Search categories on product-search and review thresholds against real traffic",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-11-03-admins-aiforce-new-skills-to-build": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "The post introduces a new AI extensibility stack for admins under AIforce: MCPs (Model Context Protocol), Skills, and Plugins.",
+      "MCP is a standardized layer over APIs that lets AI securely fetch live context or take action, such as querying CRM records, searching records, or triggering auto-launched flows. Skills define repeatable steps, rules, and formatting for a task. Plugins bundle MCP connectors, skills, and interfaces for one-click install.",
+      "The post lists new admin skills: MCP management (including external client applications and Agentic Identity), agent skills and Super Agent orchestration with subagents, plugin lifecycle management mapped to user roles, Agentforce Coworker setup, and Agent Script.",
+      "Agent Script uses hybrid reasoning to define guardrails, tone, required steps, and logic declaratively in Agentforce Studio. Builder Central and Agentforce Vibes provide AI-assisted building, but admins still need solid fundamentals like schema, layouts, and permissions.",
+      "The suggested roadmap runs from the AI Trust, Security, and Governance trail (Agentblazer Champion), to Coworker and Studio (Innovator), to Builder Central, Vibes, and plugin packaging (Legend), then to change management."
+    ],
+    "tasks": [
+      {
+        "title": "Set up Agentforce Coworker in a sandbox and test which skills and MCPs surface in global search, Slack, and mobile",
+        "effort": "M"
+      },
+      {
+        "title": "Document a central inventory of org-wide MCP connections and external client apps, with the permissions each one needs",
+        "effort": "S"
+      }
+    ]
   }
 }
