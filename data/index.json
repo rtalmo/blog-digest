@@ -1,5 +1,17 @@
 [
   {
+    "key": "dev/2026-11-04-runtime-behavior-anti-patterns-in-lightning-web-components",
+    "title": "Runtime Behavior Anti-Patterns in Lightning Web Components",
+    "url": "https://developer.salesforce.com/blogs/2026/11/runtime-behavior-anti-patterns-in-lightning-web-components",
+    "source": "dev",
+    "date": "2026-11-04",
+    "topics": [
+      "LWC / UI",
+      "Apex & Code",
+      "Security & Admin"
+    ]
+  },
+  {
     "key": "dev/2026-11-03-protect-your-salesforce-commerce-api-scapi-from-bots-and-ai-agents-with-ecdn",
     "title": "Protect Your Salesforce Commerce API (SCAPI) from Bots and AI Agents with eCDN",
     "url": "https://developer.salesforce.com/blogs/2026/11/protect-your-salesforce-commerce-api-scapi-from-bots-and-ai-agents-with-ecdn",

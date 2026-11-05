@@ -1684,5 +1684,33 @@
         "effort": "S"
       }
     ]
+  },
+  "2026-11-04-runtime-behavior-anti-patterns-in-lightning-web-components": {
+    "topics": [
+      "LWC / UI",
+      "Apex & Code",
+      "Security & Admin"
+    ],
+    "summary": [
+      "This is the third post in the LWC anti-patterns series. It covers DOM access, async timing, lifecycle hooks, performance, and base component usage.",
+      "Don't use document.querySelector, innerHTML, or #id selectors, because LWC rewrites ids and scopes shadow DOM. Use this.template.querySelector or lwc:ref (this.refs.x) instead, and use lightning-formatted-rich-text for trusted rich HTML.",
+      "Don't use setTimeout to wait for data or re-renders. Use async/await for data, and use renderedCallback() with a guard flag for DOM work, since it fires after every render.",
+      "Don't read @api properties or touch the DOM in constructor() or connectedCallback(), because values and children aren't ready yet. Use connectedCallback, @wire, or renderedCallback, and avoid this.template.children.",
+      "Under Lightning Web Security, clone Apex/LDS data once on arrival before looping, and prefer plain objects and arrays over Set/Map for large collections."
+    ],
+    "tasks": [
+      {
+        "title": "Run the LWC ESLint plugin (including no-inner-html) over your repo and fix flagged document.querySelector, innerHTML, and #id selector usage",
+        "effort": "S"
+      },
+      {
+        "title": "Replace ShowToastEvent with lightning/toast in components used on LWR or Experience Cloud sites and verify toasts appear in a scratch org",
+        "effort": "M"
+      },
+      {
+        "title": "Audit components for setTimeout-based waits and constructor/connectedCallback DOM or @api access, and refactor to renderedCallback, async/await, or @wire",
+        "effort": "M"
+      }
+    ]
   }
 }

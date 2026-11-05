@@ -2935,5 +2935,101 @@
  "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/servers-reference.html": {
   "title": "Standard Servers | Reference | Hosted MCP Servers | Salesforce Developers",
   "desc": "Salesforce provides a set of standard MCP servers that expose built-in platform and product capabilities. These servers are pre-configured by Salesfor"
+ },
+ "https://help.salesforce.com/s/articleView?id=cc.b2c_seo_overview.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.youtube.com/watch?v=VWOdgy6oyls": {
+  "title": "",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=cc.b2c_eCDN_create_rate_limiting_rule.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/how-ai-could-change-the-way-admins-set-up-salesforce-podcast": {
+  "title": "How AI Could Change the Way Admins Set Up Salesforce - Salesforce Admins",
+  "desc": "Learn how AI and Headless 360 change how Salesforce Admins set up orgs. Khushwant Singh explores Setup with Agentforce on the podcast."
+ },
+ "https://developer.salesforce.com/docs/platform/sfdx-dev/guide/sfdx-dev-unlocked-pkg-whats-a-package.html": {
+  "title": "What\u2019s an Unlocked Package? | Unlocked Packages | Salesforce DX Developer Guide | Salesforce Developers",
+  "desc": "If you\u2019re new to packaging, think of a package as a container that you fill with metadata. It contains a set of related features, customizations, and"
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/security.html": {
+  "title": "Secure Your Site | SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "Ensuring data privacy and trusted access to ecommerce systems is a critical part of the B2C Commerce platform. All interactions with the B2C Commerce"
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-champion-2026": {
+  "title": "Become an Agentblazer Champion 2026 | Salesforce Trailhead",
+  "desc": "Explore core AI concepts and build a basic agent for key tasks."
+ },
+ "https://help.salesforce.com/s/articleView?id=cc.b2c_create_eCDN_firewall_rule.htm&language=en_US&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/10/stop-credential-stuffing-with-b2c-commerce-ecdn": {
+  "title": "Stop Credential Stuffing with B2C Commerce eCDN | Salesforce Developers Blog",
+  "desc": "Protect your B2C Commerce storefront from credential stuffing with new eCDN leaked-credential detection. Learn how to configure firewall and rate-limiting rules, detect suspicious login attempts, and prompt shoppers to reset exposed passwords."
+ },
+ "https://help.salesforce.com/s/articleView?id=cc.b2c_scapi_zone.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_b2c_ecdn_verified_bots.htm&release=262&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=cc.b2c_enable_under_attack_mode.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/commerce/commerce-api/guide/scapi-get-started.html": {
+  "title": "SCAPI | B2C Commerce API | Salesforce Developers",
+  "desc": "The B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, merchant tools, and integrations on the B2C Commerce platform. It also"
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-innovator-2026": {
+  "title": "Become an Agentblazer Innovator 2026 | Salesforce Trailhead",
+  "desc": "Define your AI goals, then customize and deploy trusted agents across your organization."
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/ai-trust-security-governance": {
+  "title": "AI Trust, Security, and Governance for the Agentic Era | Salesforce",
+  "desc": "Build the knowledge to deploy AI and autonomous agents safely \u2014 covering data security, the Agentforce Trust Layer, Agentforce guardrails, AI governance frameworks, and the latest Salesforce thinking on governing agents at enterprise scale."
+ },
+ "https://admin.salesforce.com/blog/2026/skills-in-agentforce-vibes-a-guide-for-admins": {
+  "title": "Skills in Agentforce Vibes: A Guide for Admins - Salesforce Admins",
+  "desc": "In this guide, we\u2019ll explore what sets Agentforce Vibes apart and how it can make your everyday admin work more efficient."
+ },
+ "https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/scapi-request-identification.html": {
+  "title": "Restrict SCAPI Access to Managed Runtime Traffic | Composable Storefront | Composable Storefront | Salesforce Developers",
+  "desc": "Lock down Shopper API requests so that they are accepted only from your Managed Runtime (MRT) environments, closing off the direct-access path that bo"
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/become-an-agentblazer-legend-2026": {
+  "title": "Become an Agentblazer Legend 2026 | Salesforce Trailhead",
+  "desc": "Customize and manage your next-level agent using prompts, Data 360, Slack, and Agentforce development tools."
+ },
+ "https://www.youtube.com/watch?v=FxeiOs8YDSo": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.youtube.com/watch?v=e0w8TNA-hc0": {
+  "title": "",
+  "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/how-to-set-up-a-super-agent-with-connected-subagents": {
+  "title": "How to Set Up a Super Agent with Connected Subagents - Salesforce Admins",
+  "desc": "When you start building agents in Agentforce, your first instinct might be to make one agent do everything. One set of instructions, one agent to handle billing questions, delivery updates, promotions, and escalations all at once. It seems like the right thing to do. But the more you ask a single agent to do, the [\u2026]"
+ },
+ "https://help.salesforce.com/s/articleView?id=005460913&type=1": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/human-skills-and-change-management-for-the-agentic-era": {
+  "title": "Human Skills and Change Management for the Agentic Era | Salesforce",
+  "desc": "Build lasting human skills \u2014 adaptability, critical thinking, communication, and change leadership \u2014 that help you succeed alongside AI agents. These skills help you turn AI outputs into trusted decisions, align your team, drive adoption, and get results."
+ },
+ "https://help.salesforce.com/s/articleView?id=000391633&type=1": {
+  "title": "Salesforce Help",
+  "desc": ""
  }
 }

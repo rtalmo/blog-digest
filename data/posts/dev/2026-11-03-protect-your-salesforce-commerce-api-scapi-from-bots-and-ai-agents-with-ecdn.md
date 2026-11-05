@@ -14,7 +14,8 @@ topics: ["Security & Admin", "Integration & APIs", "Releases"]
 - Two new fields work on every eCDN zone: Known Bot (cf.client.bot) and Verified Bot Category (cf.verified_bot_category, 17 categories such as AI Crawler, AI Search, AI Assistant, and Search Engine Crawler). Use them to rate limit AI traffic on expensive endpoints like product search (example: 30 requests per 60 seconds per IP, log first). They cover only Cloudflare-verified bots, so unverified or spoofed automation needs bot scores or a third-party bot manager.
 
 ## Links
-- **B2C Commerce API (SCAPI)** [docs]: no description available  
+- **SCAPI** [docs]: The B2C Commerce API (SCAPI) is a set of RESTful APIs for building storefronts, merchant tools, and integrations on the B2C Commerce platform. It also  
+  Mentioned as "B2C Commerce API (SCAPI)"  
   https://developer.salesforce.com/docs/commerce/commerce-api/guide/scapi-get-started.html
 - **Under Attack Mode** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=cc.b2c_enable_under_attack_mode.htm&type=5
@@ -25,13 +26,16 @@ topics: ["Security & Admin", "Integration & APIs", "Releases"]
 - **Bot Management** [docs]: Successful bot protection and management for Salesforce B2C Commerce storefronts is a shared responsibility between Salesforce and our customers. Thes  
   Mentioned as "Bot Management Developer Guide"  
   https://developer.salesforce.com/docs/commerce/commerce-solutions/guide/bot-management.html
-- **Stop Credential Stuffing at the Edge with B2C Commerce eCDN** [other]: no description available  
+- **Stop Credential Stuffing with B2C Commerce eCDN** [other]: Protect your B2C Commerce storefront from credential stuffing with new eCDN leaked-credential detection. Learn how to configure firewall and rate-limiting rules, detect suspicious login attempts, and prompt shoppers to reset exposed passwords.  
+  Mentioned as "Stop Credential Stuffing at the Edge with B2C Commerce eCDN"  
   https://developer.salesforce.com/blogs/2026/10/stop-credential-stuffing-with-b2c-commerce-ecdn
 - **SCAPI Zone overview** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=cc.b2c_scapi_zone.htm&type=5
-- **Restrict SCAPI Access to Managed Runtime Traffic (SCAPI Identity Header)** [docs]: no description available  
+- **Restrict SCAPI Access to Managed Runtime Traffic** [docs]: Lock down Shopper API requests so that they are accepted only from your Managed Runtime (MRT) environments, closing off the direct-access path that bo  
+  Mentioned as "Restrict SCAPI Access to Managed Runtime Traffic (SCAPI Identity Header)"  
   https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/scapi-request-identification.html
-- **SCAPI Security** [docs]: no description available  
+- **Secure Your Site** [docs]: Ensuring data privacy and trusted access to ecommerce systems is a critical part of the B2C Commerce platform. All interactions with the B2C Commerce  
+  Mentioned as "SCAPI Security"  
   https://developer.salesforce.com/docs/commerce/commerce-api/guide/security.html
 - **Allow Traffic from Search Engine and Other Verified Bots with eCDN Rules** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=release-notes.rn_b2c_ecdn_verified_bots.htm&release=262&type=5
