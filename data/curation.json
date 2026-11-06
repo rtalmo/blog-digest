@@ -1712,5 +1712,57 @@
         "effort": "M"
       }
     ]
+  },
+  "2026-11-05-metadata-grounding-let-your-coding-agent-search-your-org-by-intent": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "The Metadata Grounding MCP Server (Beta) lets coding agents search a pre-indexed catalog of an org's metadata by natural-language intent, so they find existing components before building new ones.",
+      "It exposes three read-only tools, describe_metadata, search_metadata and query_metadata, following a describe, search, then query pattern across 70+ metadata types such as objects, fields, LWCs, Apex classes, flows and permission sets.",
+      "It is backed by Salesforce Catalog on Data 360, using a hybrid vector and keyword index. Incremental sync covers supported types, and a full refresh runs every 24 hours, so recent deployments can lag.",
+      "Two Pronto examples show it in use: a vague menu-page bug led to MenuBrowserController and the c__menuBrowser LWC, and a review-summary request led to the existing AgentSummarizeReviewsActions class, which was extended instead of rebuilt.",
+      "It returns metadata and properties, not source code, and it is not an exhaustive inventory. Agents must retrieve code via the CLI or Metadata API and should confirm a record with query_metadata before coding against it."
+    ],
+    "tasks": [
+      {
+        "title": "Enable Salesforce Catalog in a sandbox, activate the Metadata Grounding MCP Server, and connect it to your coding agent (e.g. Claude Code)",
+        "effort": "M"
+      },
+      {
+        "title": "Add the 'check the org first' project rule, or install the platform-metadata-grounding-get skill from sf-skills, and test it with a ticket for a feature you suspect already exists",
+        "effort": "S"
+      },
+      {
+        "title": "Audit descriptions on key Apex classes and LWCs in your org to improve search ranking",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-11-05-streamline-your-path-to-production-with-builder-central": {
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "DevOps & Tooling"
+    ],
+    "summary": [
+      "Builder Central is a new no-code beta experience that builds and deploys apps and agents from plain-language prompts in a single hub.",
+      "It already knows your existing orgs' configuration and security/permissions, so new apps and agents inherit those controls.",
+      "Unlike Setup with Agentforce, which makes direct changes such as creating a field, Builder Central targets complex builds like full data models, flows, and agents.",
+      "It complements rather than replaces Flow Builder, Lightning App Builder, and Agentforce Builder, and deploys through Lifecycle Center following your pipeline.",
+      "Safety features include interactive metadata visualizations (data model, agents, flows, pages, permission sets) and ephemeral preview orgs, which are temporary sandbox clones, so nothing touches sandbox or production until you publish."
+    ],
+    "tasks": [
+      {
+        "title": "Enable the Builder Central beta in a Developer sandbox (permission, beta toggle, Metadata Experts MCP Server) and build a small app from a prompt",
+        "effort": "M"
+      },
+      {
+        "title": "Test the preview org and Lifecycle Center deployment flow, and review the generated metadata visualizations for permission set accuracy",
+        "effort": "S"
+      }
+    ]
   }
 }

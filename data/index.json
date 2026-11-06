@@ -1,5 +1,29 @@
 [
   {
+    "key": "dev/2026-11-05-metadata-grounding-let-your-coding-agent-search-your-org-by-intent",
+    "title": "Metadata Grounding: Let Your Coding Agent Search Your Org by Intent",
+    "url": "https://developer.salesforce.com/blogs/2026/11/metadata-grounding-let-your-coding-agent-search-your-org-by-intent",
+    "source": "dev",
+    "date": "2026-11-05",
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Integration & APIs"
+    ]
+  },
+  {
+    "key": "admin/2026-11-05-streamline-your-path-to-production-with-builder-central",
+    "title": "Streamline Your Path to Production with Builder Central",
+    "url": "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central",
+    "source": "admin",
+    "date": "2026-11-05",
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "DevOps & Tooling"
+    ]
+  },
+  {
     "key": "dev/2026-11-04-runtime-behavior-anti-patterns-in-lightning-web-components",
     "title": "Runtime Behavior Anti-Patterns in Lightning Web Components",
     "url": "https://developer.salesforce.com/blogs/2026/11/runtime-behavior-anti-patterns-in-lightning-web-components",

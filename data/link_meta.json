@@ -3031,5 +3031,81 @@
  "https://help.salesforce.com/s/articleView?id=000391633&type=1": {
   "title": "Salesforce Help",
   "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-dom-intro.html": {
+  "title": "Work with the DOM | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "The Document Object Model (DOM) represents the HTML page so that you can work with its content, structure, and style using JavaScript or the standard"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-render.html": {
+  "title": "Render Multiple Templates | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "You may want to render a component with more than one look and feel, but not want to mix the HTML in one file. For example, one version of the compone"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector": {
+  "title": "Document: querySelector() method - Web APIs | MDN",
+  "desc": "The Document method querySelector() returns the first Element within the document that matches the specified CSS selector, or group of CSS selectors. If no matches are found, null is returned."
+ },
+ "https://developer.salesforce.com/docs/component-library/bundle/lightning-platform-show-toast-event/documentation": {
+  "title": "Platform Show Toast Event | Utility Modules | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/API/Element/children": {
+  "title": "Element: children property - Web APIs | MDN",
+  "desc": "The read-only children property returns a live HTMLCollection which contains all of the child elements of the element upon which it was called."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-lifecycle-hooks.html": {
+  "title": "Lifecycle Hooks | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "A"
+ },
+ "https://developer.salesforce.com/docs/component-library/bundle/lightning-button/documentation": {
+  "title": "Button | Components | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-dom.html": {
+  "title": "Shadow DOM | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Shadow DOM is a standard that encapsulates the internal document object model (DOM) structure of a web component. Encapsulating the DOM gives develope"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set": {
+  "title": "Set - JavaScript | MDN",
+  "desc": "The Set object lets you store unique values of any type, whether primitive values or object references."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-client-form-factor.html": {
+  "title": "Client Form Factor | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "To access the form factor of the hardware the browser is running on, import the"
+ },
+ "https://github.com/salesforce/eslint-plugin-lwc/blob/master/docs/rules/no-inner-html.md": {
+  "title": "eslint-plugin-lwc/docs/rules/no-inner-html.md at master \u00b7 salesforce/eslint-plugin-lwc \u00b7 GitHub",
+  "desc": "Official ESLint rules for LWC. Contribute to salesforce/eslint-plugin-lwc development by creating an account on GitHub."
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-css-custom-properties.html": {
+  "title": "SLDS Styling Hooks | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "Salesforce Lightning Design System (SLDS) styling hooks make it easy to customize component styling and express your brand. Use styling hooks to acces"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/create-components-dom-work.html": {
+  "title": "Access Elements the Component Owns | Create Lightning Web Components | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": "To access elements rendered by a component with standard DOM APIs, use"
+ },
+ "https://developer.salesforce.com/docs/component-library/bundle/lightning-datatable/documentation": {
+  "title": "Datatable | Components | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/docs/component-library/bundle/lightning-modal/documentation": {
+  "title": "Modal | Components | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.salesforce.com/blogs/2026/08/data-and-communication-anti-patterns-in-lightning-web-components": {
+  "title": "Data and Communication Anti-Patterns in Lightning Web Components | Salesforce Developers Blog",
+  "desc": "Learn how the wire service, public properties, and events move data through Lightning web components, and how to avoid reactivity and communication mistakes that cause stale UI, lost events, and hard-to-reproduce state bugs."
+ },
+ "https://developer.salesforce.com/docs/component-library/bundle/lightning-toast/documentation": {
+  "title": "Toast | Components | Lightning Component Reference | Salesforce Developers",
+  "desc": "Salesforce Developer Website"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map": {
+  "title": "Map - JavaScript | MDN",
+  "desc": "The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value."
+ },
+ "https://developer.salesforce.com/docs/component-library": {
+  "title": "Get Started | Lightning Component Reference | Salesforce Developers",
+  "desc": "The Component Reference documents the full set of base components for both the Lightning Web Components (LWC) and Aura programming models. Base compon"
  }
 }
