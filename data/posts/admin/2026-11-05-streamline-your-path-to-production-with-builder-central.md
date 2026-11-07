@@ -24,9 +24,11 @@ topics: ["Flow & Automation", "Agentforce & AI", "DevOps & Tooling"]
 - **September Monthly Retro: What Changed, What Matters, and What Admins Should Do Next - Salesforce Admins** [other]: Join the Salesforce Admins Podcast for a Dreamforce recap! Discover Builder Central, AI tools, and why security is crucial for admins.  
   Mentioned as "What Changed, What Matters, and What Admins Should Do Next"  
   https://admin.salesforce.com/blog/2026/september-monthly-retro-what-changed-what-matters-and-what-admins-should-do-next-podcast
-- **Builder Central: Deploy in Minutes** [other]: no description available  
+- **Salesforce+ Builder Central: Deploy in Minutes** [other]: Join Diane Mizota and Daivat Dholakia as they explore how Builder Central helps admins deploy a Help Agent in minutes.  
+  Mentioned as "Builder Central: Deploy in Minutes"  
   https://www.salesforce.com/plus/experience/dreamforce_2026/series/administrators_at_dreamforce_2026/episode/episode-s1e3
-- **DF26 Admin Keynote: Bring the Agentic Enterprise to Life** [other]: no description available  
+- **Salesforce+ Admin Keynote: Bring the Agentic Enterprise to Life** [other]: Your admin skills were built for this moment. See Salesforce innovations, including AIforce and Builder Central, live demos, and real stories showing admins leading the Agentic Enterprise.  
+  Mentioned as "DF26 Admin Keynote: Bring the Agentic Enterprise to Life"  
   https://www.salesforce.com/plus/experience/dreamforce_2026/series/administrators_at_dreamforce_2026/episode/episode-s1e1
 - **Salesforce Admins** [other]: This is a site for Salesforce Admins to stay up to date on product updates, events, tools, and resources. Learn more about automation, app building, analytics.  
   https://admin.salesforce.com

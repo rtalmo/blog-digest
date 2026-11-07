@@ -3107,5 +3107,73 @@
  "https://developer.salesforce.com/docs/component-library": {
   "title": "Get Started | Lightning Component Reference | Salesforce Developers",
   "desc": "The Component Reference documents the full set of base components for both the Lightning Web Components (LWC) and Aura programming models. Base compon"
+ },
+ "https://help.salesforce.com/s/articleView?language=en_US&id=platform.builder_central_overview&_ga=2.23141565.681612557.1793038630-1073941909.1789332307&_gac=1.89456361.1789332307.Cj0KCQjwk5nVBhDiARIsAHNGqacClCOpq-otm71NzBw9tXJoYRNZmV2gmt5b5NDx7S9OiqEMhTm7ziYaAu2XEALw_wcB": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/setup-overview.html": {
+  "title": "Set Up Your Org | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Before AI clients can connect to your Salesforce org through MCP, you need to configure authentication and access. This setup process is a one-time co"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_cdp_2026_winter_salesforce_catalog_ga.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/platform-metadata-discovery-get": {
+  "title": "sf-skills/skills/platform-metadata-discovery-get at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/skills/platform-metadata-discovery-get at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_headless360_mcp_servers_metadata_grounding.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://forms.gle/G3Xuto6tMAUfhA1K7": {
+  "title": "Metadata Grounding: Share Your Feedback",
+  "desc": "Your feedback helps shape Metadata Grounding. This takes about two minutes. Please don't include confidential or customer data in your answers. The Metadata Grounding product team will use your responses to improve the product."
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_salesforce_catalog.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.builder_central_get_started.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/headless-get-started/guide/headless-get-started.html": {
+  "title": "Welcome to Salesforce Headless Toolkit | Get Started | Salesforce Developers",
+  "desc": "For years, using Salesforce meant opening a web browser and logging into the Lightning interface. The headless approach is a fundamental shift that de"
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/skills/platform-metadata-grounding-get": {
+  "title": "sf-skills/skills/platform-metadata-grounding-get at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/skills/platform-metadata-grounding-get at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/series/administrators_at_dreamforce_2026/episode/episode-s1e3": {
+  "title": "Salesforce+ Builder Central: Deploy in Minutes",
+  "desc": "Join Diane Mizota and Daivat Dholakia as they explore how Builder Central helps admins deploy a Help Agent in minutes."
+ },
+ "https://docs.google.com/forms/d/e/1FAIpQLSc3X7ujzcjVViQQKAv7f5Bj19vz-cPfCqKvaMH80hB7bjkcEw/viewform": {
+  "title": "[Early Access Interest] Metadata Grounding Capabilities",
+  "desc": "We're working on two additions to Metadata Grounding: AI-Generated Metadata Descriptions and the Metadata Graph. AI-Generated Descriptions are meant to make your org's metadata more meaningful to AI agents. The Metadata Graph is meant to let agents look up how your metadata connects, so you can see what uses a field or object and what could break before you change it. Both are still under development. Signing up does not guarantee a spot, and early-access features may require additional terms before you join. Early access would be in a Developer Edition or sandbox org, and we'll confirm the details when we reach out. If you're interested, tell us below and we'll be in touch when there's something to try."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/metadata-grounding.html": {
+  "title": "Metadata Grounding (Beta) | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Use the Metadata Grounding MCP Server to discover and reuse Salesforce metadata from a connected org such as standard and custom objects and fields, L"
+ },
+ "https://developer.salesforce.com/blogs/2026/07/announcing-the-headless-360-mcp-server-beta": {
+  "title": "Announcing the Headless 360 MCP Server Beta | Salesforce Developers Blog",
+  "desc": "The Headless 360 MCP Server (Beta) is a new surface that empowers headless clients to quickly discover and execute complex Salesforce setup and integration operations."
+ },
+ "https://developer.salesforce.com/docs/platform/salesforce-skills-plugins/overview": {
+  "title": "Salesforce Development Plugin | Salesforce Developers",
+  "desc": "Use Salesforce Development workflows, AI Skills, Salesforce CLI, and Model Context Protocol (MCP) tools to build, test, and deploy on the Salesforce P"
+ },
+ "https://www.salesforce.com/plus/experience/dreamforce_2026/series/administrators_at_dreamforce_2026/episode/episode-s1e1": {
+  "title": "Salesforce+ Admin Keynote: Bring the Agentic Enterprise to Life",
+  "desc": "Your admin skills were built for this moment. See Salesforce innovations, including AIforce and Builder Central, live demos, and real stories showing admins leading the Agentic Enterprise."
+ },
+ "https://help.salesforce.com/s/articleView?id=data.c360_a_salesforce_catalog_billing_considerations.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
  }
 }
