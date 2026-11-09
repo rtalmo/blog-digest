@@ -1764,5 +1764,61 @@
         "effort": "S"
       }
     ]
+  },
+  "2026-11-09-quick-pages-beta-developer-edition-jp": {
+    "topics": [
+      "LWC / UI",
+      "Agentforce & AI",
+      "Releases"
+    ],
+    "summary": [
+      "Quick Pages (Beta, Winter '27) lets users describe a page in natural language and an agent builds a React-based single-page app with live preview, using live org data (including custom objects and fields) with tiles, charts, tables and tabs.",
+      "It works on Lightning Experience Enterprise/Performance/Unlimited/Developer Edition orgs with Foundations on Hyperforce, and requires Multi-Framework Apps domain enabled, Salesforce Edge Network on, and Einstein turned on.",
+      "Setup is to toggle Quick Pages on in Setup, then assign the 'Create and View Quick Pages (Beta)' permission set to creators or 'View Quick Pages (Beta)' to viewers; no admin rights are needed to build pages.",
+      "Pages can be refined via chat or suggested 'NEXT' prompts (e.g. sorting, a phase filter dropdown), then saved and shared with individuals, public groups or the whole org, and viewers only see data they already have access to.",
+      "Beta caveats: pages are read-only (no create/update/delete), prompts over about 2 minutes time out, page names can't be changed after saving, Japanese IME Enter can send prematurely, there is no Apex/Connect REST/Data 360/external API access, and no packaging or data-export migration."
+    ],
+    "tasks": [
+      {
+        "title": "Enable Quick Pages in a fresh Developer Edition, assign the Create permission set, and build an opportunity dashboard",
+        "effort": "S"
+      },
+      {
+        "title": "Run the sample-data Anonymous Apex script and iterate on the page with 3-4 chat refinements, noting timeouts and IME issues",
+        "effort": "S"
+      },
+      {
+        "title": "Share a saved Quick Page with a user holding restricted permissions and verify they see only the data they can access",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-11-06-jp-access-salesforce-from-amazon-bedrock-via-mcp-server": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ],
+    "summary": [
+      "The post shows how to build a Python agent with AWS's open-source Strands Agents SDK that reads Salesforce Cases through the Salesforce Hosted MCP Server, has an Amazon Bedrock model (Amazon Nova 2 Lite) judge priority, and writes the Priority field back without any Salesforce API code.",
+      "Setup: enable the sobject-reads and sobject-mutations servers under Setup > MCP Servers (up to 2 minutes to go live), then create an External Client App with the mcp_api and refresh_token/offline_access scopes and a localhost callback. The app can take up to 30 minutes to become usable.",
+      "Access is narrowed in four layers: the authorizing user's permissions, using sobject-mutations (which has no delete tool), Strands `tool_filters` limiting tools to soqlQuery and updateSobjectRecord, and an optional Strands Interrupts human-approval step that the post leaves out.",
+      "Authentication uses an OAuth 2.0 authorization code flow with PKCE, handled by a small sf_auth.py script that stores the token at ~/.config with 0600 permissions and refreshes it after 60 minutes.",
+      "Caveats: Nova 2 reasoning must be enabled or the model sometimes skips the update tool call. The agent re-queries after updating to verify the writes. One run used about 10k input and 3.5k output tokens. Hosted MCP Server may incur Flex Credits charges, and it isn't available in orgs that lack the MCP Servers setup page."
+    ],
+    "tasks": [
+      {
+        "title": "Enable sobject-reads and sobject-mutations in a Developer Edition org, create the External Client App, and run sf_auth.py login to verify the PKCE flow",
+        "effort": "M"
+      },
+      {
+        "title": "Build the Strands Agents + Bedrock case-triage agent against the BEDROCK-DEMO test Cases and confirm the Priority updates and the re-query check",
+        "effort": "M"
+      },
+      {
+        "title": "Add a Strands Interrupts human-approval step before updateSobjectRecord and compare behavior with and without it",
+        "effort": "S"
+      }
+    ]
   }
 }

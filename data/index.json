@@ -1,5 +1,29 @@
 [
   {
+    "key": "dev/2026-11-09-quick-pages-beta-developer-edition-jp",
+    "title": "Quick Pages (Beta) \u3092 Developer Edition \u3067\u8a66\u3059 : \u6709\u52b9\u5316\u304b\u3089\u30da\u30fc\u30b8\u306e\u4f5c\u6210\u307e\u3067",
+    "url": "https://developer.salesforce.com/blogs/2026/11/quick-pages-beta-developer-edition-jp",
+    "source": "dev",
+    "date": "2026-11-09",
+    "topics": [
+      "LWC / UI",
+      "Agentforce & AI",
+      "Releases"
+    ]
+  },
+  {
+    "key": "dev/2026-11-06-jp-access-salesforce-from-amazon-bedrock-via-mcp-server",
+    "title": "Amazon Bedrock \u304b\u3089 MCP \u30b5\u30fc\u30d0\u30fc\u7d4c\u7531\u3067 Salesforce \u3092\u89e6\u308b",
+    "url": "https://developer.salesforce.com/blogs/2026/11/jp-access-salesforce-from-amazon-bedrock-via-mcp-server",
+    "source": "dev",
+    "date": "2026-11-06",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ]
+  },
+  {
     "key": "dev/2026-11-05-metadata-grounding-let-your-coding-agent-search-your-org-by-intent",
     "title": "Metadata Grounding: Let Your Coding Agent Search Your Org by Intent",
     "url": "https://developer.salesforce.com/blogs/2026/11/metadata-grounding-let-your-coding-agent-search-your-org-by-intent",
