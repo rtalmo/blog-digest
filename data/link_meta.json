@@ -3175,5 +3175,89 @@
  "https://help.salesforce.com/s/articleView?id=data.c360_a_salesforce_catalog_billing_considerations.htm&type=5": {
   "title": "Salesforce Help",
   "desc": ""
+ },
+ "https://developer.salesforce.com/signup": {
+  "title": "Developer Edition with Agentforce and Data 360 | Salesforce | Developer",
+  "desc": "Build enterprise-quality apps fast and get hands-on with Agentforce and Data 360."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/server-urls.html": {
+  "title": "Find Your Server URL | Connect MCP Clients | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Each MCP client connects to a Salesforce Hosted MCP Server through a server URL. The URL format depends on your org type and on whether you connect th"
+ },
+ "https://docs.aws.amazon.com/ja_jp/nova/latest/nova2-userguide/troubleshooting.html": {
+  "title": "\u30c8\u30e9\u30d6\u30eb\u30b7\u30e5\u30fc\u30c6\u30a3\u30f3\u30b0 - Amazon Nova",
+  "desc": "\u3053\u306e\u30bb\u30af\u30b7\u30e7\u30f3\u3067\u306f\u3001Amazon Nova \u30e2\u30c7\u30eb\u3092\u4f7f\u7528\u3059\u308b\u969b\u306e\u4e00\u822c\u7684\u306a\u554f\u984c\u306e\u89e3\u6c7a\u7b56\u3092\u793a\u3057\u307e\u3059\u3002"
+ },
+ "https://docs.astral.sh/uv/getting-started/installation/": {
+  "title": "Installation | uv",
+  "desc": "uv is an extremely fast Python package and project manager, written in Rust."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.quick_pages_considerations.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://strandsagents.com/docs/user-guide/sdk/interrupts/": {
+  "title": "Interrupts | Strands Agents",
+  "desc": "Pause AI agents mid-execution for human approval, input, or review. Build human-in-the-loop workflows with interrupt and resume patterns."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_quick_pages_beta.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/introducing-quick-pages-builder-tool/": {
+  "title": "Salesforce Page Builder Tool: Quick Pages",
+  "desc": "Build and share single-page apps directly in Salesforce, grounded in your live business data."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.quick_pages_create.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://docs.astral.sh/uv/": {
+  "title": "uv",
+  "desc": "uv is an extremely fast Python package and project manager, written in Rust."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/sobject-mutations.html": {
+  "title": "SObject Mutations | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://strandsagents.com/docs/user-guide/sdk/model-providers/amazon-bedrock/": {
+  "title": "Amazon Bedrock | Strands Agents",
+  "desc": "Use Amazon Bedrock models in Strands agents. Configure AWS credentials, model settings, guardrails, prompt caching, and multi-modal input."
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/sobject-reads.html": {
+  "title": "SObject Reads | Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "The"
+ },
+ "https://docs.aws.amazon.com/ja_jp/bedrock/latest/userguide/api-keys.html": {
+  "title": "API \u30ad\u30fc - Amazon Bedrock",
+  "desc": "Amazon Bedrock API \u30ad\u30fc\u3092\u751f\u6210\u3057\u3066\u4f7f\u7528\u3057\u3001 AWS \u8a8d\u8a3c\u60c5\u5831\u3092\u8a2d\u5b9a\u305b\u305a\u306b API \u30ea\u30af\u30a8\u30b9\u30c8\u3092\u8a8d\u8a3c\u3057\u307e\u3059\u3002"
+ },
+ "https://docs.aws.amazon.com/ja_jp/nova/latest/nova2-userguide/using-tools.html": {
+  "title": "\u30c4\u30fc\u30eb\u306e\u4f7f\u7528 (\u95a2\u6570\u547c\u3073\u51fa\u3057) - Amazon Nova",
+  "desc": "\u95a2\u6570\u547c\u3073\u51fa\u3057\u3092\u4f7f\u7528\u3057\u3066\u3001\u5916\u90e8\u30c4\u30fc\u30eb\u3068 API \u3067 Amazon Nova \u6a5f\u80fd\u3092\u62e1\u5f35\u3059\u308b\u65b9\u6cd5\u306b\u3064\u3044\u3066\u8aac\u660e\u3057\u307e\u3059\u3002"
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/log-into-org.html": {
+  "title": "Log Into Your Org | Set Up Your Org | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Your MCP client authenticates with your org by using OAuth in a web browser. The MCP specification doesn't support multitenant systems like Salesforce"
+ },
+ "https://docs.aws.amazon.com/ja_jp/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html": {
+  "title": "Nova 2 Lite - Amazon Bedrock",
+  "desc": "bedrock-runtime\u30a8\u30f3\u30c9\u30dd\u30a4\u30f3\u30c8\u3092\u4f7f\u7528\u3057\u305f\u6697\u9ed9\u7684\u304a\u3088\u3073\u660e\u793a\u7684\u306a\u30d7\u30ed\u30f3\u30d7\u30c8\u30ad\u30e3\u30c3\u30b7\u30e5"
+ },
+ "https://developer.salesforce.com/docs/platform/sfdx-setup/guide/sfdx-setup-update-cli.html": {
+  "title": "Update Salesforce CLI | Salesforce CLI Setup Guide | Salesforce Developers",
+  "desc": "If you want to ensure that you\u2019re running the latest version of Salesforce CLI, you can manually update it."
+ },
+ "https://help.salesforce.com/s/articleView?id=platform.quick_pages_setup.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://strandsagents.com/docs/user-guide/sdk/tools/mcp-transports/": {
+  "title": "MCP Transports | Strands Agents",
+  "desc": "How a Strands agent reaches an MCP server: stdio for local processes, Streamable HTTP and SSE for remote servers, with OAuth and AWS IAM authentication."
+ },
+ "https://strandsagents.com/docs/user-guide/sdk/tools/mcp-tools/": {
+  "title": "Connect your agent to MCP tools | Strands Agents",
+  "desc": "Connect AI agents to any MCP server for tool access. Strands agents integrate and invoke MCP tools without custom integration code."
  }
 }

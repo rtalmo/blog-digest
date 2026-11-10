@@ -14,7 +14,8 @@ topics: ["LWC / UI", "Agentforce & AI", "Releases"]
 - Beta caveats: pages are read-only (no create/update/delete), prompts over about 2 minutes time out, page names can't be changed after saving, Japanese IME Enter can send prematurely, there is no Apex/Connect REST/Data 360/external API access, and no packaging or data-export migration.
 
 ## Links
-- **Introducing Quick Pages（Salesforce ブログ）** [other]: no description available  
+- **Salesforce Page Builder Tool: Quick Pages** [other]: Build and share single-page apps directly in Salesforce, grounded in your live business data.  
+  Mentioned as "Introducing Quick Pages（Salesforce ブログ）"  
   https://www.salesforce.com/blog/introducing-quick-pages-builder-tool/
 - **Bring Custom UIs to Life with Quick Pages (Beta)（Winter ’27 リリースノート）** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=release-notes.rn_quick_pages_beta.htm&release=264&type=5
