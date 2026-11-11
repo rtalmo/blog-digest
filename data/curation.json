@@ -1820,5 +1820,33 @@
         "effort": "S"
       }
     ]
+  },
+  "2026-11-10-accelerate-agent-driven-development-with-the-headless-toolkit": {
+    "topics": [
+      "Agentforce & AI",
+      "DevOps & Tooling",
+      "Apex & Code"
+    ],
+    "summary": [
+      "The Headless Toolkit combines the Salesforce Skills Library (sf-skills, 250+ skills following the open Agent Skills spec), Hosted MCP Servers, and the Salesforce CLI so coding agents like Claude Code, Codex, Cursor, and Agentforce Vibes can build, test, and deploy on Salesforce.",
+      "It proposes a seven-stage agent-driven loop (ground, specify, build, verify, review, release, observe), where each stage leaves a repo artifact such as a feature map, ontology.yaml, living spec, or review report, and each agent mistake feeds back into a new test, rule, or spec.",
+      "Grounding uses a feature map, a business-term ontology.yaml, and the read-only Metadata Grounding MCP Server (Beta), which needs Data 360, API access, and Salesforce Catalog, is unavailable in scratch orgs and namespaced Developer Edition orgs, and can lag on recent changes.",
+      "Hosted MCP Servers are off by default and must be enabled in Setup under MCP Servers (API Catalog), with activation taking up to two minutes; the author recommends spec-anchored specs for non-trivial work but skipping them for small fixes.",
+      "The author advises keeping context lean (deep work under roughly 300K tokens to avoid context rot) and using subagents, defined in .claude/agents/ with scoped skills and tools, only for substantial standalone work since each adds cost and latency."
+    ],
+    "tasks": [
+      {
+        "title": "Enable the Hosted MCP Servers in a sandbox or dev org via Setup > MCP Servers and install the salesforce-development plugin for Claude Code",
+        "effort": "S"
+      },
+      {
+        "title": "Draft an ontology.yaml and a feature map for one business capability in your repo and reference them from AGENTS.md",
+        "effort": "M"
+      },
+      {
+        "title": "Try the full loop on one multi-metadata feature: write a spec, build with a scoped subagent, then run an adversarial review pass and record what the harness missed",
+        "effort": "L"
+      }
+    ]
   }
 }
