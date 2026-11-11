@@ -23,42 +23,57 @@ topics: ["Agentforce & AI", "DevOps & Tooling", "Apex & Code"]
 - **Get Started** [docs]: Salesforce Hosted MCP Servers give AI agents a secure, governed way to interact with Salesforce data and automation. Using the open  
   Mentioned as "Hosted Model Context Protocol (MCP) Servers"  
   https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html
-- **Salesforce CLI** [repo]: no description available  
+- **Salesforce CLI · GitHub** [repo]: The Salesforce CLI is a collection of command line interfaces and tools that simplify development and build automation when working with your Salesforce org - Salesforce CLI  
+  Mentioned as "Salesforce CLI"  
   https://github.com/salesforcecli
-- **Claude Code** [other]: no description available  
+- **How Claude Code works - Claude Code Docs** [other]: Understand the agentic loop, built-in tools, and how Claude Code interacts with your project.  
+  Mentioned as "Claude Code"  
   https://code.claude.com/docs/en/how-claude-code-works
-- **context rot** [other]: no description available  
+- **Context Rot: How Increasing Input Tokens Impacts LLM Performance** [other]: Large Language Models (LLMs) are typically presumed to process context uniformly—that is, the model should handle the 10,000th token just as reliably as the 100th. However, in practice, this assumption does not hold. We observe that model performance varies significantly as input length changes, even on simple tasks. In this report, we evaluate 18 LLMs, including the state-of-the-art GPT-4.1, Claude 4, Gemini 2.5, and Qwen3 models. Our results reveal that models do not use their context uniformly; instead, their performance grows increasingly unreliable as input length grows.  
+  Mentioned as "context rot"  
   https://www.trychroma.com/research/context-rot
-- **over 80% of the Claude Code system prompt** [other]: no description available  
+- **The new rules of context engineering for Claude 5 generation models / claude.dev Blog** [other]: We removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents.  
+  Mentioned as "over 80% of the Claude Code system prompt"  
   https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/
-- **Agent Skills specification** [other]: no description available  
+- **Agent Skills Overview - Agent Skills** [other]: A standardized way to give AI agents new capabilities and expertise.  
+  Mentioned as "Agent Skills specification"  
   https://agentskills.io/
-- **Metadata Grounding MCP Server** [docs]: no description available  
+- **Reference** [docs]: Reference  
+  Mentioned as "Metadata Grounding MCP Server"  
   https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/metadata-grounding.html
-- **/grill-me** [repo]: no description available  
+- **skills/skills/productivity/grill-me/SKILL.md at main · mattpocock/skills · GitHub** [repo]: Skills for Real Engineers. Straight from my .agents directory. - skills/skills/productivity/grill-me/SKILL.md at main · mattpocock/skills  
+  Mentioned as "/grill-me"  
   https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md
-- **spec-writing skill** [repo]: no description available  
+- **GitHub - msrivastav13/salesforce-write-spec-skill · GitHub** [repo]: Contribute to msrivastav13/salesforce-write-spec-skill development by creating an account on GitHub.  
+  Mentioned as "spec-writing skill"  
   https://github.com/msrivastav13/salesforce-write-spec-skill
-- **subagent** [other]: no description available  
+- **Create custom subagents - Claude Code Docs** [other]: Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management.  
+  Mentioned as "subagent"  
   https://code.claude.com/docs/en/sub-agents
-- **Salesforce UI Script Recorder** [other]: no description available  
+- **Salesforce UI Script Recorder - Visual Studio Marketplace** [other]: Extension for Visual Studio Code - VS Code Extension wrapping a CLI tool for recording Salesforce UI browser interactions with an overlay interface  
+  Mentioned as "Salesforce UI Script Recorder"  
   https://marketplace.visualstudio.com/items?itemName=salesforce.salesforce-ui-script-recorder
-- **Salesforce Well-Architected** [other]: no description available  
+- **Well-Architected Framework** [other]: The Salesforce Well-Architected Framework gives architects a shared, principled foundation for making the decisions that help a solution succeed over  
+  Mentioned as "Salesforce Well-Architected"  
   https://architect.salesforce.com/docs/architect/well-architected/guide/framework.html
-- **building a large app with Codex** [other]: no description available  
+- **Harness engineering: leveraging Codex in an agent-first world** [other]: By Ryan Lopopolo, Member of the Technical Staff  
+  Mentioned as "building a large app with Codex"  
   https://openai.com/index/harness-engineering/
-- **Snyk found** [other]: no description available  
+- **Copilot amplifies insecure codebases by replicating vulnerabilities in your projects** [other]: no description available  
+  Mentioned as "Snyk found"  
   https://labs.snyk.io/resources/copilot-amplifies-insecure-codebases-by-replicating-vulnerabilities/
 - **ApexGuru** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=xcloud.apexguru_workflow.htm&type=5
 - **sf-skills/plugins/builder/salesforce-development at main · forcedotcom/sf-skills · GitHub** [repo]: Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/plugins/builder/salesforce-development at main · forcedotcom/sf-skills  
   Mentioned as "Salesforce Development plugin"  
   https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-development
-- **Salesforce Code Quality plugin** [repo]: no description available  
+- **sf-skills/plugins/builder/salesforce-code-quality at main · forcedotcom/sf-skills · GitHub** [repo]: Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/plugins/builder/salesforce-code-quality at main · forcedotcom/sf-skills  
+  Mentioned as "Salesforce Code Quality plugin"  
   https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-code-quality
 - **Activate MCP Servers** [docs]: MCP servers are disabled in your org by default and must be enabled by an administrator before clients can connect. This is a security measure — capab  
   https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/activate-mcp-servers.html
-- **GitHub** [repo]: no description available  
+- **msrivastav13 (Mohith Shrivastava) · GitHub** [repo]: Principal Developer Advocate @salesforce. msrivastav13 has 99 repositories available. Follow their code on GitHub.  
+  Mentioned as "GitHub"  
   https://github.com/msrivastav13
 
 ## Suggested tasks

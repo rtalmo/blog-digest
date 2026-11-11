@@ -3259,5 +3259,69 @@
  "https://strandsagents.com/docs/user-guide/sdk/tools/mcp-tools/": {
   "title": "Connect your agent to MCP tools | Strands Agents",
   "desc": "Connect AI agents to any MCP server for tool access. Strands agents integrate and invoke MCP tools without custom integration code."
+ },
+ "https://architect.salesforce.com/docs/architect/well-architected/guide/framework.html": {
+  "title": "Well-Architected Framework | Salesforce Architects",
+  "desc": "The Salesforce Well-Architected Framework gives architects a shared, principled foundation for making the decisions that help a solution succeed over"
+ },
+ "https://github.com/msrivastav13/salesforce-write-spec-skill": {
+  "title": "GitHub - msrivastav13/salesforce-write-spec-skill \u00b7 GitHub",
+  "desc": "Contribute to msrivastav13/salesforce-write-spec-skill development by creating an account on GitHub."
+ },
+ "https://code.claude.com/docs/en/sub-agents": {
+  "title": "Create custom subagents - Claude Code Docs",
+  "desc": "Create and use specialized AI subagents in Claude Code for task-specific workflows and improved context management."
+ },
+ "https://openai.com/index/harness-engineering/": {
+  "title": "Harness engineering: leveraging Codex in an agent-first world | OpenAI",
+  "desc": "By Ryan Lopopolo, Member of the Technical Staff"
+ },
+ "https://marketplace.visualstudio.com/items?itemName=salesforce.salesforce-ui-script-recorder": {
+  "title": "Salesforce UI Script Recorder - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - VS Code Extension wrapping a CLI tool for recording Salesforce UI browser interactions with an overlay interface"
+ },
+ "https://github.com/msrivastav13": {
+  "title": "msrivastav13 (Mohith Shrivastava) \u00b7 GitHub",
+  "desc": "Principal Developer Advocate @salesforce. msrivastav13 has 99 repositories available. Follow their code on GitHub."
+ },
+ "https://github.com/forcedotcom/sf-skills/tree/main/plugins/builder/salesforce-code-quality": {
+  "title": "sf-skills/plugins/builder/salesforce-code-quality at main \u00b7 forcedotcom/sf-skills \u00b7 GitHub",
+  "desc": "Salesforce's curated collection of agent skills for building applications. Optimized for Agentforce Vibes, compatible with all AI tools. - sf-skills/plugins/builder/salesforce-code-quality at main \u00b7 forcedotcom/sf-skills"
+ },
+ "https://claude.dev/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models/": {
+  "title": "The new rules of context engineering for Claude 5 generation models / claude.dev Blog",
+  "desc": "We removed over 80% of Claude Code's system prompt for more advanced models. How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents."
+ },
+ "https://www.trychroma.com/research/context-rot": {
+  "title": "Context Rot: How Increasing Input Tokens Impacts LLM Performance | Chroma",
+  "desc": "Large Language Models (LLMs) are typically presumed to process context uniformly\u2014that is, the model should handle the 10,000th token just as reliably as the 100th. However, in practice, this assumption does not hold. We observe that model performance varies significantly as input length changes, even on simple tasks. In this report, we evaluate 18 LLMs, including the state-of-the-art GPT-4.1, Claude 4, Gemini 2.5, and Qwen3 models. Our results reveal that models do not use their context uniformly; instead, their performance grows increasingly unreliable as input length grows."
+ },
+ "https://labs.snyk.io/resources/copilot-amplifies-insecure-codebases-by-replicating-vulnerabilities/": {
+  "title": "Copilot amplifies insecure codebases by replicating vulnerabilities in your projects | Snyk Labs",
+  "desc": ""
+ },
+ "https://github.com/salesforcecli": {
+  "title": "Salesforce CLI \u00b7 GitHub",
+  "desc": "The Salesforce CLI is a collection of command line interfaces and tools that simplify development and build automation when working with your Salesforce org - Salesforce CLI"
+ },
+ "https://help.salesforce.com/s/articleView?id=xcloud.apexguru_workflow.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/references/reference/metadata-grounding.html": {
+  "title": "Reference | Hosted MCP Servers | Salesforce Developers",
+  "desc": "Reference"
+ },
+ "https://agentskills.io/": {
+  "title": "Agent Skills Overview - Agent Skills",
+  "desc": "A standardized way to give AI agents new capabilities and expertise."
+ },
+ "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md": {
+  "title": "skills/skills/productivity/grill-me/SKILL.md at main \u00b7 mattpocock/skills \u00b7 GitHub",
+  "desc": "Skills for Real Engineers. Straight from my .agents directory. - skills/skills/productivity/grill-me/SKILL.md at main \u00b7 mattpocock/skills"
+ },
+ "https://code.claude.com/docs/en/how-claude-code-works": {
+  "title": "How Claude Code works - Claude Code Docs",
+  "desc": "Understand the agentic loop, built-in tools, and how Claude Code interacts with your project."
  }
 }

@@ -1,5 +1,17 @@
 [
   {
+    "key": "dev/2026-11-11-agentforce-metadata-types-in-winter-27-dive-into-aiagentdefinition",
+    "title": "Agentforce Metadata Types in Winter \u201927: Dive into AiAgentDefinition",
+    "url": "https://developer.salesforce.com/blogs/2026/11/agentforce-metadata-types-in-winter-27-dive-into-aiagentdefinition",
+    "source": "dev",
+    "date": "2026-11-11",
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "Releases"
+    ]
+  },
+  {
     "key": "dev/2026-11-10-accelerate-agent-driven-development-with-the-headless-toolkit",
     "title": "Accelerate Agent-Driven Development with the Headless Toolkit",
     "url": "https://developer.salesforce.com/blogs/2026/11/accelerate-agent-driven-development-with-the-headless-toolkit",
