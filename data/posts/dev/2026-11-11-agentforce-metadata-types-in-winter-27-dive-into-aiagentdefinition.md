@@ -18,15 +18,20 @@ topics: ["DevOps & Tooling", "Agentforce & AI", "Releases"]
   https://help.salesforce.com/s/articleView?id=release-notes.rn_agentforce_metadata.htm&release=264&type=5
 - **The New Agentforce Metadata and Development Lifecycle** [other]: Streamline your CI/CD pipelines by leveraging the new versioned metadata model and human-readable Agent Scripts. Learn how bundleized assets eliminate “global ripples” and simplify peer reviews for more reliable agent deployments.  
   https://developer.salesforce.com/blogs/2026/05/new-agentforce-metadata-and-development-lifecycle
-- **string replacement** [docs]: no description available  
+- **Example: Configure String Replacement for Agent Username** [docs]: This example shows you one way to use  
+  Mentioned as "string replacement"  
   https://developer.salesforce.com/docs/ai/agentforce/guide/string-replace-example.html
-- **Use Metadata to Move an Agent to a New Org** [docs]: no description available  
+- **Move an Agent to a New Org** [docs]: After you've created an agent in an org, move the agent to another org by retrieving and deploying its metadata. For example, to move an agent from sa  
+  Mentioned as "Use Metadata to Move an Agent to a New Org"  
   https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-deploy-metadata.html
-- **Define Agent Metadata (v67 and Earlier)** [docs]: no description available  
+- **API v 67 and Earlier** [docs]: Create a manifest to define the metadata you want to retrieve. You can copy and edit the default manifest that was created in your project at  
+  Mentioned as "Define Agent Metadata (v67 and Earlier)"  
   https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-api-v67-earlier.html
-- **project retrieve start** [docs]: no description available  
+- **project Commands** [docs]: Work with projects, such as deploy and retrieve metadata.  
+  Mentioned as "project retrieve start"  
   https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_project_commands_unified.htm
-- **Metadata Coverage Report** [docs]: no description available  
+- **Metadata Coverage report** [docs]: Metadata Coverage report  
+  Mentioned as "Metadata Coverage Report"  
   https://developer.salesforce.com/docs/metadata-coverage
 - **Intro to Agent Script Language Fundamentals** [other]: Learn how to master Agent Script to build agents using hybrid reasoning: the perfect balance of deterministic logic and generative power.  
   https://developer.salesforce.com/blogs/2026/02/agent-script-decoded-intro-to-agent-script-language-fundamentals

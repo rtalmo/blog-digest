@@ -1,5 +1,17 @@
 [
   {
+    "key": "admin/2026-11-12-how-builder-central-is-changing-the-way-admins-build-podcast",
+    "title": "How Builder Central Is Changing the Way Admins Build",
+    "url": "https://admin.salesforce.com/blog/2026/how-builder-central-is-changing-the-way-admins-build-podcast",
+    "source": "admin",
+    "date": "2026-11-12",
+    "topics": [
+      "Flow & Automation",
+      "Agentforce & AI",
+      "DevOps & Tooling"
+    ]
+  },
+  {
     "key": "dev/2026-11-11-agentforce-metadata-types-in-winter-27-dive-into-aiagentdefinition",
     "title": "Agentforce Metadata Types in Winter \u201927: Dive into AiAgentDefinition",
     "url": "https://developer.salesforce.com/blogs/2026/11/agentforce-metadata-types-in-winter-27-dive-into-aiagentdefinition",

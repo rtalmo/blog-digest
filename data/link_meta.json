@@ -3323,5 +3323,29 @@
  "https://code.claude.com/docs/en/how-claude-code-works": {
   "title": "How Claude Code works - Claude Code Docs",
   "desc": "Understand the agentic loop, built-in tools, and how Claude Code interacts with your project."
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-api-v67-earlier.html": {
+  "title": "API v 67 and Earlier | Agentforce DX | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "Create a manifest to define the metadata you want to retrieve. You can copy and edit the default manifest that was created in your project at"
+ },
+ "https://developer.salesforce.com/docs/metadata-coverage": {
+  "title": "Metadata Coverage report | Metadata Coverage Report | Salesforce Developers",
+  "desc": "Metadata Coverage report"
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/string-replace-example.html": {
+  "title": "Example: Configure String Replacement for Agent Username | Agentforce DX | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "This example shows you one way to use"
+ },
+ "https://developer.salesforce.com/docs/ai/agentforce/guide/agent-dx-deploy-metadata.html": {
+  "title": "Move an Agent to a New Org | Agentforce DX | Agentforce Developer Guide | Salesforce Developers",
+  "desc": "After you've created an agent in an org, move the agent to another org by retrieving and deploying its metadata. For example, to move an agent from sa"
+ },
+ "https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_project_commands_unified.htm": {
+  "title": "project Commands | Salesforce CLI Command Reference | Salesforce Developers",
+  "desc": "Work with projects, such as deploy and retrieve metadata."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_agentforce_metadata.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
  }
 }
