@@ -3351,5 +3351,69 @@
  "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central": {
   "title": "Streamline Your Path to Production with Builder Central - Salesforce Admins",
   "desc": "Get started with Builder Central and learn more about how it keeps your organization safe, helps you move quickly, and build faster."
+ },
+ "https://www.salesforce.com/platform/multi-framework/": {
+  "title": "Multi-Framework Support | Salesforce",
+  "desc": "Develop AI agents and applications natively on the Agentforce 360 Platform using industry-standard UI frameworks."
+ },
+ "https://www.youtube.com/watch?v=mnvGnN3ny-o": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/headless-360-use-cases-in-action?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest": {
+  "title": "Unlock Headless Functionality for Enhanced Operations",
+  "desc": "Explore how headless functionality transforms business operations across sectors. Learn to implement smart configurations without traditional setups"
+ },
+ "https://github.com/albarivas": {
+  "title": "albarivas (Alba Rivas) \u00b7 GitHub",
+  "desc": "Principal Developer Advocate at Salesforce. Former Salesforce MVP and dreamOl\u00e9 organiser. 12x Certified. @AlbaSFDC. linkedin.com/in/alba-rivas - albarivas"
+ },
+ "https://modelcontextprotocol.io/extensions/apps": {
+  "title": "MCP Apps - Model Context Protocol",
+  "desc": "Interactive UI applications that render inside MCP hosts like Claude Desktop"
+ },
+ "https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls": {
+  "title": "pronto/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls at main \u00b7 trailheadapps/pronto"
+ },
+ "https://www.salesforce.com/news/stories/aiforce-announcement/": {
+  "title": "Salesforce Unveils the Future of Enterprise Software: AIforce - Salesforce",
+  "desc": "AIforce unlocks tremendous value by enabling agents anywhere to reason and take action across all the data, workflows, and logic inside Salesforce Instead"
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/headless-tools-and-functionality?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest": {
+  "title": "Headless tools: MCP, APIs, CLIs, and agent skills",
+  "desc": "Explore how MCP, APIs, CLIs, and agent skills enable a headless architecture for flexible, programmatic access to the platform. This page explains hosted MCP server"
+ },
+ "https://github.com/modelcontextprotocol/ext-apps/blob/main/specification/2026-01-26/apps.mdx": {
+  "title": "ext-apps/specification/2026-01-26/apps.mdx at main \u00b7 modelcontextprotocol/ext-apps \u00b7 GitHub",
+  "desc": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers - ext-apps/specification/2026-01-26/apps.mdx at main \u00b7 modelcontextprotocol/ext-apps"
+ },
+ "https://help.salesforce.com/s/articleView?id=ai.generative_ai_session_trace.htm&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/salesforce-headless-360-quick-look?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest": {
+  "title": "Unlock the Power of Headless 360 for Your Organization",
+  "desc": "Explore how Headless 360 transforms organizational capabilities by making data accessible from any environment. Learn to leverage powerful AI tools and streamline"
+ },
+ "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/": {
+  "title": "Salesforce Expands Agentforce With New Agents - Salesforce",
+  "desc": "New job-ready agents help companies get to business outcomes faster across sales, service, commerce, and the workforce \u2014 driving revenue, reducing costs,"
+ },
+ "https://www.youtube.com/watch?v=LQHv9hMhqa4": {
+  "title": "",
+  "desc": ""
+ },
+ "https://github.com/modelcontextprotocol/inspector": {
+  "title": "GitHub - modelcontextprotocol/inspector: Deterministic testing tools for MCP servers \u00b7 GitHub",
+  "desc": "Deterministic testing tools for MCP servers. Contribute to modelcontextprotocol/inspector development by creating an account on GitHub."
+ },
+ "https://example.com": {
+  "title": "Example Domain",
+  "desc": ""
+ },
+ "https://github.com/trailheadapps/pronto/tree/main/src-base/main/default/uiWidgets/customerReviews": {
+  "title": "pronto/src-base/main/default/uiWidgets/customerReviews at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
+  "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/uiWidgets/customerReviews at main \u00b7 trailheadapps/pronto"
  }
 }

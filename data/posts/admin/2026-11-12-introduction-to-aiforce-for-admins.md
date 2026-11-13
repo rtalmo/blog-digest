@@ -14,17 +14,23 @@ topics: ["Agentforce & AI", "Security & Admin", "Integration & APIs"]
 - Security (Salesforce Guardian) relies on the existing model: identity, sharing rules, field-level security, permission sets, validation rules, triggers and governor limits all apply to MCP and API calls, and Salesforce-hosted MCP traffic passes through the Trust Layer. Because an agent can do anything its user can, the post urges reviewing profiles and permission sets, and says Agentic Identity (separate agent credentials, individually revocable) is planned for the near future.
 
 ## Links
-- **announced** [other]: no description available  
+- **Salesforce Unveils the Future of Enterprise Software: AIforce - Salesforce** [other]: AIforce unlocks tremendous value by enabling agents anywhere to reason and take action across all the data, workflows, and logic inside Salesforce Instead  
+  Mentioned as "announced"  
   https://www.salesforce.com/news/stories/aiforce-announcement/
-- **check out our growing family of agents** [other]: no description available  
+- **Salesforce Expands Agentforce With New Agents - Salesforce** [other]: New job-ready agents help companies get to business outcomes faster across sales, service, commerce, and the workforce — driving revenue, reducing costs,  
+  Mentioned as "check out our growing family of agents"  
   https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/
-- **Salesforce Multi-Framework** [other]: no description available  
+- **Multi-Framework Support** [other]: Develop AI agents and applications natively on the Agentforce 360 Platform using industry-standard UI frameworks.  
+  Mentioned as "Salesforce Multi-Framework"  
   https://www.salesforce.com/platform/multi-framework/
-- **Introduction to AIforce** [trailhead]: no description available  
+- **Unlock the Power of Headless 360 for Your Organization** [trailhead]: Explore how Headless 360 transforms organizational capabilities by making data accessible from any environment. Learn to leverage powerful AI tools and streamline  
+  Mentioned as "Introduction to AIforce"  
   https://trailhead.salesforce.com/content/learn/modules/salesforce-headless-360-quick-look?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest
-- **Salesforce Headless Toolkit** [trailhead]: no description available  
+- **Headless tools: MCP, APIs, CLIs, and agent skills** [trailhead]: Explore how MCP, APIs, CLIs, and agent skills enable a headless architecture for flexible, programmatic access to the platform. This page explains hosted MCP server  
+  Mentioned as "Salesforce Headless Toolkit"  
   https://trailhead.salesforce.com/content/learn/modules/headless-tools-and-functionality?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest
-- **Actionable Headless Use Cases** [trailhead]: no description available  
+- **Unlock Headless Functionality for Enhanced Operations** [trailhead]: Explore how headless functionality transforms business operations across sectors. Learn to implement smart configurations without traditional setups  
+  Mentioned as "Actionable Headless Use Cases"  
   https://trailhead.salesforce.com/content/learn/modules/headless-360-use-cases-in-action?trailmix_creator_id=teamtrailhead&trailmix_slug=get-started-with-aiforce-quest
 - **Salesforce Admins** [other]: This is a site for Salesforce Admins to stay up to date on product updates, events, tools, and resources. Learn more about automation, app building, analytics.  
   https://admin.salesforce.com

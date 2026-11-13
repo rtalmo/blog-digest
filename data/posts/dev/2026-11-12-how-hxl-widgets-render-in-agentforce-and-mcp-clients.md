@@ -25,9 +25,11 @@ topics: ["Agentforce & AI", "Integration & APIs", "LWC / UI"]
 - **pronto/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent at main · trailheadapps/pronto · GitHub** [repo]: Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent at main · trailheadapps/pronto  
   Mentioned as "getCustomerReviews action"  
   https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/aiAuthoringBundles/Employee_Assistant/Employee_Assistant.agent
-- **GetCustomerReviewsAction Apex class** [repo]: no description available  
+- **pronto/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls at main · trailheadapps/pronto · GitHub** [repo]: Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls at main · trailheadapps/pronto  
+  Mentioned as "GetCustomerReviewsAction Apex class"  
   https://github.com/trailheadapps/pronto/blob/main/src-base/main/default/classes/actions/reviews/GetCustomerReviewsAction.cls
-- **customerReviews widget** [repo]: no description available  
+- **pronto/src-base/main/default/uiWidgets/customerReviews at main · trailheadapps/pronto · GitHub** [repo]: Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/uiWidgets/customerReviews at main · trailheadapps/pronto  
+  Mentioned as "customerReviews widget"  
   https://github.com/trailheadapps/pronto/tree/main/src-base/main/default/uiWidgets/customerReviews
 - **Build a Rich UI for Agentforce Action Output** [docs]: Present structured output from an Agentforce action as a Headless Experience Layer (HXL) widget in the conversation.  
   Mentioned as "Agentforce action output guide"  
@@ -37,11 +39,14 @@ topics: ["Agentforce & AI", "Integration & APIs", "LWC / UI"]
 - **Build a Rich UI for External Agents** [docs]: Some AI agents use MCP to interact with data in your org, such as Claude Desktop, Slackbot, and ChatGPT. HXL widgets are compatible with the  
   Mentioned as "HXL MCP channels guide"  
   https://developer.salesforce.com/docs/platform/hxl/guide/hxl-mcp-channels.html
-- **MCP Apps protocol** [repo]: no description available  
+- **ext-apps/specification/2026-01-26/apps.mdx at main · modelcontextprotocol/ext-apps · GitHub** [repo]: Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers - ext-apps/specification/2026-01-26/apps.mdx at main · modelcontextprotocol/ext-apps  
+  Mentioned as "MCP Apps protocol"  
   https://github.com/modelcontextprotocol/ext-apps/blob/main/specification/2026-01-26/apps.mdx
-- **Pronto Employee Server MCP server definition** [other]: no description available  
+- **Example Domain** [other]: no description available  
+  Mentioned as "Pronto Employee Server MCP server definition"  
   https://example.com
-- **MCP Inspector** [repo]: no description available  
+- **GitHub - modelcontextprotocol/inspector: Deterministic testing tools for MCP servers · GitHub** [repo]: Deterministic testing tools for MCP servers. Contribute to modelcontextprotocol/inspector development by creating an account on GitHub.  
+  Mentioned as "MCP Inspector"  
   https://github.com/modelcontextprotocol/inspector
 - **Build Rich Agentic UI with Headless Experience Layer** [other]: no description available  
   https://www.youtube.com/watch?v=LQHv9hMhqa4
@@ -49,9 +54,11 @@ topics: ["Agentforce & AI", "Integration & APIs", "LWC / UI"]
   https://www.youtube.com/watch?v=mnvGnN3ny-o
 - **HXL Playground** [other]: Explore the Headless Experience Layer — build surface-agnostic widgets with Mosaic, preview them across Agentforce, Slack, and ChatGPT.  
   https://www.headlessexperiencelayer.com/playground/
-- **MCP Apps overview** [other]: no description available  
+- **MCP Apps - Model Context Protocol** [other]: Interactive UI applications that render inside MCP hosts like Claude Desktop  
+  Mentioned as "MCP Apps overview"  
   https://modelcontextprotocol.io/extensions/apps
-- **GitHub** [repo]: no description available  
+- **albarivas (Alba Rivas) · GitHub** [repo]: Principal Developer Advocate at Salesforce. Former Salesforce MVP and dreamOlé organiser. 12x Certified. @AlbaSFDC. linkedin.com/in/alba-rivas - albarivas  
+  Mentioned as "GitHub"  
   https://github.com/albarivas
 
 ## Suggested tasks
