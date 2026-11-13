@@ -1900,5 +1900,57 @@
         "effort": "S"
       }
     ]
+  },
+  "2026-11-12-how-hxl-widgets-render-in-agentforce-and-mcp-clients": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "LWC / UI"
+    ],
+    "summary": [
+      "The Headless Experience Layer (HXL) beta lets you define a widget once and render it as an interactive card in Agentforce, Slackbot, Claude, and ChatGPT.",
+      "Route 1 (Agentforce): the runtime stores the action output under a __tool_idx__ and sets __supports_result_display__ only if the output is marked is_displayable: True in Agent Script. The LLM must then choose to call the built-in __show_tool_results__ action, so the card is not guaranteed.",
+      "In Route 1 the Agentforce Conversation Client hydrates the Custom Lightning Type (CLT) widget's {!$attrs...} placeholders in the browser and draws it as Lightning web components, with only JSON sent over the wire.",
+      "Route 2 (MCP): the tool advertises a ui:// renderer in _meta.ui.resourceUri, the server hydrates the widget and returns it in _meta['salesforce/uiMetadata'], and the host draws it in a sandboxed iframe. The LLM reads only content and never sees _meta.",
+      "Troubleshooting: for Route 1 check is_displayable, complex_data_type_name, and the trace for the __show_tool_results__ call. For Route 2 use MCP Inspector to check tools/list, resources/read, and isError. Claude Code in the terminal does not render widgets, and Slackbot shows HTML styled like Block Kit."
+    ],
+    "tasks": [
+      {
+        "title": "Deploy the Pronto sample app to a scratch org and test the customerReviews widget in Agentforce, checking the trace for the __show_tool_results__ call",
+        "effort": "M"
+      },
+      {
+        "title": "Connect MCP Inspector to a Salesforce MCP server definition and verify tools/list _meta.ui.resourceUri, resources/read, and salesforce/uiMetadata in tools/call",
+        "effort": "M"
+      },
+      {
+        "title": "Audit an existing Agent Script action output for is_displayable: True and a CLT complex_data_type_name, and add an instruction asking the agent to show the card",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-11-12-introduction-to-aiforce-for-admins": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Integration & APIs"
+    ],
+    "summary": [
+      "Salesforce's AIforce strategy is a live interface layer on top of Data 360, Customer 360 and Agentforce. It lets Salesforce flows, data models and logic be used from any AI model, agent or interface, including Claude (Claudeforce), Slack (Slackforce) and Lightning (Agentforce Coworker).",
+      "The Headless Toolkit (formerly Headless 360) bundles five tool types: MCP servers, APIs, Skills, Plugins and developer tools (Salesforce CLI, Agentforce Vibes, Agent Script). It is not a new product to buy, and it includes 60+ MCP tools, 4,000+ existing APIs and 220+ CLI commands.",
+      "Once an agent is written in Agent Script, an admin can create a custom MCP server, add the agent to the Agentforce Asset Library and configure access. Salesforce in Claude ships 37 prebuilt sales skills across 8 categories.",
+      "External developers can use the Headless Experience Layer (HXL) to render Salesforce workflows in Slack, WhatsApp, voice or mobile without custom rendering code. They can instead call APIs and MCP tools directly and build their own UI, which gives more control but is slower.",
+      "Security (Salesforce Guardian) relies on the existing model: identity, sharing rules, field-level security, permission sets, validation rules, triggers and governor limits all apply to MCP and API calls, and Salesforce-hosted MCP traffic passes through the Trust Layer. Because an agent can do anything its user can, the post urges reviewing profiles and permission sets, and says Agentic Identity (separate agent credentials, individually revocable) is planned for the near future."
+    ],
+    "tasks": [
+      {
+        "title": "Audit profiles and permission sets for users likely to connect agents or MCP clients, and tighten overly broad access",
+        "effort": "M"
+      },
+      {
+        "title": "Complete the Trailhead modules on AIforce and the Headless Toolkit, then try exposing an Agent Script agent through a custom MCP server in a sandbox or scratch org",
+        "effort": "M"
+      }
+    ]
   }
 }

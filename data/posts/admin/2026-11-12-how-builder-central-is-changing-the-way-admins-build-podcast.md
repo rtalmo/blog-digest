@@ -20,7 +20,8 @@ topics: ["Flow & Automation", "Agentforce & AI", "DevOps & Tooling"]
 - **Admins** [other]: Admins  
   Mentioned as "Salesforce Admins on the Trailhead Store"  
   https://trailheadstoreamer.com/category/salesforce-admins
-- **Streamline Your Path to Production with Builder Central** [other]: no description available  
+- **Streamline Your Path to Production with Builder Central - Salesforce Admins** [other]: Get started with Builder Central and learn more about how it keeps your organization safe, helps you move quickly, and build faster.  
+  Mentioned as "Streamline Your Path to Production with Builder Central"  
   https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central
 - **Salesforce+ Builder Central: Deploy in Minutes** [other]: Join Diane Mizota and Daivat Dholakia as they explore how Builder Central helps admins deploy a Help Agent in minutes.  
   Mentioned as "Builder Central: Deploy in Minutes"  

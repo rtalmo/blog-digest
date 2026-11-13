@@ -3347,5 +3347,9 @@
  "https://help.salesforce.com/s/articleView?id=release-notes.rn_agentforce_metadata.htm&release=264&type=5": {
   "title": "Salesforce Help",
   "desc": ""
+ },
+ "https://admin.salesforce.com/blog/2026/streamline-your-path-to-production-with-builder-central": {
+  "title": "Streamline Your Path to Production with Builder Central - Salesforce Admins",
+  "desc": "Get started with Builder Central and learn more about how it keeps your organization safe, helps you move quickly, and build faster."
  }
 }

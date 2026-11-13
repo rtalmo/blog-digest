@@ -1,5 +1,29 @@
 [
   {
+    "key": "dev/2026-11-12-how-hxl-widgets-render-in-agentforce-and-mcp-clients",
+    "title": "How HXL Widgets Render in Agentforce and MCP Clients",
+    "url": "https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients",
+    "source": "dev",
+    "date": "2026-11-12",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "LWC / UI"
+    ]
+  },
+  {
+    "key": "admin/2026-11-12-introduction-to-aiforce-for-admins",
+    "title": "Introduction to AIforce for Admins",
+    "url": "https://admin.salesforce.com/blog/2026/introduction-to-aiforce-for-admins",
+    "source": "admin",
+    "date": "2026-11-12",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Integration & APIs"
+    ]
+  },
+  {
     "key": "admin/2026-11-12-how-builder-central-is-changing-the-way-admins-build-podcast",
     "title": "How Builder Central Is Changing the Way Admins Build",
     "url": "https://admin.salesforce.com/blog/2026/how-builder-central-is-changing-the-way-admins-build-podcast",
