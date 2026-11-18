@@ -22,15 +22,19 @@ topics: ["Security & Admin", "Agentforce & AI", "Data Cloud"]
   https://help.salesforce.com/s/articleView?id=release-notes.rn_security_security_center_mcp_servers.htm&language=en_US&r=https%3A%2F%2Fwww.google.com%2F&type=5
 - **https://d3nqfz2gm66yqg.cloudfront.net/images/20261116105839/securitycentermcpserversdashboard.jpg** [other]: no description available  
   https://d3nqfz2gm66yqg.cloudfront.net/images/20261116105839/securitycentermcpserversdashboard.jpg
-- **Principle of Least Privilege** [other]: no description available  
+- **Protecting Data with the Principle of Least Privilege** [other]: Traditional network security is not enough to stay ahead of threats. Learn how the principle of least privilege can help protect your data.  
+  Mentioned as "Principle of Least Privilege"  
   https://www.salesforce.com/blog/principle-of-least-privilege/
 - **MCP Security beta** [docs]: no description available  
   https://help.salesforce.com/s/articleView?id=release-notes.rn_security_security_center_mcp_servers.htm&release=264&type=5
-- **Trusted Enterprise Security: Built on Salesforce** [other]: no description available  
+- **Trusted Enterprise Security: Built on Salesforce – salesforcesecurity.go-vip.net** [other]: no description available  
+  Mentioned as "Trusted Enterprise Security: Built on Salesforce"  
   https://security.salesforce.com/security-video-series/
-- **Introducing Security Mesh: Unify Your Security Data for Greater Visibility** [other]: no description available  
+- **Unify Your Security Data with Salesforce Security Mesh** [other]: Discover how Salesforce Security Mesh unifies disparate security data to simplify threat detection and enhance your security posture.  
+  Mentioned as "Introducing Security Mesh: Unify Your Security Data for Greater Visibility"  
   https://www.salesforce.com/blog/security-mesh/
-- **See What’s New: Platform Trusted and Developer Services** [trailhead]: no description available  
+- **Explore New Enhancements in Trusted and Developer Services** [trailhead]: Discover the latest features in Platform Trusted and Developer Services. Learn how these enhancements empower the development of trusted AI applications  
+  Mentioned as "See What’s New: Platform Trusted and Developer Services"  
   https://trailhead.salesforce.com/content/learn/modules/summer-26-release-highlights/see-whats-new-platform-trusted-and-developer-services
 - **Salesforce Admins** [other]: This is a site for Salesforce Admins to stay up to date on product updates, events, tools, and resources. Learn more about automation, app building, analytics.  
   https://admin.salesforce.com

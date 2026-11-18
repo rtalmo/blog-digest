@@ -16,25 +16,30 @@ topics: ["Agentforce & AI", "Integration & APIs", "Security & Admin"]
 ## Links
 - **Headless Experience Layer** [other]: Headless Experience Layer (HXL) is Salesforce's agentic experience layer for securely deploying logic to any external app.  
   https://www.salesforce.com/headless/agentic-experience-layer/
-- **Agentforce employee agents** [other]: no description available  
+- **What Are Employee Agents?** [other]: Discover how employee-facing AI agents automate tasks and boost productivity. Learn how these internal tools transform HR, IT, and daily workflows.  
+  Mentioned as "Agentforce employee agents"  
   https://www.salesforce.com/agentforce/agentforce-for-employees/employee-agents/
 - **Building Interactive UI with Headless Experience Layer** [other]: Learn how the Headless Experience Layer (HXL) lets you build one interactive widget that renders in Agentforce and MCP clients like Claude and ChatGPT.  
   https://developer.salesforce.com/blogs/2026/10/building-interactive-ui-with-hxl
-- **How HXL Widgets Render in Agentforce and MCP Clients** [other]: no description available  
+- **How HXL Widgets Render in Agentforce and MCP Clients** [other]: Learn how Headless Experience Layer (HXL) widgets render in Agentforce and MCP clients like Claude and ChatGPT. Explore both rendering workflows and discover how to troubleshoot when widgets don’t appear.  
   https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients?utm_campaign=amer_sfld&utm_content=Salesforce+Developers__sprout-1794501428&utm_medium=organic_social&utm_source=linkedin
-- **HXL Playground** [docs]: no description available  
+- **Explore Widgets in HXL Playground** [docs]: HXL Playground (  
+  Mentioned as "HXL Playground"  
   https://developer.salesforce.com/docs/platform/hxl/guide/playground.html
 - **GitHub - trailheadapps/pronto: Pronto sample app that showcases the Headless Toolkit · GitHub** [repo]: Pronto sample app that showcases the Headless Toolkit - trailheadapps/pronto  
   Mentioned as "Pronto"  
   https://github.com/trailheadapps/pronto
-- **Slackbot MCP client documentation** [other]: no description available  
+- **Connecting an MCP server to the Slackbot MCP Client** [other]: The Slackbot MCP Client allows developers to connect remote MCP servers via HTTP to Slack. Once connected, Slackbot will automatically discover your MCP server's tools and invoke them based on user prompts in conversation.  
+  Mentioned as "Slackbot MCP client documentation"  
   https://docs.slack.dev/ai/slackbot-mcp-client/
 - **GitHub - modelcontextprotocol/inspector: Deterministic testing tools for MCP servers · GitHub** [repo]: Deterministic testing tools for MCP servers. Contribute to modelcontextprotocol/inspector development by creating an account on GitHub.  
   Mentioned as "MCP Inspector"  
   https://github.com/modelcontextprotocol/inspector
-- **MCPJam** [repo]: no description available  
+- **GitHub - MCPJam/inspector: Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. · GitHub** [repo]: Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. - MCPJam/inspector  
+  Mentioned as "MCPJam"  
   https://github.com/MCPJam/inspector
-- **Trailblazer Community** [other]: no description available  
+- **Slack** [other]: no description available  
+  Mentioned as "Trailblazer Community"  
   http://sforce.co/DevCommunity
 - **Build a Rich UI for External Agents** [docs]: Some AI agents use MCP to interact with data in your org, such as Claude Desktop, Slackbot, and ChatGPT. HXL widgets are compatible with the  
   Mentioned as "Use HXL Widgets on MCP Channels"  
@@ -42,7 +47,8 @@ topics: ["Agentforce & AI", "Integration & APIs", "Security & Admin"]
 - **Get Started** [docs]: Headless Experience Layer (HXL) is a unified experience engine and platform designed to deliver consistent, portable, and rich user experiences across  
   Mentioned as "Headless Experience Layer: Get Started"  
   https://developer.salesforce.com/docs/platform/hxl/guide/get-started.html
-- **Blog: How HXL Widgets Render in Agentforce and MCP Clients** [other]: no description available  
+- **How HXL Widgets Render in Agentforce and MCP Clients** [other]: Learn how Headless Experience Layer (HXL) widgets render in Agentforce and MCP clients like Claude and ChatGPT. Explore both rendering workflows and discover how to troubleshoot when widgets don’t appear.  
+  Mentioned as "Blog: How HXL Widgets Render in Agentforce and MCP Clients"  
   https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients
 - **AIforce Workshop: Give Agents UI with the Headless Experience Layer (HXL)** [other]: no description available  
   https://developer.salesforce.com/workshops/aiforce-workshop/give-agents-ui-with-the-headless-experience-layer-hxl/overview

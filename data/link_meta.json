@@ -3415,5 +3415,69 @@
  "https://github.com/trailheadapps/pronto/tree/main/src-base/main/default/uiWidgets/customerReviews": {
   "title": "pronto/src-base/main/default/uiWidgets/customerReviews at main \u00b7 trailheadapps/pronto \u00b7 GitHub",
   "desc": "Pronto sample app that showcases the Headless Toolkit - pronto/src-base/main/default/uiWidgets/customerReviews at main \u00b7 trailheadapps/pronto"
+ },
+ "https://www.salesforce.com/blog/security-mesh/": {
+  "title": "Unify Your Security Data with Salesforce Security Mesh",
+  "desc": "Discover how Salesforce Security Mesh unifies disparate security data to simplify threat detection and enhance your security posture."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261116105320/3layerssecurityarch.jpg": {
+  "title": "",
+  "desc": ""
+ },
+ "https://security.salesforce.com/security-video-series/": {
+  "title": "Trusted Enterprise Security: Built on Salesforce \u2013 salesforcesecurity.go-vip.net",
+  "desc": ""
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261116105839/securitycentermcpserversdashboard.jpg": {
+  "title": "",
+  "desc": ""
+ },
+ "https://www.salesforce.com/blog/principle-of-least-privilege/": {
+  "title": "Protecting Data with the Principle of Least Privilege | Salesforce",
+  "desc": "Traditional network security is not enough to stay ahead of threats. Learn how the principle of least privilege can help protect your data."
+ },
+ "https://d3nqfz2gm66yqg.cloudfront.net/images/20261116105700/securitymeshdataflow.jpg": {
+  "title": "",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients": {
+  "title": "How HXL Widgets Render in Agentforce and MCP Clients | Salesforce Developers Blog",
+  "desc": "Learn how Headless Experience Layer (HXL) widgets render in Agentforce and MCP clients like Claude and ChatGPT. Explore both rendering workflows and discover how to troubleshoot when widgets don\u2019t appear."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_security_center_mcp_servers.htm&language=en_US&r=https%3A%2F%2Fwww.google.com%2F&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "http://sforce.co/DevCommunity": {
+  "title": "Slack",
+  "desc": ""
+ },
+ "https://developer.salesforce.com/docs/platform/hxl/guide/playground.html": {
+  "title": "Explore Widgets in HXL Playground | Learn About HXL | Headless Experience Layer Developer Guide (Beta) | Salesforce Developers",
+  "desc": "HXL Playground ("
+ },
+ "https://github.com/MCPJam/inspector": {
+  "title": "GitHub - MCPJam/inspector: Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. \u00b7 GitHub",
+  "desc": "Testing and evaluation platform to chat, inspect, and debug MCP servers, MCP apps, and ChatGPT apps. - MCPJam/inspector"
+ },
+ "https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients?utm_campaign=amer_sfld&utm_content=Salesforce+Developers__sprout-1794501428&utm_medium=organic_social&utm_source=linkedin": {
+  "title": "How HXL Widgets Render in Agentforce and MCP Clients | Salesforce Developers Blog",
+  "desc": "Learn how Headless Experience Layer (HXL) widgets render in Agentforce and MCP clients like Claude and ChatGPT. Explore both rendering workflows and discover how to troubleshoot when widgets don\u2019t appear."
+ },
+ "https://www.salesforce.com/agentforce/agentforce-for-employees/employee-agents/": {
+  "title": "What Are Employee Agents? | Salesforce",
+  "desc": "Discover how employee-facing AI agents automate tasks and boost productivity. Learn how these internal tools transform HR, IT, and daily workflows."
+ },
+ "https://docs.slack.dev/ai/slackbot-mcp-client/": {
+  "title": "Connecting an MCP server to the Slackbot MCP Client | Slack Developer Docs",
+  "desc": "The Slackbot MCP Client allows developers to connect remote MCP servers via HTTP to Slack. Once connected, Slackbot will automatically discover your MCP server's tools and invoke them based on user prompts in conversation."
+ },
+ "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_security_center_mcp_servers.htm&release=264&type=5": {
+  "title": "Salesforce Help",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/summer-26-release-highlights/see-whats-new-platform-trusted-and-developer-services": {
+  "title": "Explore New Enhancements in Trusted and Developer Services",
+  "desc": "Discover the latest features in Platform Trusted and Developer Services. Learn how these enhancements empower the development of trusted AI applications"
  }
 }
