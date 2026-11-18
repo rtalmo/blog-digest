@@ -1952,5 +1952,57 @@
         "effort": "M"
       }
     ]
+  },
+  "2026-11-17-expose-hxl-widgets-slackbot-custom-mcp-server": {
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Headless Experience Layer (HXL, beta) widgets that already render in Claude or ChatGPT render in Slackbot without changes to the widget, Apex action, or Custom Lightning Types; only Slack-side configuration is needed.",
+      "Before connecting, verify the custom MCP server is Active, every <resources> entry has a <description>, each tool's <uiResource> matches a resourceName, read-only tools set readOnly=true and destructive=false, and descriptionOverride clearly states what the tool returns.",
+      "Connecting requires mapping each Salesforce user's Federation ID to their Slack email, requesting the connection under Manage Salesforce Organizations, approving it in Setup > Manage Slack Connection (Salesforce Mapping Field = SAML Federation ID), then adding the server under Salesforce > MCP servers; a blank 'Date added' means setup is incomplete and the server must be removed and re-added.",
+      "Slackbot allows up to five active MCP servers per user and enforces a 60-second tool timeout with stateless calls, so keep Apex actions light (avoid chained callouts and heavy aggregate SOQL) and return only the fields the widget needs.",
+      "Slackbot may pick its own Salesforce search or an overlapping tool on another server and show a plain table instead of your card; fix by avoiding overlapping servers, writing specific tool descriptions, naming records in prompts, and starting a new DM, and use MCP Inspector or MCPJam to confirm whether the tool result includes a UI resource."
+    ],
+    "tasks": [
+      {
+        "title": "Audit your custom MCP server definition for resource descriptions, uiResource/resourceName matches, and readOnly/destructive flags",
+        "effort": "S"
+      },
+      {
+        "title": "Connect Slackbot to a sandbox org via the Salesforce org connection and test the Pronto Storefront Tools widget",
+        "effort": "M"
+      },
+      {
+        "title": "Check your server's tool output with MCP Inspector or MCPJam and rewrite descriptionOverride text to avoid routing to overlapping tools",
+        "effort": "S"
+      }
+    ]
+  },
+  "2026-11-17-unlocking-trust-security-with-aiforce-in-salesforce-guardian": {
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Data Cloud"
+    ],
+    "summary": [
+      "Salesforce security is a shared responsibility split into three layers: Foundationals (built-in, maintained by Salesforce), Configurables (MFA, IP allowlisting, permission sets, Health Check), and Enhanceables (the Salesforce Guardian product portfolio).",
+      "Salesforce Guardian rests on three pillars: Data Security (Shield, Security Center), Data Compliance (Privacy Center, Data Mask & Seed), and Data Resilience (Backup & Recover, Archive).",
+      "Compliance Agent, part of Privacy Center, scans core metadata to set a compliance baseline, produces a compliance score tied to regulatory goals, and offers actionable remediation plans; it depends on classified grounding data (GDPR, HIPAA, PII categories) to work well.",
+      "Security Mesh, part of Security Center, normalizes security signals from partners like Okta and CrowdStrike into a single view and supports detections such as Impossible Travel.",
+      "MCP Security (currently in beta, part of Security Center) scans each MCP server at registration and shows Low/Medium/High risk scores so admins can block risky servers before agents reach them."
+    ],
+    "tasks": [
+      {
+        "title": "Audit agent and user permission sets for least privilege and classify the data used to ground agents",
+        "effort": "M"
+      },
+      {
+        "title": "Try the MCP Security beta in a sandbox and review the risk scores for registered MCP servers",
+        "effort": "S"
+      }
+    ]
   }
 }

@@ -1,5 +1,29 @@
 [
   {
+    "key": "dev/2026-11-17-expose-hxl-widgets-slackbot-custom-mcp-server",
+    "title": "Expose HXL Widgets to Slackbot with a Custom MCP Server",
+    "url": "https://developer.salesforce.com/blogs/2026/11/expose-hxl-widgets-slackbot-custom-mcp-server",
+    "source": "dev",
+    "date": "2026-11-17",
+    "topics": [
+      "Agentforce & AI",
+      "Integration & APIs",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "admin/2026-11-17-unlocking-trust-security-with-aiforce-in-salesforce-guardian",
+    "title": "Unlocking Trust & Security with AIforce in Salesforce Guardian",
+    "url": "https://admin.salesforce.com/blog/2026/unlocking-trust-security-with-aiforce-in-salesforce-guardian",
+    "source": "admin",
+    "date": "2026-11-17",
+    "topics": [
+      "Security & Admin",
+      "Agentforce & AI",
+      "Data Cloud"
+    ]
+  },
+  {
     "key": "dev/2026-11-12-how-hxl-widgets-render-in-agentforce-and-mcp-clients",
     "title": "How HXL Widgets Render in Agentforce and MCP Clients",
     "url": "https://developer.salesforce.com/blogs/2026/11/how-hxl-widgets-render-in-agentforce-and-mcp-clients",
