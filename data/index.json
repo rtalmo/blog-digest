@@ -1,5 +1,16 @@
 [
   {
+    "key": "admin/2026-11-19-what-salesforce-admins-trust-ai-to-do-now-that-seemed-outlandish-a-year-ago-podcast",
+    "title": "What Salesforce Admins Trust AI to Do Now (That Seemed Outlandish a Year Ago)",
+    "url": "https://admin.salesforce.com/blog/2026/what-salesforce-admins-trust-ai-to-do-now-that-seemed-outlandish-a-year-ago-podcast",
+    "source": "admin",
+    "date": "2026-11-19",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin"
+    ]
+  },
+  {
     "key": "dev/2026-11-17-expose-hxl-widgets-slackbot-custom-mcp-server",
     "title": "Expose HXL Widgets to Slackbot with a Custom MCP Server",
     "url": "https://developer.salesforce.com/blogs/2026/11/expose-hxl-widgets-slackbot-custom-mcp-server",
