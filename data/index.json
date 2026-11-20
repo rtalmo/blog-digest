@@ -1,5 +1,17 @@
 [
   {
+    "key": "dev/2026-11-19-headless-development-with-metadata-visualizer-and-live-preview",
+    "title": "Headless Development with Metadata Visualizer and Live Preview",
+    "url": "https://developer.salesforce.com/blogs/2026/11/headless-development-with-metadata-visualizer-and-live-preview",
+    "source": "dev",
+    "date": "2026-11-19",
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "LWC / UI"
+    ]
+  },
+  {
     "key": "admin/2026-11-19-what-salesforce-admins-trust-ai-to-do-now-that-seemed-outlandish-a-year-ago-podcast",
     "title": "What Salesforce Admins Trust AI to Do Now (That Seemed Outlandish a Year Ago)",
     "url": "https://admin.salesforce.com/blog/2026/what-salesforce-admins-trust-ai-to-do-now-that-seemed-outlandish-a-year-ago-podcast",
@@ -7,6 +19,30 @@
     "date": "2026-11-19",
     "topics": [
       "Agentforce & AI",
+      "Security & Admin"
+    ]
+  },
+  {
+    "key": "admin/2026-11-19-8-lessons-for-writing-ai-prompts-as-a-salesforce-admin",
+    "title": "8 Lessons for Writing AI Prompts as a Salesforce Admin",
+    "url": "https://admin.salesforce.com/blog/2026/8-lessons-for-writing-ai-prompts-as-a-salesforce-admin",
+    "source": "admin",
+    "date": "2026-11-19",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Flow & Automation"
+    ]
+  },
+  {
+    "key": "admin/2026-11-19-100-ready-to-use-ai-prompts-for-salesforce-admins",
+    "title": "100 Ready-to-Use AI Prompts for Salesforce Admins",
+    "url": "https://admin.salesforce.com/blog/2026/100-ready-to-use-ai-prompts-for-salesforce-admins",
+    "source": "admin",
+    "date": "2026-11-19",
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
       "Security & Admin"
     ]
   },

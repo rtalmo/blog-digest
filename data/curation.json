@@ -2027,5 +2027,81 @@
         "effort": "S"
       }
     ]
+  },
+  "2026-11-19-headless-development-with-metadata-visualizer-and-live-preview": {
+    "topics": [
+      "DevOps & Tooling",
+      "Agentforce & AI",
+      "LWC / UI"
+    ],
+    "summary": [
+      "The Headless Toolkit combines agent skills, hosted MCP servers, and the Headless Experience Layer (HXL) so agents can work with Salesforce metadata and data without Setup menus.",
+      "Agents can query and modify metadata such as permission sets locally from the terminal. This cuts out Setup clicks and the retrieve-after-change round trip, and operations can run in parallel.",
+      "The Metadata Visualizer VS Code extension renders read-only views of Agents, Flows, Lightning pages (FlexiPage), Objects, and Permission sets. It ships in the Salesforce Extension Pack, and you open it with the Visualize button on a supported metadata file.",
+      "With Agentforce Vibes, you can select elements in a visualizer to have the agent edit the metadata. Otherwise you apply changes by prompting an agent in VS Code.",
+      "The Live Preview extension covers LWC and Multi-Framework UI bundles, which use live org data. It also covers HXL widgets, which use editable sample data on a Data tab, and you open them with 'SFDX: Open in Widget Preview'."
+    ],
+    "tasks": [
+      {
+        "title": "Open a flow and a permission set in Metadata Visualizer in VS Code and try a prompt-driven edit with an agent",
+        "effort": "S"
+      },
+      {
+        "title": "Preview an LWC with Live Preview against a scratch org and compare it to your current deploy-and-refresh loop",
+        "effort": "M"
+      },
+      {
+        "title": "Build a small HXL widget, run SFDX: Open in Widget Preview, and generate realistic sample data from a real org record",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-11-19-8-lessons-for-writing-ai-prompts-as-a-salesforce-admin": {
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Flow & Automation"
+    ],
+    "summary": [
+      "The post argues prompt writing is ordinary professional writing, not engineering, and that most admin requests need only three to six plain-language sentences.",
+      "It gives eight lessons: know your audience, lead with the goal, be specific, give context and the reason, define the output format, show examples, use plain language, and set constraints.",
+      "Being specific for admin work means naming exact API names, such as the Require_Close_Reason validation rule on Opportunity rather than 'the opportunity rule'.",
+      "Guardrails belong in the prompt from the start, for example working in a sandbox only, not touching active Flows, not changing profiles, and not deploying yet.",
+      "The worked example turns 'Make a validation rule for close reason' into a full prompt for Closed Lost opportunities with a blank Close_Reason__c. It specifies the naming pattern, an error message under 100 characters and output limited to the formula and message."
+    ],
+    "tasks": [
+      {
+        "title": "Rewrite one of your usual one-line admin requests using the eight lessons and compare the agent's output before and after in a sandbox",
+        "effort": "S"
+      },
+      {
+        "title": "Browse the Agentforce Vibes Admin Accelerator Kit on GitHub and try 2-3 of its prompts against a scratch org or sandbox",
+        "effort": "M"
+      }
+    ]
+  },
+  "2026-11-19-100-ready-to-use-ai-prompts-for-salesforce-admins": {
+    "topics": [
+      "Agentforce & AI",
+      "Flow & Automation",
+      "Security & Admin"
+    ],
+    "summary": [
+      "Salesforce Admins and Lay Durafe released the Agentforce Vibes Admin Accelerator Kit, a markdown file on GitHub with 100 ready-made prompts that you can read and copy in a browser without cloning anything.",
+      "The prompts fall into four buckets (Understanding, Configuring, Troubleshooting, Documenting), each with five categories of five prompts, and angle-bracket placeholders like <Object> or <Flow_Name> are replaced with your org's API names.",
+      "The prompts work with Agentforce Vibes and with other agents connected to a Salesforce org through MCP, and the post advises starting in a sandbox or Developer Edition org because Configuring prompts change metadata while Understanding and Documenting prompts mostly read it.",
+      "Impact-analysis prompts such as 'If I change <Field_Name> from text to picklist, what is impacted?' help you check Apex, Flows, reports, layouts and permission sets before a change, and the agent generates Flow metadata that waits for your review, with deployment as a separate prompt.",
+      "Troubleshooting prompts cover Flow faults, 'Insufficient Privileges' errors and conflicting automations that revert field values, and they work best when you paste the full fault email, record ID and user."
+    ],
+    "tasks": [
+      {
+        "title": "Run three Understanding prompts from the Admin Accelerator Kit against a sandbox (e.g., list active Flows on Account and map a record lifecycle)",
+        "effort": "S"
+      },
+      {
+        "title": "Connect an agent to a sandbox via MCP and try the field type-change impact analysis plus the 'Document why' prompt on an existing validation rule or Flow",
+        "effort": "M"
+      }
+    ]
   }
 }
