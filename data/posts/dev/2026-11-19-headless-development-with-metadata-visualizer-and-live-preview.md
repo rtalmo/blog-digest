@@ -14,9 +14,11 @@ topics: ["DevOps & Tooling", "Agentforce & AI", "LWC / UI"]
 - The Live Preview extension covers LWC and Multi-Framework UI bundles, which use live org data. It also covers HXL widgets, which use editable sample data on a Data tab, and you open them with 'SFDX: Open in Widget Preview'.
 
 ## Links
-- **Metadata Visualizer** [other]: no description available  
+- **Metadata Visualizer - Visual Studio Marketplace** [other]: Extension for Visual Studio Code - VS Code Extension to visualize Salesforce metadata with interactive diagrams  
+  Mentioned as "Metadata Visualizer"  
   https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-metadata-visualizer-vscode
-- **Live Preview** [other]: no description available  
+- **Salesforce Live Preview - Visual Studio Marketplace** [other]: Extension for Visual Studio Code - Salesforce Live Preview for Lightning Web Components  
+  Mentioned as "Live Preview"  
   https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-ui-preview
 - **Welcome to Salesforce Headless Toolkit** [docs]: For years, using Salesforce meant opening a web browser and logging into the Lightning interface. The headless approach is a fundamental shift that de  
   Mentioned as "Headless Toolkit"  
@@ -38,16 +40,20 @@ topics: ["DevOps & Tooling", "Agentforce & AI", "LWC / UI"]
 - **Agentforce Vibes Overview** [docs]: Welcome to the next generation of AI-driven development! The all-new Agentforce Vibes is re-engineered from the ground up to bring you smarter, faster  
   Mentioned as "Agentforce Vibes"  
   https://developer.salesforce.com/docs/platform/agentforcevibes/guide/afv-overview.html
-- **have the agent edit the metadata** [docs]: no description available  
+- **Edit Metadata Through Visualizations** [docs]: When you visualize metadata such as a data model, an agent, a flow, or a permission set, you can select one or more elements on the canvas and use Age  
+  Mentioned as "have the agent edit the metadata"  
   https://developer.salesforce.com/docs/platform/md-visualizer/guide/mdv-vibes-editing.html
-- **Lightning web components** [docs]: no description available  
+- **Run a Live Component Preview** [docs]: :::note Live Preview VS Code Extension for React components is a pilot or beta service that is subject to the Beta Services Terms at  
+  Mentioned as "Lightning web components"  
   https://developer.salesforce.com/docs/platform/lwc/guide/get-started-test-components.html
-- **Multi-Framework UI bundles** [docs]: no description available  
+- **Preview and Run Your App Locally** [docs]: As you build a Multi-Framework app, you can run it locally and preview your changes without deploying to an org each time. You have two options: run t  
+  Mentioned as "Multi-Framework UI bundles"  
   https://developer.salesforce.com/docs/platform/multiframework/guide/mfw-preview.html
 - **MCP Apps - Model Context Protocol** [other]: Interactive UI applications that render inside MCP hosts like Claude Desktop  
   Mentioned as "MCP Apps"  
   https://modelcontextprotocol.io/extensions/apps/overview
-- **Metadata Visualizer extension docs** [docs]: no description available  
+- **Metadata Visualizer Extension** [docs]: The Metadata Visualizer VS Code extension streamlines the interpretation of complex metadata by converting raw files into clear, structured visual rep  
+  Mentioned as "Metadata Visualizer extension docs"  
   https://developer.salesforce.com/docs/platform/md-visualizer/overview
 - **pozil (Philippe Ozil) · GitHub** [repo]: Principal Developer Advocate at Salesforce. Full stack coder, DevOps expert, ex VR dev and robot master. - pozil  
   Mentioned as "GitHub projects"  

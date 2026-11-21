@@ -3479,5 +3479,49 @@
  "https://trailhead.salesforce.com/content/learn/modules/summer-26-release-highlights/see-whats-new-platform-trusted-and-developer-services": {
   "title": "Explore New Enhancements in Trusted and Developer Services",
   "desc": "Discover the latest features in Platform Trusted and Developer Services. Learn how these enhancements empower the development of trusted AI applications"
+ },
+ "https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-metadata-visualizer-vscode": {
+  "title": "Metadata Visualizer - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - VS Code Extension to visualize Salesforce metadata with interactive diagrams"
+ },
+ "https://developer.salesforce.com/docs/platform/lwc/guide/get-started-test-components.html": {
+  "title": "Run a Live Component Preview | Get Started | Lightning Web Components Developer Guide | Salesforce Developers",
+  "desc": ":::note Live Preview VS Code Extension for React components is a pilot or beta service that is subject to the Beta Services Terms at"
+ },
+ "https://github.com/L-AY/admin-afvibes-df26-promptpack": {
+  "title": "GitHub - L-AY/admin-afvibes-df26-promptpack: Agentforce Vibes for Salesforce Admins \u2014 Reusable Prompt Library \u00b7 GitHub",
+  "desc": "Agentforce Vibes for Salesforce Admins \u2014 Reusable Prompt Library - L-AY/admin-afvibes-df26-promptpack"
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/einstein-for-developers/get-to-know-einstein-for-developers": {
+  "title": "Explore Agentforce Vibes: Enhancing Developer Productivity",
+  "desc": "Discover the capabilities of Agentforce Vibes, designed to boost developer productivity through innovative AI tools. Learn how Salesforce protects customer data while"
+ },
+ "https://admin.salesforce.com/blog/2025/prompt-like-a-pro-ai-prompt-writing-for-salesforce-admins": {
+  "title": "Prompt Like a Pro: AI Prompt Writing for Salesforce Admins - Salesforce Admins",
+  "desc": "Learn Salesforce Prompt Builder best practices for admins, including effective AI prompts, security, and scaling. Feel empowered by no-code generative AI."
+ },
+ "https://developer.salesforce.com/docs/platform/md-visualizer/guide/mdv-vibes-editing.html": {
+  "title": "Edit Metadata Through Visualizations | Metadata Visualizer Extension | Salesforce Developers",
+  "desc": "When you visualize metadata such as a data model, an agent, a flow, or a permission set, you can select one or more elements on the canvas and use Age"
+ },
+ "https://developer.salesforce.com/docs/platform/multiframework/guide/mfw-preview.html": {
+  "title": "Preview and Run Your App Locally | Get Started | Salesforce Multi-Framework | Salesforce Developers",
+  "desc": "As you build a Multi-Framework app, you can run it locally and preview your changes without deploying to an org each time. You have two options: run t"
+ },
+ "https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-ui-preview": {
+  "title": "Salesforce Live Preview - Visual Studio Marketplace",
+  "desc": "Extension for Visual Studio Code - Salesforce Live Preview for Lightning Web Components"
+ },
+ "https://developer.salesforce.com/docs/platform/md-visualizer/overview": {
+  "title": "Metadata Visualizer Extension | Salesforce Developers",
+  "desc": "The Metadata Visualizer VS Code extension streamlines the interpretation of complex metadata by converting raw files into clear, structured visual rep"
+ },
+ "https://admin.salesforce.com/blog/2026/8-lessons-for-writing-ai-prompts-as-a-salesforce-admin": {
+  "title": "8 Lessons for Writing AI Prompts as a Salesforce Admin - Salesforce Admins",
+  "desc": "Agents are turning into everyday assistants for your work, and AIforce gives those assistants a direct line into your Salesforce org. At Dreamforce 2026, my colleague Lay Durafe and I showed how Salesforce admins can use the same tools developers use to vibe code, and vibe admin instead. The more you work with agents, the [\u2026]"
+ },
+ "https://admin.salesforce.com/blog/2026/100-ready-to-use-ai-prompts-for-salesforce-admins": {
+  "title": "100 Ready-to-Use AI Prompts for Salesforce Admins - Salesforce Admins",
+  "desc": "Put 100 ready-made prompts to work in your Salesforce org. A walkthrough of the Agentforce Vibes Admin Accelerator Kit, from understanding your org to documenting changes."
  }
 }
