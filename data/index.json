@@ -1,5 +1,17 @@
 [
   {
+    "key": "admin/2026-11-24-get-hands-on-with-aiforce",
+    "title": "Get Hands-on with AIforce",
+    "url": "https://admin.salesforce.com/blog/2026/get-hands-on-with-aiforce",
+    "source": "admin",
+    "date": "2026-11-24",
+    "topics": [
+      "Agentforce & AI",
+      "Security & Admin",
+      "Careers & Certification"
+    ]
+  },
+  {
     "key": "dev/2026-11-19-headless-development-with-metadata-visualizer-and-live-preview",
     "title": "Headless Development with Metadata Visualizer and Live Preview",
     "url": "https://developer.salesforce.com/blogs/2026/11/headless-development-with-metadata-visualizer-and-live-preview",
