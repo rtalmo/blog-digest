@@ -14,9 +14,11 @@ topics: ["Agentforce & AI", "Security & Admin", "Careers & Certification"]
 - The open-source Pronto Sample App, built on the Headless Toolkit, demonstrates agentic experiences and the Headless Experience Layer (HXL). An 'Introduction to AIforce' hands-on workshop in a developer edition org was announced for December, and Trailblazer Relations also hosts free monthly 'Get Hands-on with AIforce' workshops.
 
 ## Links
-- **Get Started with AIforce Trail** [trailhead]: no description available  
+- **Get Started with AIforce** [trailhead]: Learn the concepts and use cases for bringing Salesforce capabilities to any agentic interaction or surface.  
+  Mentioned as "Get Started with AIforce Trail"  
   https://trailhead.salesforce.com/content/learn/trails/get-started-with-aiforce
-- **Explore Agentforce Coworker** [trailhead]: no description available  
+- **Enable and Use Agentforce Coworker in Your CRM** [trailhead]: Agentforce Coworker brings an autonomous AI teammate into your CRM to search, reason across records, and take actions on your behalf  
+  Mentioned as "Explore Agentforce Coworker"  
   https://trailhead.salesforce.com/content/learn/modules/quick-start-agentforce-coworker/explore-agentforce-coworker?trailmix_creator_id=teamtrailhead&trailmix_slug=use-agentforce-coworker
 - **Pronto Sample App** [other]: no description available  
   https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app
@@ -27,7 +29,8 @@ topics: ["Agentforce & AI", "Security & Admin", "Careers & Certification"]
   https://admin.salesforce.com/blog/2026/admins-aiforce-new-skills-to-build
 - **AIforce in Action** [other]: no description available  
   https://www.youtube.com/playlist?list=PLKKSsXhQGU84
-- **Get Started with AIforce Quest** [trailhead]: no description available  
+- **Get Started with AIforce Quest Trailmix** [trailhead]: Learn how AIforce powers the agentic enterprise, agentic app development,& seamless cross-cloud solutions across Sales, Service, Marketing  
+  Mentioned as "Get Started with AIforce Quest"  
   https://trailhead.salesforce.com/users/teamtrailhead/trailmixes/get-started-with-aiforce-quest
 - **Salesforce Admins** [other]: This is a site for Salesforce Admins to stay up to date on product updates, events, tools, and resources. Learn more about automation, app building, analytics.  
   https://admin.salesforce.com

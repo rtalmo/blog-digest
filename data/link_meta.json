@@ -3523,5 +3523,31 @@
  "https://admin.salesforce.com/blog/2026/100-ready-to-use-ai-prompts-for-salesforce-admins": {
   "title": "100 Ready-to-Use AI Prompts for Salesforce Admins - Salesforce Admins",
   "desc": "Put 100 ready-made prompts to work in your Salesforce org. A walkthrough of the Agentforce Vibes Admin Accelerator Kit, from understanding your org to documenting changes."
+ },
+ "https://trailhead.salesforce.com/content/learn/trails/get-started-with-aiforce": {
+  "title": "Get Started with AIforce | Salesforce Trailhead",
+  "desc": "Learn the concepts and use cases for bringing Salesforce capabilities to any agentic interaction or surface."
+ },
+ "https://trailhead.salesforce.com/users/teamtrailhead/trailmixes/get-started-with-aiforce-quest": {
+  "title": "Get Started with AIforce Quest Trailmix | Salesforce Trailhead",
+  "desc": "Learn how AIforce powers the agentic enterprise, agentic app development,& seamless cross-cloud solutions across Sales, Service, Marketing"
+ },
+ "https://developer.salesforce.com/blogs/2026/10/explore-the-headless-toolkit-with-the-pronto-sample-app": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://admin.salesforce.com/blog/2026/admins-aiforce-new-skills-to-build": {
+  "title": "",
+  "desc": "",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ "https://www.youtube.com/playlist?list=PLKKSsXhQGU84": {
+  "title": "",
+  "desc": ""
+ },
+ "https://trailhead.salesforce.com/content/learn/modules/quick-start-agentforce-coworker/explore-agentforce-coworker?trailmix_creator_id=teamtrailhead&trailmix_slug=use-agentforce-coworker": {
+  "title": "Enable and Use Agentforce Coworker in Your CRM",
+  "desc": "Agentforce Coworker brings an autonomous AI teammate into your CRM to search, reason across records, and take actions on your behalf"
  }
 }
